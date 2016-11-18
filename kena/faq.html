@@ -67,10 +67,11 @@ $('.form-inline').submit(function(e){
         $('.login').click(function(e){
 								   e.preventDefault();
           if( $('#inputPassword').val() == password){
+			   $('form').remove();
             $('.widget').removeClass('hide');
           }
           else{
-            $('.well').after('<div class="alert alert-danger alert-dismissible" role="alert">Password errata.</div>')
+            $('.form-group').after('<div class="alert alert-danger alert-dismissible" role="alert">Password errata.</div>')
           }
         });
       });
