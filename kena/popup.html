@@ -24,6 +24,14 @@
        <div class="col-lg-12">
        <h2 style="text-align:center;">Responsa Demo</h2>
        <h3 style="text-align:center;">Modulo Pop-up</h3>
+              <form class="form-inline" style="text-align: center; margin-top: 60px;">
+    <div class="form-group">
+        <label class="sr-only" for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+    <a class="btn btn-default login" role="button">Accedi</a>
+    <!--<a href="https://dl.dropboxusercontent.com/u/4933913/DEMO_OVS/kb.html" class="btn btn-default" role="button">Accedi</a>-->
+</form>
        </div>
        <div class="col-lg-12">
 <script name="responsa-js" class="responsa-js">
@@ -35,19 +43,7 @@
   "https://goresponsa.com/popup/582dcd2ae0e2ee44d40018dd.js");
 </script>
       </div>
-             <div class="col-lg-12">
-<pre>
-<h4>Codice di embed</h4>
-&lt;script name="responsa-js" class="responsa-js"&gt;
-  (function(q,u,e,s,t,i,o,n) {
-    o=u.getElementsByTagName(e)[0];
-    n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
-    o.appendChild(n)
-  })(window,document,'head','script','res_pars',
-  "https://goresponsa.com/popup/582dcd2ae0e2ee44d40018dd.js");
-&lt;/script&gt;
-</pre>
-      </div>
+             
       </div>
       
       <footer class="footer">  
@@ -60,5 +56,19 @@
     <script src="../kena/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+            <script type="text/javascript">
+      $(document).ready(function(){
+        var password = "kena";
+
+        $('.login').click(function(){
+          if( $('#inputPassword').val() == password){
+            $('.widget').removeClass('hide');
+          }
+          else{
+            $('.well').after('<div class="alert alert-danger alert-dismissible" role="alert">Password errata.</div>')
+          }
+        });
+      });
+    </script>
   </body>
 </html>
