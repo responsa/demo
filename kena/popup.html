@@ -60,7 +60,10 @@
             <script type="text/javascript">
       $(document).ready(function(){
         var password = "kena";
-
+	$('.form-inline').submit(function(e){
+			   e.preventDefault();
+			   $(".login").trigger("click");
+	   });
         $('.login').click(function(e){
 								   e.preventDefault();
           if( $('#inputPassword').val() == password){
