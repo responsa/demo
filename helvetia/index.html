@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://www.helvetia.com/it/content/it/home.html -->
+<html class="mod modLayout skinLayoutHome"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript">var inHeadTS=(new Date()).getTime();</script>
+	
+	<meta name="language" content="it">
+	<link href="https://www.helvetia.com/global/content/img/favicon.ico" rel="shortcut icon">
+	<link rel="dns-prefetch" href="https://helvetia.com/">
+	<link rel="dns-prefetch" href="https://cdn.tt.omtrdc.net/">
+	<link rel="dns-prefetch" href="https://helvetia.tt.omtrdc.net/">
+	<link rel="dns-prefetch" href="https://smetrics.helvetia.com/">
+	
+	<link rel="stylesheet" href="./Home _ Helvetia Assicurazione_files/helvetiahome.min.671dd86ec9c445389b6e361c8ddab930.css" type="text/css">
+<script>
+
+		// Mobile detection
+		function readMobileDetectionCookie() {
+			var nameEQ = "helvetia.mobile=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}
+	
+		function isWCMEdit() {
+	    	if (navigator.appName.indexOf("Internet Explorer") != -1) {
+			  	return false; 
+			} else {
+		    	if(typeof CQ === "undefined" || CQ.WCM === undefined){
+		    		return false;
+		    	}
+		    	return CQ.WCM.isEditMode(); 
+			}
+	    };
+	
+		var alternatePath = (document.querySelector("link[id=mobile]") != null) ? document.querySelector("link[id=mobile]").getAttribute("href") : "";
+
+		if(alternatePath.length > 0 && readMobileDetectionCookie() == null) {
+			window.Modernizr=function(e,t,n){function r(e){p.cssText=e}function o(e,t){return typeof e===t}var i,s,a,c="2.5.3",u={},h=t.documentElement,l="modernizr",d=t.createElement(l),p=d.style,f=({}.toString," -webkit- -moz- -o- -ms- ".split(" ")),m={},v=[],y=v.slice,g=function(e,n,r,o){var i,s,a,c=t.createElement("div"),u=t.body,d=u?u:t.createElement("body");if(parseInt(r,10))for(;r--;)a=t.createElement("div"),a.id=o?o[r]:l+(r+1),c.appendChild(a);return i=["&#173;","<style>",e,"</style>"].join(""),c.id=l,(u?c:d).innerHTML+=i,d.appendChild(c),u||(d.style.background="",h.appendChild(d)),s=n(c,e),u?c.parentNode.removeChild(c):d.parentNode.removeChild(d),!!s},w=function(t){var n=e.matchMedia||e.msMatchMedia;if(n)return n(t).matches;var r;return g("@media "+t+" { #"+l+" { position: absolute; } }",function(t){r="absolute"==(e.getComputedStyle?getComputedStyle(t,null):t.currentStyle).position}),r},b={}.hasOwnProperty;a=o(b,"undefined")||o(b.call,"undefined")?function(e,t){return t in e&&o(e.constructor.prototype[t],"undefined")}:function(e,t){return b.call(e,t)},Function.prototype.bind||(Function.prototype.bind=function(e){var t=this;if("function"!=typeof t)throw new TypeError;var n=y.call(arguments,1),r=function(){if(this instanceof r){var o=function(){};o.prototype=t.prototype;var i=new o,s=t.apply(i,n.concat(y.call(arguments)));return Object(s)===s?s:i}return t.apply(e,n.concat(y.call(arguments)))};return r});!function(n,r){var o=n.join(""),i=r.length;g(o,function(n){for(var r=t.styleSheets[t.styleSheets.length-1],o=(r?r.cssRules&&r.cssRules[0]?r.cssRules[0].cssText:r.cssText||"":"",n.childNodes),s={};i--;)s[o[i].id]=o[i];u.touch="ontouchstart"in e||e.DocumentTouch&&t instanceof DocumentTouch||9===(s.touch&&s.touch.offsetTop)},i,r)}([,["@media (",f.join("touch-enabled),("),l,")","{#touch{top:9px;position:absolute}}"].join("")],[,"touch"]);m.touch=function(){return u.touch};for(var S in m)a(m,S)&&(s=S.toLowerCase(),u[s]=m[S](),v.push((u[s]?"":"no-")+s));return r(""),d=i=null,u._version=c,u._prefixes=f,u.mq=w,u.testStyles=g,u}(this,this.document),function(){function e(){this.versions=this.getVersions()}function t(e,t,n){this.mediaQuery=t,this.url=e,this.id=n}function n(e){this.mq=e,this.segments=[],this.standardSegments=[],this.specialSegments=[],this.parse()}var r="device",o="force",i=/\(touch-enabled: (.*?)\)/;e.prototype.getVersions=function(){for(var e=[],n=document.querySelectorAll('head link[rel="alternate"]'),r=0;r<n.length;r++){var o=n[r].getAttribute("href"),i=n[r].getAttribute("media"),s=n[r].getAttribute("id");e.push(new t(o,i,s))}return e},e.prototype.redirectIfNeeded=function(){var e=this.getGETParam(o);if(!e){var n=this.getGETParam(r);if(n)version=this.findVersion(function(){return this.matchesOverride.call(this,n)}),version.redirect({force:!0});else{if(version=this.findVersion(t.prototype.matches),!version)return void console.error("No matched device version.");var i=this.findVersion(t.prototype.matchesUrl);i!=version&&version.redirect()}}},e.prototype.findVersion=function(e){for(var t=0;t<this.versions.length;t++){var n=this.versions[t];if(e.call(n))return n}return null},e.prototype.getGETParam=function(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var t="[\\?&]"+e+"=([^&#]*)",n=new RegExp(t),r=n.exec(window.location.search);return r?decodeURIComponent(r[1].replace(/\+/g," ")):null},t.prototype.matches=function(){var e=new n(this.mediaQuery);return e.evaluate()},t.prototype.matchesUrl=function(){var e=window.location.href,t=/^https?:\/\/.*/;if(this.url.match(t))return 0===e.indexOf(this.url);var n=e.length-this.url.length;return-1!==e.indexOf(this.url,n)},t.prototype.matchesOverride=function(e){return this.id==e},t.prototype.redirect=function(e){var t=this.url;if(e&&e.force){var n=-1!=t.indexOf("?")?"&":"?",r=o+"=1";t+=n+r}window.location.href=t},n.prototype.parse=function(){this.segments=this.mq.split(/\s*and\s*/);for(var e=0;e<this.segments.length;e++){var t=this.segments[e],n=t.match(i);n?this.specialSegments.push(t):this.standardSegments.push(t)}},n.prototype.evaluateTouch=function(){for(var e=!0,t=0;t<this.specialSegments.length;t++){var n=this.specialSegments[t].match(i),r=n[1];"0"!==r&&"1"!==r&&console.error('Invalid value for "touch-enabled" media query.');var o=1===parseInt(r,10)?!0:!1;e=e&&o==Modernizr.touch}return e},n.prototype.getMediaQuery=function(){return this.standardSegments.join(" and ")},n.prototype.evaluate=function(){return Modernizr.mq(this.getMediaQuery())&&this.evaluateTouch()};var s=new e;s.redirectIfNeeded()}(window);
+		}
+ 		
+		if (alternatePath.length > 0 && readMobileDetectionCookie() == "mobile") {
+	
+			var actualPath = (window.location.href.indexOf('?') != -1) ? window.location.href.split('?')[0] : window.location.href; 
+			alternatePath = location.protocol + "//" + window.location.host + alternatePath;
+			var param = (window.location.href.indexOf('?') != -1) ? window.location.href.split('?')[1] : "";
+	
+			if (param.indexOf("device=desktop") == -1 && param.indexOf("force=1") == -1) {
+				if(alternatePath != actualPath) {
+					if (param.length > 0) {
+						alternatePath = alternatePath + "?" + param;
+					}
+					window.location.replace(alternatePath);
+				}
+			}
+		}
+	</script>
+
+	<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/clientlibrarymanager.min.ce87dde1b94c63e67e7c932232bd7854.js"></script>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>Home | Helvetia Assicurazione</title>
+    <!-- Embed clientlib personalization.kernel and visitor API -->
+    <script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/jquery.min.d311399a202bbfe8f6b94a4546a2a025.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/utils.min.960d4a24cc6fa3b473b4ae2018d5c364.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/granite.min.1cd927e8b915fa4931c6c086a8cfda10.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/jquery.min.04c02883bbd8d131b579412d156fbd96.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/shared.min.6c5df498e3959d5b7a45d3ee17bfdad3.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/modern.min.7b2eea6898007731c2ec2232f96726c7.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/kernel.min.167a4d473bdc41ab3be6f61b185714de.js"></script>
+
+    <script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/helvetiaclientcontextvisitor.min.660a8477bad22bd851a46c4daf8532ce.js"></script>
+
+<script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/new", "\/content\/helvetia\/it\/content\/it\/home");
+
+        
+    });
+</script>
+
+</head>
+<body class=""><div class="mod modCookieBanner" style="background-color: rgb(219, 219, 219); display: none;">
+	<div class="expireDate">365</div>
+		<div class="inner">
+			<div class="bd" style="color: #000000">
+				<div class="content">
+					<div class="title">
+						<h3>Helvetia cookies</h3>
+					</div>
+					<div class="closeLink" style="color: #993366">
+						<a id="closeLinkId">Chiudi</a>
+						</div>
+					<div class="bannerText">
+						<p>Questo sito non utilizza cookie di profilazione propri, per inviarti pubblicità in linea con le tue preferenze, ma consente l'invio di cookie "terze parti".<br>
+Se vuoi saperne di più o negare il consenso a tutti o ad alcuni cookie, <a href="https://www.helvetia.com/it/content/it/home/service/footer/for-you/privacy-policy.html">clicca qui</a>.<br>
+Se accedi a un qualunque elemento sottostante questo banner acconsenti all’uso dei cookie.</p>
+</div>
+					<div class="buttons">
+						</div>
+					<input type="checkbox" disabled="disabled" checked="true" id="chkContinueBrowse">
+						</div>
+			</div>
+		</div>
+	</div>
+
+<div class="gsa-country" data-country="it"></div>
+	<div id="wrap" class="head">
+	<div class="mod modSearchbox">
+	<div class="inner">
+		<div class="bd">
+			<form method="get" action="https://www.helvetia.com/it/content/it/home/service/risultati-ricerca.html" enctype="multipart/form-data" name="searchfield">
+				<div id="searchtext" class="inv">CERCA NEL SITO</div>
+				<label for="inpsearch" class="inv">CERCA NEL SITO</label>
+				<input type="text" value="CERCA NEL SITO" class="text" id="inpsearch" name="query" maxlength="50">
+				<input type="hidden" value="UTF-8" class="text" id="_charset_searchbox" name="_charset_">
+				<input type="submit" value="" class="btn" title="CERCA" name="search" id="btnsearch">
+			</form>
+			<div class="gsa-url" data-gsaurl="/content/helvetia/it/content/it/home/service/search.html"></div>
+			<div class="gsa-resource" data-gsaresource=""></div>
+			<div class="gsa-sitecollection" data-gsasitecollection=""></div>
+			<div class="gsa-rootpath" data-gsarootpath=""></div>
+		</div>
+	</div>
+</div><div class="mod modCountryselector">
+		<div class="inner">
+			<div class="bd">
+				<div class="actualCountry"> ITALIANO</div>
+				<div class="flyout">
+					<ul class="lang">
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/home.html" target="_self" title="ITALIANO">ITALIANO</a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="mod modServicenavigation">
+	<div class="inner">
+		<div class="bd">
+			<ul class="serv">
+				<li class="active">Home</li>
+							<li>
+									<a href="https://www.helvetia.com/it/content/it/home/service/nav/contatti.html" target="_self">Contattaci</a></li>
+							<li>
+									<a href="https://www.helvetia.com/it/content/it/ci-presentiamo/risorse-umane/Lavora-con-noi.html" target="_self">Jobs</a></li>
+							</ul>
+		</div>
+	</div>
+</div>
+<div class="mod modLogo">
+	<div class="inner">	
+		<div class="bd">
+			<a href="https://www.helvetia.com/it/content/it/home.html" target="_self"><img class="lazy-loaded" data-src="/global/content/dam/helvetia/global/logo-italia.gif" alt="La tua Assicurazione svizzera" src="./Home _ Helvetia Assicurazione_files/logo-italia.gif">
+				<noscript>&lt;img src="/global/content/dam/helvetia/global/logo-italia.gif" alt="La tua Assicurazione svizzera"/&gt;</noscript>
+</a></div>
+	</div>
+</div><div class="clear-b"></div>
+</div>
+<div class="bodyhome bgspecial" style="background-image:url(/it/content/dam/helvetia/it/global/home/1024x1_Footer_Home_CH_April.jpg)"> 
+					<div class="line">
+						<div class="unit leftContent">
+	<div class="mod modMainnavigation">
+	<div class="inner">
+		<div class="bd">
+			<div class="bg">
+				<ul>
+					<li>
+								<a href="https://www.helvetia.com/it/content/it/privati.html" target="_self">Privati</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/imprese.html" target="_self">Imprese</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/servizi.html" target="_self">Servizi</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/fondi-e-gestioni.html" target="_self">Fondi e Gestioni</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/ufficio-stampa.html" target="_self">Ufficio Stampa</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/ci-presentiamo.html" target="_self">Ci presentiamo</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/bank-insurance.html" target="_self">Bancassicurazione</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/helvetia-agencies.html" target="_self">Agenzie Helvetia</a></li>
+						<li>
+								<a href="https://www.helvetia.com/it/content/it/previdenza-complementare.html" target="_self">Previdenza Complementare</a></li>
+						</ul>
+			</div>
+		</div>
+	</div>
+</div><div class="mod modContactbox">
+		<div class="inner">
+		<div class="bd">
+			<h2 class="base">Contatti</h2>
+			<div class="links">
+					<ul>
+						<li></li>
+						<li><a href="https://www.helvetia.com/it/content/it/servizi/preventivo-veicoli.html" target="_self">Calcola il tuo Preventivo Veicoli</a></li>
+						<li><a href="https://www.helvetia.com/it/content/it/servizi/ricerca-agenzie.html" target="_self">Cerca l'agenzia più vicina</a></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			<div class="socialmedia">
+					<a class="item_facebook" href="https://www.facebook.com/helvetia.assicurazioni.italia#!/helvetia.assicurazioni.italia" target="_blank">
+								</a>
+							<a class="item_youtube" href="http://www.youtube.com/channel/UCpqnNvDtQD3E77kWYtDmFxA" target="_blank">
+								</a>
+							<a class="item_google_plus" href="https://plus.google.com/104935637325432743733/posts" target="_blank">
+								</a>
+							</div>
+			</div>	
+		<div id="hae" class="clear-b"></div>
+		</div>
+		</div>
+	<div class="mod modEkomiSignet">
+    <div class="inner">
+        <div class="bd">
+            <h2 class="base">Ihre Meinung</h2>
+
+            <div class="row">
+                <div class="column left">
+                    <img class="signet">
+                </div>
+                <div class="column right">
+                    <div class="rating">
+                        <span class="stars">
+                          <span class="averagePercentage" style="width: 100%"></span>
+                        </span>
+                        <span class="score"></span>
+                        <span class="review-count"><span class="numberOfRatings"></span>&nbsp;Bewertungen (letzte 12 Monate)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="text">Endlich eine Versicherung, die zu mir passt!</span>
+                <div class="align-right"><a class="small" href="https://www.helvetia.com/it/content/it/home.html" target="_blank">Zeichnen Sie uns aus!</a></div>
+            </div>
+
+            <a class="medium" href="https://www.helvetia.com/it/content/it/home.html" target="_blank">Mehr</a>
+        </div>
+    </div>
+</div>
+
+<script>
+            jQuery.getJSON( '', function( data ) {
+                // choose signet
+                var signetPath = '/etc/designs/helvetia/common/global/content/img/';
+                var signetImg;
+                switch(data.seal) {
+                    case 'gold':
+                        signetImg = 'ekomi-gold.png';
+                        break;
+
+                    case 'silver':
+                        signetImg = 'ekomi-silber.png';
+                        break;
+
+                    case 'bronze':
+                        signetImg = 'ekomi-bronze.png';
+                        break;
+
+                    case 'standard':
+                    default:
+                        signetImg = 'ekomi-keinsiegel.png';
+                }
+                jQuery('.modEkomiSignet .signet').attr('src', signetPath + signetImg);
+                // number of ratings
+                jQuery('.modEkomiSignet .numberOfRatings').html(data.numberOfRatings);
+                // average percentage
+                jQuery('.modEkomiSignet .averagePercentage').css('width', data.averagePercentage + '%');
+                // average rounded
+                jQuery('.modEkomiSignet .score').html(data.averageRounded.replace('.',',') + '/5');
+                // feedback text
+                if(data.feedback === "") {
+                    jQuery(".box").hide();
+                } else {
+                    jQuery('.modEkomiSignet .text').html(data.feedback);
+                    jQuery(".box").show();
+                }
+
+                jQuery('.modEkomiSignet').fadeIn(300);
+            });
+        </script>
+    <div class="mod modCountrybox">
+				<div class="inner">
+					<div class="bd">
+								<h2 class="base">My Helvetia</h2>
+								<ul>
+									<li>
+											<a href="https://gate179.previnet.it/gate179/helvetia/" target="_blank">Accedi alle informazioni sulle tue polizze</a></li>					
+									<li>
+											<a href="https://onlife.previnet.it/life-on/helvetia/default-function.do" target="_blank">Accedi alle informazioni sulle tue polizze di previdenza</a></li>					
+									<li>
+											<a href="https://www.helvetia.com/it/content/it/home/access_login.html" target="_self">Come puoi richiedere le credenziali di accesso</a></li>					
+									</ul>
+							</div>
+						</div>
+			</div>
+ 		<div class="mod modImageTeaser">
+			<div class="inner">
+				<div class="bd">
+					<a href="https://www.helvetia.com/it/blog/it/home.html" target="_blank"><img data-src="/it/content/it/home/_jcr_content/imagelink/image.spooler.linkimage.220.png/1482418194993.png" alt="" title="" width="220" height="99" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript>&lt;img src="/it/content/it/home/_jcr_content/imagelink/image.spooler.linkimage.220.png/1482418194993.png" alt="" title="" width="220" height="99"/&gt;</noscript></a></div>
+			</div>
+		</div>
+	<div class="mod modImageTeaser">
+			<div class="inner">
+				<div class="bd">
+					<a href="http://www.teloassicuriamonoi.helvetia.it/" target="_blank"><img data-src="/it/content/it/home/_jcr_content/imagelink2/image.spooler.linkimage.220.jpg/1479833716160.jpg" alt="" title="" width="220" height="99" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript>&lt;img src="/it/content/it/home/_jcr_content/imagelink2/image.spooler.linkimage.220.jpg/1479833716160.jpg" alt="" title="" width="220" height="99"/&gt;</noscript></a></div>
+			</div>
+		</div>
+	</div>
+<div class="unit rightContent">
+	<div class="mod modRotator" data-connectors="1">
+		<div class="inner">
+			<div class="bd">
+				<div class="mod modWegweiser">
+	<div class="inner">
+		<div class="bd">
+			<div class="bg">
+				<img class="lazy-loaded" data-src="/it/content/dam/helvetia/it/content/Private/Swissness_727x192.png" src="./Home _ Helvetia Assicurazione_files/Swissness_727x192.png">
+					<noscript>&lt;img src="/it/content/dam/helvetia/it/content/Private/Swissness_727x192.png"/&gt;</noscript>
+				</div>
+		    <div class="item">
+		    	<a href="https://www.helvetia.com/it/content/it/ci-presentiamo.html" target="_self" class="promotion"><div class="clear-b"></div></a></div>
+		</div>
+	</div>
+</div><div class="rotator" data-delay="5000" data-pauseduration="3000" data-scrollduration="500" data-rotatordeactivated="false">
+				<div class="rotateListWrapper">
+							<div class="caroufredsel_wrapper" style="position: relative; overflow: hidden; margin: 0px; height: 1810px; width: 727px;"><div class="rotateList" style="margin: 0px; float: none; position: absolute; height: 3620px; width: 727px; top: 0px;">
+								
+	<div class="items" id="imagetextwindow_1903217352">
+			<div class="mod modSchaufensterBildTextHome">
+				<div class="inner">		
+					<div class="bd">
+						<div class="banner">
+							<div id="random" class="item rotate">
+								<a href="https://www.helvetia.com/it/blog/it/2016/06/soddisfazione-clienti.html" target="_self"><img class="lazy-loaded" data-src="/it/content/dam/helvetia/it/content/Private/coppa_sito.jpg" width="727" height="308" alt="Clienti soddisfatti" src="./Home _ Helvetia Assicurazione_files/coppa_sito.jpg">		
+												<noscript>&lt;img src="/it/content/dam/helvetia/it/content/Private/coppa_sito.jpg" width="727" height="308" alt="Clienti soddisfatti"/&gt;</noscript>
+</a></div>
+							<div class="bottom">
+								<h2 class="base">
+										<a href="https://www.helvetia.com/it/blog/it/2016/06/soddisfazione-clienti.html" target="_self">I clienti Helvetia RC Auto sono i più soddisfatti! »</a></h2>
+								<p>Anche quest'anno i clienti Helvetia RCAuto sono i più soddisfatti del mercato.</p>
+								</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>	
+	<div class="items" id="newswindow_0">
+			<div class="mod modSchaufensterNewsHome skinSchaufensterNewsHomeBlue">
+				<div class="inner">
+					<div class="bd">			
+						 <div class="banner">
+			        		<h1 class="base">
+			        			<a href="https://www.helvetia.com/it/content/it/servizi/auto-documents.html" target="_self">Dematerializzazione documenti assicurativi Auto.<br></a></h1>
+			    		</div>   
+					</div>
+				</div>
+			</div>	
+		</div>
+	<div class="cq-reference-placeholder" style="width:100%"></div>
+	<div class="items" id="newswindow_1">
+			<div class="mod modSchaufensterNewsHome skinSchaufensterNewsHomeOrange">
+				<div class="inner">
+					<div class="bd">			
+						 <div class="banner">
+			        		<h1 class="base">
+			        			<a href="https://www.helvetia.com/it/content/it/servizi/cosa-fare-in-caso-di-sinistro/conciliazione-paritetica.html" target="_self">Conciliazione Paritetica: lo strumento per risolvere le controversie RC Auto.<br></a></h1>
+			    		</div>   
+					</div>
+				</div>
+			</div>	
+		</div>
+	<div class="items" id="imagetextwindow_0">
+			<div class="mod modSchaufensterBildTextHome">
+				<div class="inner">		
+					<div class="bd">
+						<div class="banner">
+							<div id="random" class="item rotate">
+								<a href="https://www.helvetia.com/it/blog/it/2016/11/checkup-assicurativo.html" target="_self"><img class="" data-src="/it/content/dam/helvetia/it/content/Private/teloassicuriamonoi.jpg" width="727" height="308" alt="checkup assicurativo" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">		
+												<noscript>&lt;img src="/it/content/dam/helvetia/it/content/Private/teloassicuriamonoi.jpg" width="727" height="308" alt="checkup assicurativo"/&gt;</noscript>
+</a></div>
+							<div class="bottom">
+								<h2 class="base">
+										<a href="https://www.helvetia.com/it/blog/it/2016/11/checkup-assicurativo.html" target="_self">#TeLoAssicuriamoNoi »</a></h2>
+								<p>Dalle scelte di oggi dipende il tuo futuro e quello della tua famiglia. Collegati al nostro sito e fai il tuo checkup personalizzato.</p>
+								</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>	
+	<div class="items" id="newswindow_2">
+			<div class="mod modSchaufensterNewsHome skinSchaufensterNewsHomeBlue">
+				<div class="inner">
+					<div class="bd">			
+						 <div class="banner">
+			        		<h1 class="base">
+			        			<a href="https://www.helvetia.com/it/content/it/privati/veicoli/against-fraud.html" target="_self">Cancelliamo le frodi!</a></h1>
+			    		</div>   
+					</div>
+				</div>
+			</div>	
+		</div>
+	<div class="items" id="youtubevideohome">
+	<div class="mod modYoutubeVideo">
+		<div class="inner">
+			<div class="bd">
+								<div class="flashvideo wide">
+									<iframe id="ytplayeryoutubevideohome" type="text/html" width="727" height="408.9375" src="./Home _ Helvetia Assicurazione_files/KdVdpgQPvDE.html" frameborder="0"></iframe>
+                                </div>
+							</div>
+						</div>
+	</div>
+</div>
+
+
+<div class="items" id="newswindow">
+			<div class="mod modSchaufensterNewsHome skinSchaufensterNewsHomeRed">
+				<div class="inner">
+					<div class="bd">			
+						 <div class="banner">
+			        		<h1 class="base">
+			        			<a href="https://www.helvetia.com/it/content/it/home/nai-helvetia-merger.html" target="_self"><b>Fusione per incorporazione di Nationale Suisse Vita in Helvetia Vita&nbsp; </b></a></h1>
+			    		</div>   
+					</div>
+				</div>
+			</div>	
+		</div></div></div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+				</div>
+			<div class="bgfoot" style="background-image:url(/it/content/dam/helvetia/it/global/home/1024x300_Footer_Home_CH_April.jpg)"></div>
+			<div class="footwrap">
+	<div class="foot">
+    <script name="responsa-js" class="responsa-js">
+(function(q,u,e,s,t,i,o,n) {
+ o=u.getElementsByTagName(e)[0];
+ n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
+ o.appendChild(n)
+})(window,document,"head","script","res_pars",
+ "https://chatbots.goresponsa.com/chatbot/593551126a52af0aa95ab34d.js");
+</script>
+		<div class="line">
+			<div class="unit">
+	<div class="mod modFooternavigation">
+		<div class="inner">
+		<div class="bd">
+			<h4>Per te</h4>
+		    <ul>
+		    	<li><a href="https://www.helvetia.com/it/content/it/servizi/reclami.html" target="_self">Reclami</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/fondi-e-gestioni/quotazioni-e-rendimenti.html" target="_self">Quotazioni e Rendimenti</a></li>
+		    	<li><a href="http://public.helvetia.it/intranet/produzione/bcwwwh.nsf" target="_blank">Informazioni alla clientela</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/servizi/cosa-fare-in-caso-di-sinistro.html" target="_self">Cosa fare in caso di sinistro</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/home/service/footer/for-you/privacy-policy.html" target="_self">Privacy Policy</a></li>
+		    	<li><a href="http://www.blog.helvetia.it/" target="_blank">Blog Helvetia</a></li>
+		    	</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+<div class="unit">
+	<div class="mod modFooternavigation">
+		<div class="inner">
+		<div class="bd">
+			<h4>Informazioni generali</h4>
+		    <ul>
+		    	<li><a href="https://www.helvetia.com/it/content/it/ci-presentiamo/perche-scegliere-helvetia.html" target="_self">Perché scegliere Helvetia</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/home/service/footer/informazioni-generali/elenco-prodotti.html" target="_self">Elenco prodotti</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/ci-presentiamo/helvetia-in-italia/canali-distributivi.html" target="_self">Canali distributivi</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/home/service/footer/informazioni-generali/glossario-unita-di-misura.html" target="_self">Glossario Unità di Misura-Danni</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/home/service/footer/informazioni-generali/mappa-del-sito/mappa-del-sito.html" target="_self">Mappa del sito</a></li>
+		    	</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+<div class="unit">
+	<div class="mod modFooternavigation">
+		<div class="inner">
+		<div class="bd">
+			<h4>Gruppo Helvetia in Italia</h4>
+		    <ul>
+		    	<li><a href="https://www.helvetia.com/it/content/it/ci-presentiamo/helvetia-in-italia/helvetia-assicurazioni.html" target="_self">Helvetia Assicurazioni SA</a></li>
+		    	<li><a href="https://www.helvetia.com/it/content/it/ci-presentiamo/helvetia-in-italia/helvetia-vita.html" target="_self">Helvetia Vita S.p.A.</a></li>
+		    	<li><a href="http://www.helvetiaitalia.it/" target="_blank">Helvetia Italia Ass.ni S.p.A.</a></li>
+		    	<li><a href="http://www.chiaraassicurazioni.it/" target="_blank">Chiara Assicurazioni S.p.A.</a></li>
+		    	<li><a href="http://www.gesiass.it/" target="_blank">GE.SI.ass s.c. a r.l.</a></li>
+		    	</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+<div class="unit">
+	<div class="mod modFooternavigation">
+		<div class="inner">
+		<div class="bd">
+			<h4>AREA RISERVATA</h4>
+		    <ul>
+		    	<li><a href="https://formazione.helvetia.it/" target="_blank">Formazione e-learning</a></li>
+		    	<li><a href="http://realtime.helvetia.it/" target="_blank">Realtime</a></li>
+		    	<li><a href="https://helvetia.bravosolution.com/web/login.html" target="_blank">Portale Acquisti</a></li>
+		    	<li><a href="https://gate179.previnet.it/gate179/helvetia/default-function.do" target="_blank">My Helvetia</a></li>
+		    	<li><a href="https://onlife.previnet.it/life-on/helvetia/default-function.do" target="_blank">My Helvetia Previdenza</a></li>
+		    	</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+		<div class="mod modFooterclaim">
+	<div class="inner">
+		<div class="clear-b"></div>
+		<div class="bd">
+			<p>La tua Assicurazione svizzera.</p>
+			<span class="copyright">© 2012 Helvetia - Helvetia Compagnia Svizzera d'Assicurazioni SA - P.IVA 01462690155 - Iscr. Albo Gruppi Ass. n° ord. 031 <br>Helvetia Vita S.p.A. - P.IVA 03215010962 - Società soggetta alla Direzione ed al Coordinamento della Helvetia Compagnia Svizzera d'Assicurazioni SA Rappresentanza Generale e Direzione per l'Italia - Società con Socio Unico - Iscr. Albo Imprese Ass. n° 1.00142 - Iscr. Albo Gruppi Ass. n° ord. 031</span>
+			</div>
+		<div class="clear-b"></div>
+	</div>
+</div></div>	
+</div><script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/helvetiahome.min.777420805cc49d5d28874793bfa3c033.js" gapi_processed="true"></script>
+<script type="text/javascript">
+	(function($) {
+		$(document).ready(function() {
+			var $page = $('body');
+			var application = new Nx.Application($page);
+			application.registerModules();
+			application.start();
+		});
+	})(Nx.$);
+	</script>
+	<div class="cloudservice sitecatalyst"><script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/commons.min.7a67d26e2d60b6aea077e3ebeb53936c.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/tracking.min.63ef817052950dd804c2c9753bbbac33.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/sitecatalyst.min.591d354860722a11c0a7a51c6c38caed.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/util.min.78dee97e8931b872be6b732e89069f9d.js"></script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/analytics.sitecatalyst.js"></script>
+<!-- embed <script type="text/javascript" src="/etc/clientlibs/sitecatalyst/plugins.min.js"></script>
+ -->
+<script type="text/javascript">
+  function s_getLoadTime(){if(!window.s_loadT){var e=(new Date).getTime(),t=window.performance?performance.timing:0,n=t?t.requestStart:window.inHeadTS||0;s_loadT=n?Math.round((e-n)/100):""}return s_loadT}s.handlePPVevents=new Function("","if(!s.getPPVid)return;var dh=Math.max(Math.max(s.d.body.scrollHeight,s.d.documentElement.scrollHeight),Math.max(s.d.body.offsetHeight,s.d.documentElement.offsetHeight),Math.max(s.d.body.clientHeight,s.d.documentElement.clientHeight)),vph=s.wd.innerHeight||(s.d.documentElement.clientHeight||s.d.body.clientHeight),st=s.wd.pageYOffset||(s.wd.document.documentElement.scrollTop||s.wd.document.body.scrollTop),vh=st+vph,pv=Math.min(Math.round(vh/dh*100),100),c=s.c_r('s_ppv'),a=(c.indexOf(',')>-1)?c.split(',',4):[],id=(a.length>0)?(a[0]):escape(s.getPPVid),cv=(a.length>1)?parseInt(a[1]):(0),p0=(a.length>2)?parseInt(a[2]):(pv),cy=(a.length>3)?parseInt(a[3]):(0),cn=(pv>0)?(id+','+((pv>cv)?pv:cv)+','+p0+','+((vh>cy)?vh:cy)):'';s.c_w('s_ppv',cn);");s.getPercentPageViewed=new Function("pid","pid=pid?pid:'-';var s=this,ist=!s.getPPVid?true:false;if(typeof(s.linkType)!='undefined'&&s.linkType!='e')return'';var v=s.c_r('s_ppv'),a=(v.indexOf(',')>-1)?v.split(',',4):[];if(a.length<4){for(var i=3;i>0;i--){a[i]=(i<a.length)?(a[i-1]):('');}a[0]='';}a[0]=unescape(a[0]);s.getPPVpid=pid;s.c_w('s_ppv',escape(pid));if(ist){s.getPPVid=(pid)?(pid):(s.pageName?s.pageName:document.location.href);s.c_w('s_ppv',escape(s.getPPVid));if(s.wd.addEventListener){s.wd.addEventListener('load',s.handlePPVevents,false);s.wd.addEventListener('scroll',s.handlePPVevents,false);s.wd.addEventListener('resize',s.handlePPVevents,false);}else if(s.wd.attachEvent){s.wd.attachEvent('onload',s.handlePPVevents);s.wd.attachEvent('onscroll',s.handlePPVevents);s.wd.attachEvent('onresize',s.handlePPVevents);}}return(pid!='-')?(a):(a[1]);");s.trackTNT=new Function("v","p","b","var s=this,n='s_tnt',p=p?p:n,v=v?v:n,r='',pm=false,b=b?b:true;if(s.getQueryParam){pm=s.getQueryParam(p);}if(pm){r+=(pm+',');}if(s.wd[v]!=undefined){r+=s.wd[v];}if(b){s.wd[v]='';}return r;");s.getValOnce=new Function("v","c","e","t","var s=this,a=new Date,v=v?v:'',c=c?c:'s_gvo',e=e?e:0,i=t=='m'?60000:86400000;k=s.c_r(c);if(v){a.setTime(a.getTime()+e*i);s.c_w(c,v,e==0?0:a);}return v==k?'':v");s.getQueryParam=new Function("p","d","u","h","var s=this,v='',i,j,t;d=d?d:'';u=u?u:(s.pageURL?s.pageURL:s.wd.location);if(u=='f')u=s.gtfs().location;while(p){i=p.indexOf(',');i=i<0?p.length:i;t=s.p_gpv(p.substring(0,i),u+'',h);if(t){t=t.indexOf('#')>-1?t.substring(0,t.indexOf('#')):t;}if(t)v+=v?d+t:t;p=p.substring(i==p.length?i:i+1)}return v");s.p_gpv=new Function("k","u","h","var s=this,v='',q;j=h==1?'#':'?';i=u.indexOf(j);if(k&&i>-1){q=u.substring(i+1);v=s.pt(q,'&','p_gvf',k)}return v");s.p_gvf=new Function("t","k","if(t){var s=this,i=t.indexOf('='),p=i<0?t:t.substring(0,i),v=i<0?'True':t.substring(i+1);if(p.toLowerCase()==k.toLowerCase())return s.epa(v)}return''");s.getPreviousValue=new Function("v","c","el","var s=this,t=new Date,i,j,r='';t.setTime(t.getTime()+1800000);if(el){if(s.events){i=s.split(el,',');j=s.split(s.events,',');for(x in i){for(y in j){if(i[x]==j[y]){if(s.c_r(c)) r=s.c_r(c);v?s.c_w(c,v,t):s.c_w(c,'no value',t);return r}}}}}else{if(s.c_r(c)) r=s.c_r(c);v?s.c_w(c,v,t):s.c_w(c,'no value',t);return r}")
+</script>
+<script type="text/javascript" src="./Home _ Helvetia Assicurazione_files/analytics.config.js"></script><span data-tracking="{event:&#39;pageView&#39;, values:{}, componentPath:&#39;foundation/components/page&#39;}"></span><script type="text/javascript">
+  CQ_Analytics.Sitecatalyst.frameworkComponents = ['helvetia/pages/globalpage','helvetia/components/content/form/start','helvetia/pages/thankyoupage','helvetia/components/content/searchresult'];
+  /**
+   * Sets SiteCatalyst variables accordingly to mapped components. If <code>options</code>
+   * object is provided only variables matching the options.componentPath are set.
+   *
+   * @param {Object} options Parameter object from CQ_Analytics.record() call. Optional.
+   */
+  CQ_Analytics.Sitecatalyst.updateEvars = function(options) {
+    this.frameworkMappings = [];
+    this.frameworkMappings.push({scVar:"channel",cqVar:"pagedata.channel",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar1",cqVar:"pagedata.domain",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"prop6",cqVar:"pagedata.fourthdirectory",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"prop5",cqVar:"pagedata.thirddirectory",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"prop4",cqVar:"pagedata.language",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"prop3",cqVar:"pagedata.rootcontext",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"prop2",cqVar:"pagedata.country",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar9",cqVar:"pagedata.translatedPageName",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"prop1",cqVar:"pagedata.domain",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar6",cqVar:"pagedata.fourthdirectory",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar4",cqVar:"pagedata.language",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar5",cqVar:"pagedata.thirddirectory",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar2",cqVar:"pagedata.country",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"evar3",cqVar:"pagedata.rootcontext",resourceType:"helvetia/pages/globalpage"});
+    this.frameworkMappings.push({scVar:"actionType",cqVar:"helvetia/components/content/form/actions/mail",resourceType:"helvetia/components/content/form/start"});
+    this.frameworkMappings.push({scVar:"evar25",cqVar:"eventdata.formName",resourceType:"helvetia/components/content/form/start"});
+    this.frameworkMappings.push({scVar:"event75",cqVar:"eventdata.events.form_start",resourceType:"helvetia/components/content/form/start"});
+    this.frameworkMappings.push({scVar:"endResourceType",cqVar:"helvetia/components/content/form/end",resourceType:"helvetia/components/content/form/start"});
+    this.frameworkMappings.push({scVar:"evar25",cqVar:"eventdata.formName",resourceType:"helvetia/pages/thankyoupage"});
+    this.frameworkMappings.push({scVar:"evar42",cqVar:"eventdata.gender",resourceType:"helvetia/pages/thankyoupage"});
+    this.frameworkMappings.push({scVar:"evar43",cqVar:"eventdata.city",resourceType:"helvetia/pages/thankyoupage"});
+    this.frameworkMappings.push({scVar:"event76",cqVar:"eventdata.events.formComplete",resourceType:"helvetia/pages/thankyoupage"});
+    this.frameworkMappings.push({scVar:"evar40",cqVar:"eventdata.visitortype",resourceType:"helvetia/pages/thankyoupage"});
+    this.frameworkMappings.push({scVar:"evar41",cqVar:"eventdata.age",resourceType:"helvetia/pages/thankyoupage"});
+    this.frameworkMappings.push({scVar:"evar35",cqVar:"eventdata.keywords",resourceType:"helvetia/components/content/searchresult"});
+    this.frameworkMappings.push({scVar:"event35",cqVar:"eventdata.events.search",resourceType:"helvetia/components/content/searchresult"});
+    this.frameworkMappings.push({scVar:"event36",cqVar:"eventdata.events.noresults",resourceType:"helvetia/components/content/searchresult"});
+    this.frameworkMappings.push({scVar:"prop35",cqVar:"eventdata.keywords",resourceType:"helvetia/components/content/searchresult"});
+    this.frameworkMappings.push({scVar:"prop36",cqVar:"eventdata.totalMatches",resourceType:"helvetia/components/content/searchresult"});
+    for (var i=0; i<this.frameworkMappings.length; i++){
+      var m = this.frameworkMappings[i];
+      if (!options || options.compatibility || (options.componentPath == m.resourceType)) {
+        CQ_Analytics.Sitecatalyst.setEvar(m);
+      }
+    }
+  }
+
+  CQ_Analytics.Sitecatalyst.doPageTrack = function() {
+    var collect = true;
+    var lte = s.linkTrackEvents;
+    s.pageName="www:it:content:it:home";
+    s.server="www2";
+
+    
+    s.campaign=s.getQueryParam('ecid')
+    s.campaign =s.getValOnce(s.campaign,'s_ecid',0)
+    s.eVar30=s.getQueryParam('ecid')
+    s.eVar30 =s.getValOnce(s.eVar30,'s_ecid2',0)
+
+    /* Internal Campaign Tracking */
+    s.eVar31=s.getQueryParam('icid')
+    s.eVar31=s.getValOnce(s.eVar31,'s_icid',0)
+
+    /* Time Parting */
+    s.prop49 = "05.06";
+    s.prop50 = "14:24 - Monday";
+
+    s.prop10 = s.getPreviousValue(s.pageName, 'gpv_pn');
+    if(s.prop10) {
+      s.prop51 = s.getPercentPageViewed();
+    }
+
+    s.tnt=s.trackTNT();
+
+    /* Load Time */
+    s.eVar65 = s_getLoadTime();
+
+    if(typeof(mboxLoadSCPlugin) == "function") mboxLoadSCPlugin(s)
+
+    s.contextData['AEM.pagename'] = s.pageName;
+    s.contextData['AEM.site'] = "content:helvetia";
+    
+
+    CQ_Analytics.Sitecatalyst.collect(collect);
+    if (collect) {
+      CQ_Analytics.Sitecatalyst.updateEvars();
+      /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+      var s_code=s.t();if(s_code)document.write(s_code);
+      s.linkTrackEvents = lte;
+      if (s.linkTrackVars.indexOf('events')==-1){ delete s.events };
+      $CQ(document).trigger("sitecatalystAfterCollect");
+    }
+  };
+  CQ_Analytics.DataProvider.setType(ClientContext);
+  CQ_Analytics.DataProvider.onReady(function() {
+    CQ_Analytics.Sitecatalyst.doPageTrack();
+  });
+</script>
+<noscript>&lt;img src="http://metrics.helvetia.com/b/ss/helvglobalprod,helv.it.prod/1/H.26.2--NS/1496665461629?cdp=2&amp;amp;gn=www%3Ait%3Acontent%3Ait%3Ahome" height="1" width="1" border="0" alt=""/&gt;</noscript>
+</div>
+
+<div class="ekomifeedback parbase"></div>
+</body></html>
