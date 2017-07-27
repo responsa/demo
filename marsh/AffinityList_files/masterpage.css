@@ -1,0 +1,722 @@
+﻿/*@font-face {
+    font-family: 'Slate W01 Light';
+    src: url('../fonts/SlateW01Light.otf'), url('../fonts/SlateW01Light.ttf') format('truetype');
+
+}*/
+@font-face {
+    font-family: "Slate W01 Light";
+    src: url("../fonts/SlateW01Light.eot"); /* IE9*/
+    src: url("../fonts/SlateW01Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SlateW01Light.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SlateW01Light.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SlateW01Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SlateW01Light.svg#Slate W01 Light") format("svg"); /* iOS 4.1- */
+}
+
+
+html, body, form {
+    font-family: "Slate W01 Light" !important;
+    font-size: 15px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+/*per sovrascrivere tutti i font provenienti dai testi del configuratore*/
+font {
+    font-family: "Slate W01 Light" !important; 
+    font-style: normal;
+    font-size: 15px;
+}
+body {
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+}
+
+
+/*ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}*/
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    outline: 0;
+}
+
+img {
+    border:none;
+}
+
+p {
+    margin: 0px !important;
+    padding: 0px !important;
+    text-indent: 0px !important;
+}
+
+input {
+    padding: 0;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+/*per evitare che in IE9 il testo delle checkbox sia attaccato alla checkbox stessa
+    stessa cosa vale per i radiobutton*/
+input[type="checkbox"], input[type="radio"]  {
+    margin-right:5px;
+}
+.divToGetBreakpoints {
+    display: block;
+}
+
+/********************************HEADER**********************************/
+.divHeader {
+    width: 100%;
+}
+.divHeaderLogoMiniSite {
+    width: 100%;
+    height: 55px;
+}
+.divHeaderLogoMiniSiteInner
+{
+    width: 1100px;
+    height: 48px;
+    padding-top:7px;
+    margin: auto;
+    clear: both;
+}
+.divHeaderLogoMiniSiteInner img {
+    float:right;
+    height:40px;
+}
+.divHeaderTop {
+    width: 100%;
+    height: 43px;
+    background-color: #45555f;
+}
+
+.divHeaderTopInner {
+    width: 1100px;
+    height: 43px;
+    margin: auto;
+    clear: both;
+}
+
+.divHeaderTopInnerSmallScreen {
+    display: none;
+}
+/******welcome*******/
+.divWelcome {
+    height: 43px;
+    line-height: 43px;
+    color: white;
+}
+.divWelcome img {
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+}
+.divWelcome a{
+    color: white;
+}
+/********************/
+/*******login********/
+.divLogin {
+    background-color: #f38034;
+    width: 852px;
+    height: 25px;
+    padding: 9px;
+    float: right;
+}
+
+.tbLogin, .tbSearch {
+    float: left;
+    height: 25px;
+    width: 180px;
+    margin-right: 6px;
+    padding-left: 10px;
+    border: none;
+}
+
+.btnLogin {
+    float: left;
+    height: 25px;
+    width: 110px;
+    line-height: 25px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.hlLogin, .hlLoginBorder {
+    float: left;
+    margin-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.hlLoginBorder {
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+.ckLogin {
+    float: left;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.loginPopUp {
+    display: none;
+}
+/**********************/
+
+/*******ricerca********/
+.divSearch {
+    width: 217px;
+    height: 23px;
+    padding: 10px;
+    padding-right: 0px;
+    float: right;
+}
+
+.divSearch img {
+    width: 26px;
+    height: 25px;
+}
+
+.tbSearch {
+    margin-right: 0px;
+    width: 180px;
+}
+/**********************/
+
+.divHeaderBottom {
+    width: 100%;
+    height: 108px;
+}
+
+.divHeaderBottomInner {
+    width: 1100px;
+    height: 68px;
+    padding-top: 40px;
+    margin: auto;
+    clear: both;
+}
+
+.divLogo {
+    float: left;
+}
+
+.logoMarsh {
+    display: block;
+    width: 285px;
+    height: 50px;
+}
+
+/*******menu********/
+.divNav {
+    padding-top: 10px;
+    width: 768px;
+    float: right;
+}
+
+.divNavSmallScreen {
+    display: none;
+}
+
+.aNavSmallScreen {
+    display: none;
+}
+
+.aMenu, .liNav > a {
+    border-top: 1px solid #86d3e5;
+    border-bottom: 1px solid #86d3e5;
+    border-right: 1px solid #86d3e5;
+    float: right;
+    height: 34px;
+    min-width: 90px;
+    width: auto;
+    padding: 0px 10px 0px 10px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    color: #00b0d3;
+    font-size: 14px;
+}
+
+.divNav > a:last-child {
+    border-left: 1px solid #86d3e5;
+}
+
+.aMenu:hover, .liNav > a:hover {
+    background-color: #00b0d3;
+    color: white;
+}
+
+
+.ulNav {
+    position: relative;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.divLiNav {
+    width: 280px;
+    padding-top: 18px;
+    display: none;
+    position: absolute;
+    z-index: 120;
+    right: 62px;
+    top: 36px;
+    text-align: center;
+}
+
+.divSep {
+    background-color: #00B0D3;
+    height: 20px;
+}
+
+.ulCategorie {
+    list-style: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.ulCategorie li {
+    width: 100%;
+    text-align: left;
+    padding: 7px;
+}
+
+.ulCategorie li > a {
+    color: #6e6e6e;
+    font-size: 14px;
+}
+/**********************/
+
+/*menu utente loggato*/
+.aUserMenu {
+    background-image: url("../images/master/menuUtenteLoggato.png");
+    float: right;
+    margin-top: 10px;
+    width: 36px;
+    height: 37px;
+    margin-left: 10px;
+}
+
+.divUserLogged {
+    /*position: absolute;*/
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    background-color: #F4FBFD;
+}
+
+.divUserLoggedInner {
+    width: 1100px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    clear: both;
+}
+
+.linkUserLoggedMenu, .linkUserLoggedMenubigger {
+    float: right;
+    color: #6e6e6e;
+    width: 80px;
+    text-align: right;
+}
+
+.linkUserLoggedMenubigger {
+    width: 115px;
+    text-align: center;
+}
+/**********************/
+
+/******menu tab************/
+.aTabSmallScreen {
+    display: none;
+}
+
+.divOpenTabSmallScreen {
+    display: none;
+}
+/**********************/
+/************************************************************************/
+
+
+/******************************COOKIES***********************************/
+.cookiesPopup {
+    width: 100%;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #bcbcbc;
+    position: relative;
+    margin: 0px;
+    padding: 10px 0;
+    text-align: center;
+    color: #646464;
+    font-size: 13px;
+    display: none;
+}
+
+.cookiesPopup p {
+    padding: 0px 20px!important;
+    text-align: left;
+}
+
+.closeCookies {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size:18px;
+}
+/************************************************************************/
+
+
+
+/***********************BODY*****************/
+.divWrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.divBody {
+    min-height: 100px;
+    width: 1100px;
+    margin: auto;
+    height: auto;
+    overflow: auto;
+    padding-bottom: 240px; /*Height of the footer element + 100 */
+    padding-top: 20px;
+}
+
+.divBodyClear {
+    clear: both;
+    height: 50px;
+}
+/********************************************/
+
+
+/******************************FOOTER***********************************/
+.divBottomPage {
+    width: 100%;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.divFooterTop {
+    width: 100%;
+    height: 90px;
+    background-color: #084D8B;
+}
+
+.divFooterTopInner {
+    width: 1100px;
+    height: 70px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.divFooterTopInner img {
+    width: 260px;
+    float: left;
+}
+
+.divFooterTopText {
+    color: white;
+    font-size: 13px;
+    float: left;
+    width: 750px;
+    margin-left: 35px;
+}
+
+.divFooterBottom {
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    color: #00afd2;
+}
+
+.divFooterBottomInner {
+    width: 1100px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+}
+
+.divFooterBottomInner div {
+    float: left;
+    font-size: 14px;
+}
+
+.divFooterBottomInner a {
+    text-decoration: underline;
+    color: #00afd2;
+    float: right;
+    width: 50px;
+    text-align: right;
+}
+/***********************************************************************/
+
+
+/*************************TABS**************************/
+
+.divOpenTab {
+    position: fixed;
+    right: 0;
+    z-index: 30;
+}
+
+.divTabs {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+    background-color: #EBF8FC;
+    width: 450px;
+    z-index: 1050;
+}
+
+.divTab {
+    width: 340px;
+    margin-left: 70px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.divTabTitle {
+    font-size: 25px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.linkCloseTab {
+    position: fixed;
+    right: 405px;
+    top: 300px;
+}
+
+.divCloseTab {
+    display: none;
+}
+
+.linkOpenTab, .linkOpenTab:hover {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #86D3E5;
+    color: black;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.divPtItem {
+    height:auto;
+    overflow:visible;
+    margin:15px 0px;
+}
+
+.lbTabDocs {
+    display:block;
+    text-align:left;
+    text-decoration:underline;
+    color:#F7A065;
+    
+    width:300px;
+    height:35px;
+    line-height:35px;
+    padding-left:30px;
+
+    background-image:url('../images/icoPdf.png');
+    background-position:center left;
+    background-repeat:no-repeat;
+}
+
+/*******ACCORDION************/
+.divAccordion {
+    padding-right: 15px;
+}
+
+.divItem {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.itemTitle {
+    color: Black;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.itemContent {
+    color: #6e6e6e;
+    height: auto;
+    overflow: auto;
+}
+
+
+/*.divForAccordion {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 15px 0 15px 0;
+}*/
+/*************************/
+
+
+/*********************tooltip**************************/
+.ui-tooltip, .arrow:after, .arrowLeft:after {
+    background: white;
+    border: 1px solid #3EB1D3 !important;
+}
+
+.ui-tooltip {
+    padding: 15px;
+    color: black;
+}
+
+.arrow, .arrowLeft {
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    position: absolute;
+    right: -26px;
+    top: 50%;
+    margin-top: -13px;
+}
+
+.arrowLeft {
+    left: -26px;
+}
+
+.arrow:after, .arrowLeft:after {
+    content: "";
+    position: absolute;
+    left: -16px;
+    width: 24px;
+    height: 24px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.arrowLeft:after {
+    left: 16px;
+}
+
+/*
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }*/
+/*********************************************************/
+
+/******CUSTOM UL********
+.htmlCustom ul {
+    list-style-image: url("../images/customLi.png");
+    margin-left: 28px;
+}
+
+.htmlCustom li ul {
+    list-style-image: url("../images/customLiSub.png");
+}
+*******************/
+
+
+/*******************stili comuni*********************/
+.divLineSep {
+    height:5px;
+    margin:20px 0px;
+    width:100%;
+    background-color:#002c77;
+}
+/***************************************************/
+
+
+
+/************************override jquery ui****************************/
+.ui-dialog {
+    padding: 0px;
+}
+
+.ui-dialog-titlebar {
+    display: none;
+}
+
+.ui-widget {
+    border: none;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.ui-widget-overlay {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+    background-color: white;
+    border: solid 1px #EEEEEE;
+}
+
+.ui-datepicker {
+    background-color: white;
+    border: solid 1px #EEEEEE;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    width:7px !important;
+    height:11px !important;
+    cursor: pointer;
+    background-image: url('../images/calendarPrev.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.ui-datepicker-next {
+    background-image: url('../images/calendarNext.png');
+}
+/***********************************************************************/
