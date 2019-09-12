@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <title>BNP BOT</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+
+    
+
+    <link href="https://bnp-test.azurewebsites.net/Content/chat-embed.css" rel="stylesheet" type="text/css" />
+
+
+
+    
+
+</head>
+
+<body>
+
+    
+
+
+
+<div id="ua-display"></div>
+
+
+
+
+
+
+
+    
+
+    
+
+    <script src="https://bnp-test.azurewebsites.net/Scripts/App/chat-embed.js?botTextColor=3268A8&botBkgndColor=FF5733"></script>
+
+    <script>
+
+        init();
+
+
+
+        function init() {
+
+            if (typeof ChatEmbed == "undefined" || ChatEmbed === undefined || ChatEmbed == null)
+
+                return;
+
+
+
+            var uaDisplayEl = document.getElementById("ua-display");
+
+            uaDisplayEl.innerHTML =
+
+                "<strong>isPhone:</strong> " + ChatEmbed.isPhone + "<br />" +
+
+                "<strong>User Agent:</strong> " + navigator.userAgent;
+
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
