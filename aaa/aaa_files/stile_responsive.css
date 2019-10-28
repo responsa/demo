@@ -1,0 +1,1381 @@
+@media (max-width: 1199px) {
+	.fullimg_accanto_generica .img_fullimg_freccia_sx { right:0px}	
+	.tabs_wr_investors .tab_anni .tab_allineati div a { font-size: 1.0em; }
+	/* BS2016 */
+	.cls-bs2016 .box_avevamo_detto {height:370px;}
+
+	/* slider BE2018 */
+	.slides-container li .over.cls-slider_be2018_novideo .over_titolo { font-size:3.5em !important; }
+
+	/* slider Insieme verso l'economia circolare */
+	.slides-container li .over.cls-slider_economiacircolare .over_titolo {font-size:3.2em;}
+	.slides-container li .over.cls-slider_economiacircolare .over_sottotitolo {font-size:1.3em;}
+	/* Report In buone acque 2017 */
+	.bg_informazioni_utili .box_lista_allegati li.li_link {padding-top:0; padding-bottom:0;}
+	.bg_inbuoneacque16 {background-image:url(../images_r13/box_bg/report_buone_acque_2016/bg_in_buone_acque_small.png); background-position:right 80px;}
+	.bg_inbuoneacque16_eng {background-image:url(../images_r13/box_bg/report_buone_acque_2016/bg_in_buone_acque_eng_small.png); background-position:right 80px;}
+	.bg_inbuoneacque17 {background-image:url(../images_r13/box_bg/report_buone_acque_2017/bg_in_buone_acque_small.png); background-position:right 80px;}
+	.bg_inbuoneacque17.eng {background-image:url(../images_r13/box_bg/report_buone_acque_2017/bg_in_buone_acque_eng_small.png); background-position:right 80px;}
+	.bg_inbuoneacque18 {background-image:url(../images_r13/box_bg/report_buone_acque_2018/bg_in_buone_acque_small.png); background-position:right 80px; height:465px;}
+	.inbuoneacque_edizione16 {font-size:1.2em;}
+	.logo_inbuoneacque.span4 {width:auto; margin-right:15px;}
+	/* slider Ecomondo 2017 */
+	.slides-container li .over.cls-slider_ecomondo .over_titolo span.titolosopra_verdechiaro {font-size:0.4em;}
+	/* slider 15 anni */
+	.slides-container li .over.cls-slider_15anni .over_titolo {margin-top:2%;}
+	.bg_traccerifiuti17 {background-image:url(../images_r13/box_bg/report_rifiuti_2017/bg_traccerifiuti_small.png); height:497px;}
+	.bg_traccerifiuti17_eng {background-image:url(../images_r13/box_bg/report_rifiuti_2017/bg_traccerifiuti_small_eng.png); height:497px;}
+	.bg_traccerifiuti17.img_tasso_riciclo {background-image:url(../images_r13/box_bg/report_rifiuti_2018/bg_traccerifiuti_small.png); background-position:top right; background-repeat:no-repeat; height:597px;}
+	.bg_millevolti.edizione_2018 {background-image:url(../images_r13/box_bg/report_clienti_2018/bg_millevolti_small.png); height:620px;}
+
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:10%; font-size:2.7em; }
+	.slides-container li .over.cls-slider_campagna_biometano .over_link { margin-top:2%; margin-left:10%; }
+
+	.video_r15 .backstage_video a {
+		padding-left: 30px;
+		background-size: 12%;
+	}
+}
+@media (max-width: 979px) {
+	/* slider "Festival Filosofia" */
+	.slides-container li .over.cls-slider_festival_filosofia .over_titolo div.info {font-size:0.4em;}
+	.slides-container li .over.cls-slider_festival_filosofia .over_titolo div.titolo {font-size:0.7em;}
+	
+	/* slider "Hera si illumina di meno" */
+	.slides-container li .over.cls-slider_illuminodimeno .over_titolo {font-size:2.6em;}
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo { font-size:2.8em !important; }
+	.slides-container li .over.cls-slider_25aprile19 .over_sottotitolo { display: none !important; }
+	
+	/* slider "HeraSolidale - Insieme diamo una mano a chi ne ha bisogno" */
+	.slides-container li .over.cls-slider_hs2019 .over_titolo .logo_herasolidale {background-image:none; padding-top:20px;}
+	.slides-container li .over.cls-slider_hs2019 .over_titolo {width:60%; font-size:2.5em;}
+	
+	/* slider "Al riparo dal gelo" */
+	.slides-container li .over.cls-slider_gelo .over_titolo { font-size: 3.4em !important; }
+	/* slider "Gasometro M.A.N. n. 3 (Carlo Valsecchi)" */
+	.slides-container li .over.cls-slider_gasometro .over_titolo { font-size: 2.5em !important; }
+	
+	/* slider HeraLAB 2018 */
+	.slides-container li .over.cls-slider_heralab2018 .over_titolo {margin-left:4%;}
+	.slides-container li .over.cls-slider_heralab2018 .over_sottotitolo {margin-left:4%;}
+	
+	/* slider Ecomondo 2018 */
+	.slides-container li .over.cls-slider_ecomondo_2018 .over_titolo {font-size:3em !important; margin-left:4%;}
+	.slides-container li .over.cls-slider_ecomondo_2018 .over_sottotitolo {margin-left:4%;}
+
+	/* slider Congresso nazionale dei chimici 2018 */
+	.slides-container li .over.cls-slider_congresso_chimici .over_titolo .titolo_slider_next {font-size:1.6em;}
+	
+	/* slider "Scopri il valore dell'acqua di casa tua" */
+	.slides-container li .over.cls-slider_scopri_valore_acqua .over_titolo {font-size:2.4em; /* font-size:2.9em; */}
+	
+	/* slider BE2017 */
+	.slides-container li .over.cls-slider_be2017 .over_sottotitolo {margin-left:5%; margin-top:10px;}
+
+	/* slider BE2018 */
+	.slides-container li .over.cls-slider_be2018_novideo .over_titolo { font-size:2.8em !important; }
+	.slides-container li .over.cls-slider_be2018 .over_sottotitolo { margin-left:5%; margin-top:5%; }
+	.slides-container li .over.cls-slider_be2018_novideo .over_sottotitolo { margin-left:5%; margin-top:10px; }
+
+	/* slider convegno 4 giugno 2018 */
+	.slides-container li .over.cls-slider_4giugno2018 .over_sottotitolo {margin-left:5%; margin-top:10px;}
+	
+	.box_layout.cornice_verdechiaro2 .box_sottotitolo {font-size:1.22em;}
+	.box_bianco_report .sottotit_verdechiaro2 {font-size:1.5em;}
+	.bg_inbuoneacque16, .bg_inbuoneacque16_eng, .bg_traccerifiuti17, .bg_traccerifiuti17_eng, .bg_inbuoneacque17, .bg_traccerifiuti17.img_tasso_riciclo {background-image:none;}
+	
+	/* slider Digi e Lode */
+	.slides-container li .over.cls-slider_digielode .over_titolo {font-size:3.2em;}
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:11%; font-size:2.0em; line-height:1.2em; }
+	.slides-container li .over.cls-slider_campagna_biometano .over_sottotitolo { margin-left:11%; margin-top:30px; }
+	
+	/* Report I mille volti del servizio 2017 */
+	.bg_millevolti, .bg_millevolti_eng, .bg_valore_energia, .bg_millevolti.edizione_2017, .bg_valore_energia17, .bg_valore_energia18, .bg_millevolti.edizione_2018, .bg_inbuoneacque18 {background-image:none;}
+	.slides-container li .over.cls-slider_millevolti .over_sottotitolo {color:#f26811;}
+	/* STORYTELLING - UN VALORE CONDIVISO */
+	.box_layout.box_gruppohera p.sottotitolo-dx {color:#fff; font-weight:600; line-height:1.3em;}
+	.box_layout.box_gruppohera .box_sottotitolo, .box_layout.box_bs16_evento .box_sottotitolo {padding-left:10px;}
+	.box_layout.box_gruppohera .box_lista_allegati {background-color:#95c11f;}
+	.box_layout.box_gruppohera .box_lista_allegati li a:link, .box_layout.titolo_video_sostenibile .box_titolo a:link, 
+	.box_layout.box_gruppohera .box_lista_allegati li a:visited, .box_layout.titolo_video_sostenibile .box_titolo a:visited {color:#fff;}
+	.box_layout.box_bs16_evento p.sottotitolo-dx {margin-right:10px;}
+	.box_layout.open_sans_condensed .box_titolo, .box_layout.titolo_video_sostenibile .box_titolo {margin-left:10px;}
+	.box_layout.open_sans_condensed .box_titolo a:link, .box_layout.open_sans_condensed .box_titolo a:visited {color:#fff; display:block; background-image:url(../images_r13/ico_bianco/link_int.png); background-position:bottom right; background-repeat:no-repeat; margin-right:5px;}
+	.story_valore_footer {margin-top:10px; margin-bottom:20px;}
+	.titolo_nero_sotto, .titolo_verdechiaro_sotto {margin-bottom:10px;}
+	.titolo_verdechiaro_sopra, .titolo_verdechiaro_sotto {margin-top:10px;}
+	.titolo_nero_sopra {display:none;}
+	
+	/* BS2016 */
+	.cls-bs2016 .box_avevamo_detto {height:auto;}
+	.cls-bs2016 .box_blu_bs16.box_gruppo .box_titolo {font-size:2.2em;}	
+	.home_comuni_progettisti .area_comune {display:block;}
+	
+	/* TARI */
+	.box_call_center_verde, .box_faq_tari { background-image:none; }
+	.parag_tari_container { padding:0 10px 0 10px; }
+	.box_paragrafo_tari { margin-top:0 !important; }
+	.title_box_page { padding-left:10px; }
+	.logo_comune_descrizione img { display:none; }
+	.parag_tari_container div p { font-size:1.3em; line-height: 18px; }
+	.link_uno_tari, .link_due_tari { float:left; }
+		
+	
+	.video_presentazione_gruppo object {height:345px;}
+   .span2.logo{width:30%;/*margin-top:4%*/}
+   .menu_fixed .span2.logo{margin-top:0;}
+   .header .span10{width:69%;margin:0;margin-left:1%}
+	/*HEADER ACEGAS*/
+	.span3.logo{width:30%}
+	.header .span9.navigazione_acegas{width:69%;margin:0;margin-left:1%}
+	.cls-clienti .logo.logo_acegas{width:30%}
+	/*FINE HEADER ACEGAS*/
+   /*.span7.menu_principale{float:left;width:69%;}*/
+   .span7.menu_principale{display:none;}
+   
+   .span5.apertura_menu{float:left;width:100%;margin-top:1%;margin-left:0;}
+   .navbar-main .nav > li{margin-left:5%;}
+   .navbar-main .nav li h1{line-height: 1em;margin-top:2px;}
+   .navbar-main .nav > li.active > h1 > a{padding:15px 15px 5px 0}
+   .navbar-main .nav > li > a{padding-bottom:2px;}
+   .navbar-main .nav > li.active > a{padding-bottom:2px}
+   .nav li h1{line-height: 38px;}
+   [class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"] {float:left;}
+   .box_layout{margin-top:1%;}
+   .logo a{margin:0;}
+   .navbar-top{background-color:transparent;}
+   .navbar{font-size:0.8em}
+	.menu_fixed .navbar{display: none}
+	.box_menu_laterale{display: none}
+   .navbar .nav > li > a{padding: 9px 6px;}
+   /*.menu_fixed .navbar-main{width:43%}*/
+   .menu_fixed .navbar-main{display: none}
+   .menu_fixed .navbar-main .nav li h1{line-height:1.1em}
+   .menu_fixed .navbar-main .nav > li > h1 > a{padding:12px 15px 12px 0}
+   .wrapper .navbar-main .nav > li{margin-left:2%;}
+   .menu_fixed .menu_lingua{margin-right:32px;}
+   .menu_fixed .ricerca_gruppo{position:absolute;right:19px;}
+   /*.menu_fixed .menu_lingua{margin-right:0;}*/
+   .menu_fixed .ricerca_gruppo .input_ricerca{width:60%;}
+   [class*="span"] .navigazione_laterale{position:absolute;left:19px;top:0;margin:0;width:50%}
+   .navbar-dx ul.nav{margin:0;}
+   .navbar-dx ul.nav li{width:100%;float:left;}
+   .navbar-dx ul.nav > li.primo{width:100%;}
+   .footer_tenda a, .footer_tenda *:visited{width:125px;}
+   .footer_rigo{border:0;}
+   ul.footer_menu li{float:left;border-top:0}
+   .footer ul li{float:left;}
+   .row-fluid > .footer{padding-top:0;}
+	.row-fluid > .footer [class*="span"]{width:99%;margin-left:0;}
+	.row-fluid > .footer .box_dati_footer p.testoright{text-align: left}
+	.row-fluid > .footer .footer_menu2{margin-top:1%}
+	.row-fluid > .footer .footer_menu2 ul{margin-top:0}
+	/*.row-fluid > .footer .footer_menu2 .span8{float:left;width:68%}
+	.row-fluid > .footer .footer_menu2 .span4{float:right;width:30%}*/
+   .row-fluid .sede_legale_stampa br {display:none;}
+   #riga_content_standard > .span3{display: none}
+	#riga_content_standard > .span9{width:100%;margin-left:0;}
+   /*.navbar .area_comune{position:absolute;top:0;right:0;width:26%}*/
+   /*navbar .area_comune{display:none;}*/
+   .navbar-lev2 .titolo_nav_aperto{width:100%;margin:0;margin:10px 0;text-align: center}
+   .navbar-lev2 .titolo_nav_aperto br{display: none}
+   .riga_assistenza_clienti_casa > .span3{float:left;width:47%;margin-left:2%;}
+   .riga_assistenza_clienti_casa .span3:last-child{width:44%}
+
+   .cls-clienti .navbar .nav{width:48%}
+   .area_comune.comune_copia{width:46%}
+   .area_ricerca{width:50%;clear: both;}
+   
+   .area_ricerca .input_ricerca{width:78%}
+   body.cls-clienti-aperto .navbar-lev2 .nav, menu_fixed .cls-clienti-aperto .navbar-lev2 .nav{width:100%;}
+   .navbar-lev3{display: none}
+	.navbar-lev3 .nav-orizz > li{width:auto}
+   
+   .cls-clienti .menu_fixed .area_ricerca{display: none}
+   .menu_fixed .area_comune{width:100%;clear: both;background-color: #f9ec60;}
+   .cls-clienti .menu_fixed .navbar{width:44%;display: none;}
+   .cls-clienti .menu_fixed .apertura_menu{float:right;}
+   /*BOX*/
+   .box_slider_home{min-width:0}
+   .row-fluid div.servizi{height:98px;margin-left:1%;}
+   div.servizi a,div.servizi span{font-size: 0.8em;padding-top:45px;padding-bottom:45px}
+   .area_comune_landing{width:100%}
+   .cls-clienti.box_elenco_servizi .navbar .nav{width:45%}
+   .area_comune_landing span.descr{margin-right:8px;}
+   form.cerca_comune .tucsubmit{width:29px}
+   .box_layout div > h2, .box_contatti div > h2{font-size:0.8em;}
+   /*tipi di pagina*/
+   .archivio_immagini_new >li > .span2{width: 14.8936%}
+   .archivio_immagini_new >li > .span10{width: 82.9787%;margin-left:2.12766%}
+	.area_comune{display: none}
+	.jq_adv_search, .jq_adv_search_inrete {display: none}
+	/*********storytelling*/
+	
+   .slides-container li .over {cursor: pointer}
+	.slides-container li .over .over_titolo{font-size:2.1em}
+   /*.slides-container li .over .over_sottotitolo{font-size:1.1em}*/
+   .slides-container li .over .over_sottotitolo{display: none}
+   .slides-container li .over .over_link{display: none}
+	.slides-container li .over .playerVideo{display: none}
+   .box_slider_home img.main{max-width: 100%}
+   .slides-navigation a{height:46px;width:46px;background-color:#474642;background-position: left center;}
+   .slides-navigation a.next{background-image:url('/images_r13/next_slide_home_small.png');background-position: 10px center;}
+   .slides-navigation a.prev{background-image:url('/images_r13/prev_slide_home_small.png');background-position: 10px center;}
+   .slides-navigation a span{display: none}
+   .anteprima{height: 46px;}
+   .anteprima .titolo{display: none}
+   .layer_storylink{background-color:#666;position:absolute;width:100px;/*height:100px;*/display:none;z-index: 9}
+   .layer_storylink .over_link ul {
+	  float: left;
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+   }
+   .layer_storylink .over_link ul li {
+	  background-position: center top;
+	  background-repeat: no-repeat;
+	  display: block;
+	  float: left;
+	  
+	  
+	  position: static;
+	  width: 100%;
+   }
+   .layer_storylink .over_link ul li a {
+	  color: #fff;
+	  font-size: 0.6em;
+	  float:left;
+	  width:100%;
+	  text-align:center;
+	  margin:0;
+	  padding:0;
+	  padding-top:30px;
+	  text-transform: uppercase;
+	}
+
+	.layer_storylink .over_link ul li.cls-ico_storia, .layer_storylink .over_link ul li.cls-ico_storia_blu {margin-top:0px;background-image: url('../images_r13/ico_slider_landing/ico_slider_storia.png');}
+	.layer_storylink .over_link ul li.cls-ico_storia a, .layer_storylink .over_link ul li.cls-ico_storia_blu a {padding-top:50px;}
+	.layer_storylink .over_link ul li.cls-ico_storia_piccola, .layer_storylink .over_link ul li.cls-ico_storia_arancione_piccola {background-image: url('../images_r13/ico_slider_landing/ico_slider_storia_piccola.png');}
+	.layer_storylink .over_link ul li.cls-ico_foto{background-image: url('../images_r13/ico_slider_landing/ico_slider_foto.png');}
+	.layer_storylink .over_link ul li.cls-ico_video{background-image: url('../images_r13/ico_slider_landing/ico_slider_video.png');}
+	.layer_storylink .over_link ul li.cls-ico_video_grande{margin-top:8px; padding-top: 41px;background-image: url('../images_r13/ico_slider_landing/ico_slider_video_grande.png');}
+	.layer_storylink .over_link ul li.cls-ico_video_grande a{padding-left: 18px;padding-right: 18px;}
+	.layer_storylink .over_link ul li.cls-ico_territorio{background-image: url('../images_r13/ico_slider_landing/ico_slider_territorio.png');}
+	.layer_storylink .over_link ul li.cls-ico_file{background-image: url('../images_r13/ico_slider_landing/ico_slider_file.png');}
+	.layer_storylink .over_link ul li.cls-ico_link_est{background-image: url('../images_r13/ico_slider_landing/ico_slider_link.png');}
+	.layer_storylink .over_link ul li.cls-ico_smartphone, .layer_storylink .over_link ul li.cls-ico_smartphone_grigio {background-image: url('../images_r13/ico_slider_landing/ico_slider_smartphone.png'); padding-top: 5%;}
+	.layer_storylink .over_link ul li.cls-ico_slider_video_bianco, .layer_storylink .over_link ul li.cls-ico_slider_video_blu_scuro {margin-top:0px;background-image: url('../images_r13/ico_slider_landing/ico_slider_video_bianco.png');}
+	.layer_storylink .over_link ul li.cls-ico_slider_evento_blu {margin-top:0; background-image:url('../images_r13/ico_slider_landing/ico_slider_evento_bianco.png');}
+	/* slider BE2014 */
+	.layer_storylink .over_link ul li.cls-ico_link_est_blu {background-image: url('../images_r13/ico_slider_landing/ico_slider_link.png');}
+	.layer_storylink .over_link ul li.cls-ico_slider_video_blu {background-image: url('../images_r13/ico_slider_landing/ico_slider_video.png');}
+	.layer_storylink .over_link ul li.cls-ico_slider_territorio_blu {background-image: url('../images_r13/ico_slider_landing/ico_slider_territorio.png');}
+	.layer_storylink .over_link ul li.cls-ico_link_file_blu {background-image: url('../images_r13/ico_slider_landing/ico_slider_file.png'); }
+	/* fine slider BE2014 */
+	/* slider BE2015 */
+	.layer_storylink .over_link ul li.cls-ico_link_est_bianco,
+	.layer_storylink .over_link ul li.cls-ico_link_est_verde {background-image: url('../images_r13/ico_slider_landing/ico_slider_link.png');}
+	.layer_storylink .over_link ul li.cls-ico_slider_video_bianco,
+	.layer_storylink .over_link ul li.cls-ico_slider_video_verde {background-image: url('../images_r13/ico_slider_landing/ico_slider_video.png');}
+	.layer_storylink .over_link ul li.cls-ico_slider_territorio_bianco {background-image: url('../images_r13/ico_slider_landing/ico_slider_territorio.png');}
+	.layer_storylink .over_link ul li.cls-ico_link_file_bianco, .layer_storylink .over_link ul li.cls-ico_link_file_verdescuro, .layer_storylink .over_link ul li.cls-ico_link_file_nero, .layer_storylink .over_link ul li.cls-ico_link_file_bluscuro, .layer_storylink .over_link ul li.cls-ico_link_file_verde, .layer_storylink .over_link ul li.cls-ico_link_file_rosa {background-image: url('../images_r13/ico_slider_landing/ico_slider_file.png'); }
+	 /* fine slider BE2015 */
+
+	.chiudi_storylink{color:white;width:100%;cursor: pointer;height:40px;background-image:url("../images_r13/close.png");background-repeat: no-repeat;background-position: right 10px;}
+	.chiudi_storylink{color:white;width:95%;text-align:right;font-size:0.6em;text-transform: uppercase;cursor: pointer;padding-top:10px;padding-bottom:10px;}
+   
+   .layer_sottosito .row-fluid .span9 {
+	  width: 74.4681%;
+   }
+   .layer_sottosito .row-fluid .span3 {
+	  width: 23.4043%;
+	  margin-left:2.12766%;
+   }
+   /**fine storytelling**/
+	
+	/*SUPERMENU*/
+	#supermenu { display:none; position:fixed; overflow: scroll; top:0; left:0; width:100%;  background: white; z-index:999999;background-color:#575652;color:white }
+	#sm_close { /*text-align: right;*/ width:100%;height:60px;cursor: pointer;}
+	#sm_close,#sm_main,#sm_submain,#sm_buttons,#sm_topmenu { font-size:1.3em; line-height: 1.5em; }
+	#sm_close .ico_chiudi{float:right;width:40px;height:40px;background-image:url("../images_r13/close.png");background-repeat: no-repeat;background-position: top right;}
+	#sm_close .ico_logo{float:left;width:auto;}
+	#sm_close img{padding:0 10px;padding-top:10px}
+	#sm_main{display: block;width:100%;float:left;}
+	#sm_main .navbar-main .nav{background-color:transparent;color:white;}
+	#sm_main .navbar-main .nav > li{float: left;margin:0;padding:0;}
+	#sm_main .navbar-main .nav > li > a{color:white;border:0;padding:10px;margin:0;}
+	#sm_main .navbar-main .nav > li >h1 > a{color:white;border:0;text-decoration: none}
+	#sm_main .navbar-main .nav > li.active {background-color:white;}
+	#sm_main .navbar-main .nav > li.active a {color:#0073b9;padding:10px;margin:0;}
+	#sm_main .navbar-main .nav > li:hover {background-color:white;}
+	#sm_main .navbar-main .nav > li:hover a {color:#0073b9;padding:10px;margin:0;}
+	#sm_main .navbar-main ul li.active.cls-clienti{background-color:#f9ec60 }
+	#sm_main .navbar-main ul li.active.cls-clienti a{color:#474642}
+	#sm_submain {background-color:white;width:100%;float:left;}
+	#sm_submain .titolo_menu{float:left;width:98%;padding:10px 1%;font-size:1.2em;background-color:#e0e0e0}
+	#sm_submain .titolo_menu a{float:left;padding:0 1%;width:98%;background-color:#006ebb;color:white;}
+	#sm_submain .titolo_menu a:hover{text-decoration: none;}
+	#sm_submain .cls-clienti.titolo_menu a{background-color:#474642;color:white;}
+	#sm_submain ul{width:100%;}
+	/*#sm_submain ul li{float:left;width:96%;padding:10px 2%;}*/
+	#sm_submain ul li{float:left;width:100%;padding:0;margin:0;}
+	#sm_submain ul li a{padding:0 10px;}
+	/*#sm_submain ul li a {padding:5px 0}*/
+	#sm_submain ul> li > a{width:89%;padding:10px 9% 10px 2%;}
+	#sm_submain ul li a.toggle{display: none}
+	#sm_submain ul li a img{display: none}
+	#sm_submain ul li:focus{background-color:transparent}
+	#sm_submain ul li a:focus{background-color:transparent}
+	/*#sm_submain ul >li > ul {width:96%;margin-left:2%}*/
+	#sm_submain ul >li > ul {float:left;width:100%;margin-left:0;}
+	#sm_submain ul >li > ul >li >a {width:87%;padding-left:4%}
+	#sm_submain ul >li > ul >li.active >a {text-decoration: underline}
+	#sm_submain ul >li.active ul li a{color: white}
+	#sm_submain li.servizio-inactive{display: none}
+	
+	#sm_submain .titolo_menu.cls-clienti{background-color:#f9ec60}
+	#sm_submain ul.cls-clienti {background-color:#f9ec60;float:left;}
+	#sm_submain ul.cls-clienti li a{color: #474642;}
+	/*#sm_submain ul.cls-clienti li.active a{border:2px solid #474642}*/
+	#sm_submain .nav.nav-list.cls-clienti > li.active{background-color: #f9ec60}
+	
+	#sm_submain .nav.nav-list.cls-clienti > li.active a{color:#474642}
+	#sm_submain .nav.nav-list.cls-clienti > li.active.cls-tlr a,
+	#sm_submain .nav.nav-list.cls-clienti > li.active.cls-gas a,
+	#sm_submain .nav.nav-list.cls-clienti > li.active.cls-acqua a,
+	#sm_submain .nav.nav-list.cls-clienti > li.active.cls-ambiente a{color:#fff}
+	#sm_submain .nav.nav-list.cls-clienti-aperto > li.active a{color:#fff}
+	#sm_submain .sm_selected{background-image:url('/images_r13/ico_vai.png');background-position:right center;background-repeat: no-repeat}
+	body.jq_lang_en #sm_submain .sm_selected{background-image:url('/images_r13/ico_vai_eng.png');background-position:right center;background-repeat: no-repeat}
+	
+	#sm_buttons{float:left;width:100%}
+	#sm_buttons ul li {float:left;width:100%;}
+	#sm_buttons ul li a{color:white;text-transform: uppercase;padding:10px;}
+	#sm_buttons ul.nav > li{background-color:#19a786}
+	#sm_buttons ul.nav > li.primo{background-color:#e0168c}
+	
+	#sm_buttons ul.nav > li a.sm_selected{color:#19a786;background-color:#e0e0e0}
+	#sm_buttons ul.nav > li.primo a.sm_selected{color:#e0168c;}
+	#sm_buttons ul li:focus{background-color:transparent}
+	#sm_buttons ul li a:focus{background-color:transparent}
+	#sm_buttons ul.nav > li a img{display: none}
+	#sm_topmenu{float:left;width:100%}
+	#sm_topmenu ul li{float: left;width: 100%;margin:0;padding-left:0}
+	#sm_topmenu ul li a{color:white;text-transform: uppercase;}
+	#sm_topmenu ul> li > a{width:96%;padding:10px 2%;}
+	#sm_topmenu ul li:focus{background-color:transparent}
+	#sm_topmenu ul li a:focus{background-color:transparent}
+	#sm_topmenu ul >li >ul{display: none}
+	
+	#sm_topmenu ul >li.active >ul{display: block}
+	#sm_topmenu .nav > li.active{background-color: #006ebb;/*border-bottom: 2px solid #fff;border-top: 2px solid #fff;*/}
+	#sm_topmenu .nav li.active > a{/*background-color:#e0e0e0;color:#0073b9*/}
+	#sm_topmenu ul >li > ul >li >a {width:94%;padding-left:4%;text-transform: none}
+	
+	#sm_main .navbar-main .nav > li > a.sm_selected { background:white;color:#0073b9 }
+	#sm_main .navbar-main .nav > li.cls-clienti > a.sm_selected { background-color:transparent;color:#474642 }
+	
+	#sm_topmenu ul li a.sm_selected { background-color:#e0e0e0;color:#0073b9 }
+	#sm_submain ul li a.sm_selected { background-color:#e0e0e0;  }
+	#sm_submain ul li.active a.sm_selected { background-color:#e0e0e0;color:#006ebb; }
+	
+	/*colori*/
+	#sm_submain .nav.nav-list > li.active{background-color:#006ebb;border-top:2px solid #006ebb;border-bottom:2px solid #006ebb}
+	/*.cls-responsabilita_sociale #sm_submain .nav.nav-list > li.active{background-color:#5a9513;border-top:2px solid #5a9513;border-bottom:2px solid #5a9513}*/
+	#sm_submain .nav.nav-list.cls-responsabilita_sociale > li.active{background-color:#5a9513;border-top:2px solid #5a9513;border-bottom:2px solid #5a9513}
+	#sm_submain ul li.cls-responsabilita_sociale.active a.sm_selected { color:#5a9513; }
+	#sm_submain .titolo_menu.cls-responsabilita_sociale a{background-color:#5a9513;}
+	/*.cls-lavorare_gruppo #sm_submain .nav.nav-list > li.active{background-color:#f47b23;border-top:2px solid #f47b23;border-bottom:2px solid #f47b23}*/
+	#sm_submain .nav.nav-list.cls-lavorare_gruppo > li.active{background-color:#f47b23;border-top:2px solid #f47b23;border-bottom:2px solid #f47b23}
+	#sm_submain ul li.cls-lavorare_gruppo.active a.sm_selected { color:#f47b23; }
+	#sm_submain .titolo_menu.cls-lavorare_gruppo a{background-color:#f47b23;}
+	/*.cls-serv_acqua #sm_submain .nav.nav-list > li.active{background-color:#0090D1;border-top:2px solid #0090D1;border-bottom:2px solid #0090D1}*/
+	#sm_submain .nav.nav-list.cls-serv_acqua > li.active{background-color:#0090D1;border-top:2px solid #0090D1;border-bottom:2px solid #0090D1}
+	#sm_submain ul li.cls-serv_acqua.active a.sm_selected { color:#0090D1; }
+	#sm_submain .titolo_menu.cls-serv_acqua a{background-color:#0090D1;}
+	/*.cls-serv_ambiente #sm_submain .nav.nav-list > li.active{background-color:#00A887;border-top:2px solid #00A887;border-bottom:2px solid #00A887}*/
+	#sm_submain .nav.nav-list.cls-serv_ambiente > li.active{background-color:#00A887;border-top:2px solid #00A887;border-bottom:2px solid #00A887}
+	#sm_submain ul li.cls-serv_ambiente.active a.sm_selected { color:#00A887; }
+	#sm_submain .titolo_menu.cls-serv_ambiente a{background-color:#00A887;}
+	/*.cls-serv_energia #sm_submain .nav.nav-list > li.active{background-color:#E50F9F;border-top:2px solid #E50F9F;border-bottom:2px solid #E50F9F}*/
+	#sm_submain .nav.nav-list.cls-serv_energia > li.active{background-color:#E50F9F;border-top:2px solid #E50F9F;border-bottom:2px solid #E50F9F}
+	#sm_submain ul li.cls-serv_energia.active a.sm_selected { color:#E50F9F; }
+	#sm_submain .titolo_menu.cls-serv_energia a{background-color:#E50F9F;}
+	
+	#sm_submain .nav.nav-list > li.active{background-color:#006ebb;border-top:2px solid #006ebb;border-bottom:2px solid #006ebb}
+	#sm_submain .nav.nav-list > li.cls-responsabilita_sociale.active{background-color:#5a9513;border-top:2px solid #5a9513;border-bottom:2px solid #5a9513}
+	#sm_submain .nav.nav-list > li.cls-lavorare_gruppo.active{background-color:#f47b23;border-top:2px solid #f47b23;border-bottom:2px solid #f47b23}
+	#sm_submain .nav.nav-list > li.cls-serv_acqua.active{background-color:#0090D1;border-top:2px solid #0090D1;border-bottom:2px solid #0090D1}
+	#sm_submain .nav.nav-list > li.cls-serv_ambiente.active{background-color:#00A887;border-top:2px solid #00A887;border-bottom:2px solid #00A887}
+	#sm_submain .nav.nav-list > li.cls-serv_energia.active{background-color:#E50F9F;border-top:2px solid #E50F9F;border-bottom:2px solid #E50F9F}
+	/*supermenu clienti*/
+	#sm_submain .nav.nav-list.cls-clienti > li.active{border-top:2px solid #474642;border-bottom: 2px solid #474642}
+	/*ambiente*/
+	#sm_submain .nav.nav-list.cls-ambiente > li.active{background-color:#00a786;border-top:2px solid #00a786;border-bottom:2px solid #00a786}
+	#sm_submain .nav.nav-list.cls-clienti li.cls-ambiente.active a.sm_selected { color:#00a786; }
+	/*acqua*/
+	#sm_submain .nav.nav-list.cls-acqua > li.active{background-color:#0090d1;border-top:2px solid #0090d1;border-bottom:2px solid #0090d1}
+	#sm_submain .nav.nav-list.cls-clienti li.cls-acqua.active a.sm_selected { color:#0090d1; }
+	/*gas*/
+	#sm_submain .nav.nav-list.cls-gas > li.active{background-color:#de188c;border-top:2px solid #de188c;border-bottom:2px solid #de188c}
+	#sm_submain .nav.nav-list.cls-clienti li.cls-gas.active a.sm_selected { color:#de188c; }
+	/*TLR*/
+	#sm_submain .nav.nav-list.cls-tlr > li.active{background-color:#de188c;border-top:2px solid #de188c;border-bottom:2px solid #de188c}
+	#sm_submain .nav.nav-list.cls-clienti li.cls-tlr.active a.sm_selected { color:#de188c; }
+	/*energia*/
+	#sm_submain .nav.nav-list.cls-energia > li.active{background-color:#fdc600;border-top:2px solid #fdc600;border-bottom:2px solid #fdc600}
+	#sm_submain .nav.nav-list > li.cls-energia.active a{color:#474642}
+	#sm_submain .nav.nav-list.cls-clienti li.cls-energia.active a.sm_selected { color:#474642; }
+	
+	#sm_submain .nav.nav-list > li.cls-ambiente.active{background-color:#00a786;border-top:2px solid #00a786;border-bottom:2px solid #00a786}
+	#sm_submain .nav.nav-list > li.cls-acqua.active{background-color:#0090d1;border-top:2px solid #0090d1;border-bottom:2px solid #0090d1}
+	#sm_submain .nav.nav-list > li.cls-gas.active{background-color:#de188c;border-top:2px solid #de188c;border-bottom:2px solid #de188c}
+	#sm_submain .nav.nav-list > li.cls-tlr.active{background-color:#de188c;border-top:2px solid #de188c;border-bottom:2px solid #de188c}
+	#sm_submain .nav.nav-list > li.cls-energia.active{background-color:#fdc600;border-top:2px solid #fdc600;border-bottom:2px solid #fdc600}
+	
+	#sm_comune{float:left;width:100%;background-color:#f9ec60;}
+	#sm_comune .tipo_utente_cambio{width:100%;padding:10px 0;border-bottom:2px solid #575652}
+	#sm_comune .tipo_utente_cambio .etichetta_comune{float:left;width:90%;padding:0px 3% 2%;color: #474642}
+	#sm_comune .tipo_utente_cambio form{float:left;width:96%;padding:0 2%;}
+	#sm_comune .tipo_utente_cambio #clienti_comune{padding:10px;width:60%}
+	.box_elenco_servizi .cerca_comune #clienti_comune{line-height: 1em;;padding-top:1px;padding-bottom:1px;font-size:1.2em}
+	#sm_comune .tipo_utente_cambio #submit{background-color:#fffac2;color:#474642;padding:14px;width:30%;text-align:center}
+	.ui-menu .ui-menu-item a{padding:10px;font-size:1.4em}
+	.slides-container li .over.cls-slider_1h2015 .over_titolo, .slides-container li .over.cls-slider_traccerifiuti .over_titolo, .slides-container li .over.cls-slider_hergoambiente .over_titolo {line-height:1em}
+	.slides-container li .over.cls-slider_1h2015 .over_sottotitolo, .slides-container li .over.cls-slider_bs2015 .over_sottotitolo {color: #005d9a}
+}
+@media (max-width: 768px){
+	/* slider "Festival Filosofia" */
+	.slides-container li .over.cls-slider_festival_filosofia .over_titolo div.info {font-size:0.7em;}
+	.slides-container li .over.cls-slider_festival_filosofia .over_titolo div.titolo {font-size:1.4em; line-height:1.3em;}
+	
+	/* slider "Hera si illumina di meno" */
+	.slides-container li .over.cls-slider_illuminodimeno .over_titolo {font-size:2.8em !important;}
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo { margin-top:8%; font-size:2.8em !important; }
+	
+	/* slider "HeraSolidale - Insieme diamo una mano a chi ne ha bisogno" */
+	.slides-container li .over.cls-slider_hs2019 .over_titolo {width:60%; font-size:2.6em !important;}
+	
+	/* slider HeraLAB 2018 */
+	.slides-container li .over.cls-slider_heralab2018 .over_titolo {font-size:3.2em !important; margin-left:4%;}
+	.slides-container li .over.cls-slider_heralab2018 .over_sottotitolo {font-size:1.5em; margin-left:4%; margin-top:10px;}
+	
+	/* slider del convegno del BS2017 */
+	.slides-container li .over.cls-slider_convegno_bs17 .over_titolo {font-size:2.9em !important;}
+	.slides-container li .over.cls-slider_convegno_bs17 .over_sottotitolo {font-size:1.5em !important;}
+	
+	/* slider "Scopri il valore dell'acqua di casa tua" */
+	.slides-container li .over.cls-slider_scopri_valore_acqua .over_titolo {font-size:2.5em !important; /* font-size:2.9em; */}
+	.slides-container li .over.cls-slider_scopri_valore_acqua .over_sottotitolo {font-size:1.5em;}	
+	
+	/* slider BE2017 */
+	.slides-container li .over.cls-slider_be2017 .over_titolo {font-size:3.2em !important;}
+	.slides-container li .over.cls-slider_be2017 .over_sottotitolo {font-size:1.5em; margin-left:5%;}
+
+	/* slider BE2018 */
+	.slides-container li .over.cls-slider_be2018_novideo .over_titolo { font-size:2.8em !important; }
+	.slides-container li .over.cls-slider_be2018_novideo .over_sottotitolo { font-size:2.0em; margin-left:5%; margin-top:4%; }
+	.slides-container li .over.cls-slider_be2018 .over_titolo { font-size:3.2em !important; }
+	.slides-container li .over.cls-slider_be2018 .over_sottotitolo { font-size:1.5em; margin-left:5%; }
+	
+	/* slider convegno 4 giugno 2018 */
+	.slides-container li .over.cls-slider_4giugno2018 .over_titolo {font-size:3.2em !important;}
+	.slides-container li .over.cls-slider_4giugno2018 .over_sottotitolo {font-size:1.5em; margin-left:5%;}
+	
+	/* slider "SCART" */
+	.slides-container li .over.cls-slider_scart .over_titolo {font-size:3em !important;}
+	.slides-container li .over.cls-slider_scart .over_sottotitolo {font-size:1.5em !important;}
+	
+	/* slider "Dove ci sono loro, c'� il nostro futuro" */
+	.slides-container li .over.cls-slider_nostro_futuro .over_titolo {font-size:1.3em !important;}
+	.slides-container li .over.cls-slider_nostro_futuro .over_sottotitolo {font-size:1.3em !important;}
+	
+	/* slider Digi e Lode */
+	.slides-container li .over.cls-slider_digielode .over_titolo {font-size:2.3em !important;}
+	
+	/* slider Insieme verso l'economia circolare */
+	.slides-container li .over.cls-slider_economiacircolare .over_titolo {font-size:1.7em !important;}
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:15%; font-size:2.0em; line-height:1.2em; }
+	.slides-container li .over.cls-slider_campagna_biometano .over_sottotitolo { margin-left:15%; margin-top:40px; }
+	
+	/* VedoHera Restyle 2017 */
+	.vedohera_img_editoriale_max767 {display:block !important;}
+	.vedohera_img_editoriale_min768 {display:none !important;}
+	.vedohera_tit_newsletter {margin-bottom:6px;}
+	.box_titolo.vedohera_box_titolo span {padding:6px 0;}
+
+	/* TARI */
+	.tari_box_li { width: 100% !important; margin: 0 1% 0 1%; font-size: 1.2em; }
+
+	/* slider GMM */
+	.slides-container li .over.cls-slider_gmm .over_sottotitolo {font-size:0.95em;}
+	
+   /* Area video */
+	div.video_r15 li.li_link.span4.riga_divisoria {border-left:none; padding-left:25px; background-position:0 6px;}
+	.video_r15 object, .video_presentazione_gruppo object {height:370px;}
+	/*********storytelling*/
+   .slides-container li .over .over_titolo{cursor: pointer;width:74%;margin-left:15%;}
+  	div.link_cornice_js.over.cls-slider_auguri2016.cls-sfondo_auguri2016 > div.over_titolo{cursor: pointer;width:74%;margin-left:10%;}
+   
+   .slides-container li .over.cls-slider_be2015 .over_titolo, .slides-container li .over.cls-slider_bs2015 .over_titolo { width:74%; }
+	.slides-container li .over .over_sottotitolo{font-size:0.8em;margin-top:5px;width:74%;/*margin-left:15%;*/}
+	div.link_cornice_js.over.cls-slider_ecomondo.cls-sfondo_ecomondo > div.over_sottotitolo {font-size:0.8em;margin-top:5px;width:74%;margin-left:15%;}
+   .box_slider_home img.main{max-width: 100%}
+   .slides-navigation a{height:46px;width:46px;background-color:#474642;background-position: left center;}
+   .slides-navigation a.next,.jq_lang_en .slides-navigation a.next{background-image:url('/images_r13/next_slide_home_small.png');background-position: 10px center;}
+   .slides-navigation a.prev,.jq_lang_en .slides-navigation a.prev{background-image:url('/images_r13/prev_slide_home_small.png');background-position: 10px center;}
+   .slides-navigation a span{display: none}
+   .anteprima{height: 46px;}
+   .anteprima .titolo{display: none}
+   .layer_storylink{background-color:#666;position:absolute;width:100px;/*height:100px;*/display:none;z-index: 9;padding-bottom:30px;}
+   .layer_storylink .over_link ul {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+   }
+   .layer_storylink .over_link ul li {
+		background-position: center top;
+		background-repeat: no-repeat;
+		display: block;
+		float: left;
+		margin:5px 0;
+		
+		position: static;
+		width: 100%;
+   }
+   .layer_storylink .over_link ul li a {
+		color: #fff;
+		font-size: 0.6em;
+		float:left;
+		width:100%;
+		text-align:center;
+		margin:0;
+		padding:0;
+		padding-top:30px;
+		text-transform: uppercase;
+   }
+   
+   .layer_storylink .over_link ul li.cls-ico_storia{margin-top:0px;background-image: url('../images_r13/ico_slider_landing/ico_slider_storia.png');}
+   .layer_storylink .over_link ul li.cls-ico_storia_rosa{margin-top:0px;background-image: url('../images_r13/ico_slider_landing/ico_slider_storia.png');}
+   .layer_storylink .over_link ul li.cls-ico_storia a{padding-top:50px;}
+   .layer_storylink .over_link ul li.cls-ico_storia_rosa a{padding-top:50px;}
+   .layer_storylink .over_link ul li.cls-ico_storia_piccola{background-image: url('../images_r13/ico_slider_landing/ico_slider_storia_piccola.png');}
+   .layer_storylink .over_link ul li.cls-ico_foto{background-image: url('../images_r13/ico_slider_landing/ico_slider_foto.png');}
+   .layer_storylink .over_link ul li.cls-ico_video{background-image: url('../images_r13/ico_slider_landing/ico_slider_video.png');}
+   .layer_storylink .over_link ul li.cls-ico_video_grande{margin-top:8px; padding-top: 41px;background-image: url('../images_r13/ico_slider_landing/ico_slider_video_grande.png');}
+   .layer_storylink .over_link ul li.cls-ico_video_grande a{padding-left: 18px;padding-right: 18px;}
+   .layer_storylink .over_link ul li.cls-ico_territorio{background-image: url('../images_r13/ico_slider_landing/ico_slider_territorio.png');}
+   .layer_storylink .over_link ul li.cls-ico_file{background-image: url('../images_r13/ico_slider_landing/ico_slider_file.png');}
+   .layer_storylink .over_link ul li.cls-ico_file_grigio{background-image: url('../images_r13/ico_slider_landing/ico_slider_file.png');} /* icona responsive slide SOStegno */
+   .layer_storylink .over_link ul li.cls-ico_link_est{background-image: url('../images_r13/ico_slider_landing/ico_slider_link.png');}
+	.layer_storylink .over_link ul li.cls-ico_audio{background-image: url('../images_r13/ico_slider_landing/ico_slider_audio.png');}
+
+   .chiudi_storylink{color:white;width:95%;text-align:right;font-size:0.6em;text-transform: uppercase;cursor: pointer;padding-top:10px;padding-bottom:10px;}
+   
+   .layer_sottosito .row-fluid .span9 {
+	  width: 74.4681%;
+   }
+   .layer_sottosito .row-fluid .span3 {
+	  width: 23.4043%;
+	  margin-left:2.12766%;
+   }
+   /**fine storytelling**/
+	.sparatore_righe_4col{margin:4% 0;}
+   #riga_2cols_SB > .span3 > div{float:left;width:37%;margin-left:0;margin-right:0;}
+   /*#riga_2cols_SB > .span3 > div:nth-child(odd){margin-left:0;}*/
+   #riga_2cols_SB.row-fluid{width:98%;margin-left:1%;}
+   #riga_2cols_SB > .span9 > .span4{width:37%;margin-left:0;margin-right:0;}
+   #riga_2cols_SB > .span9 > .span4:nth-child(even){margin-left:0;margin-right:0;}
+   /*#riga_2cols_SB > .span9 > .span8 > .row-fluid.titolo_e_sottotitolo{float:left;width:37%;margin-left:2%;}*/
+	#riga_2cols_SB > .span9 > .span8 > .row-fluid.titolo_e_sottotitolo{float:none;width:99%;}
+   #riga_2cols_SB > .span9 > .span8 > .row-fluid.immagine_full{float:left;width:60%;margin:0 10px 10px 0}
+   /*#riga_2cols_SB > .span9 > .span4:nth-child(even){clear: both;margin-left:0;}
+   */
+   #riga_2cols_SB > .span9 > .nomargin{clear: none;}
+   #riga_4cols.row-fluid{width:98%;margin-left:1%;}
+   #riga_4cols > .span3{width:37%;margin-left:0;margin-right:0;}
+   #riga_4cols > .span3:nth-child(odd){margin-left:0;clear: both}
+   #riga_4cols .boxHeightSmall{height:auto;}
+	#riga_3cols_SSB .boxHeightSmall_rd{height:auto;} 
+    
+   #riga_3cols_BSS.row-fluid{width:98%;margin-left:1%;}
+   #riga_3cols_BSS > .span6{width:100%;margin-left:0;}
+   #riga_3cols_BSS > .span3{width:37%;margin-left:0;margin-right:0;}
+   #riga_3cols_BSS > .span3:nth-child(even){margin-left:0%;clear: both}
+   #riga_3cols_SBS.row-fluid{width:98%;margin-left:1%;}
+   #riga_3cols_SBS > .span3 > div{width:37%;margin-left:0;margin-right:0;float: left}
+   #riga_3cols_SBS > .span3 > div:nth-child(odd){margin-left:0;clear: both;}
+   #riga_3cols_SBS > .span6 > .span6{width:37%;margin-left:0;margin-right:0;}
+   #riga_3cols_SBS > .span6 > .span6:nth-child(odd){margin-left:0;clear: both}
+   /*#riga_3cols_SBS > .span6 > .span12 > .row-fluid.titolo_e_sottotitolo{float:left;width:37%;margin-left:2%;}*/
+	#riga_3cols_SBS > .span6 > .span12 > .row-fluid.titolo_e_sottotitolo{float:none;width:99%;}
+   #riga_3cols_SBS > .span6 > .span12 > .row-fluid.immagine_full{float:left;width:60%;margin:0 10px 10px 0}
+   #riga_content_standard.row-fluid{width:98%;margin-left:1%;}
+   #riga_multimedia{background-image:none;background-color:#e4e6e5}
+   #riga_multimedia.row-fluid .box_canale_youtube_gruppohera{width:100%;margin:0;}
+   #riga_multimedia .titolo_canale_youtube_pad{margin:0 auto;width:93%}
+   #riga_multimedia .titolo_canale_youtube_pad .row-fluid .span8{width:51%}
+   #riga_multimedia .titolo_canale_youtube_pad .row-fluid .span4{width:25%;margin-left:11%;}
+   #riga_multimedia > div > div{margin-left:0;margin-right:0;width:100%;}
+   .riga_assistenza_clienti_casa .span3{width:97%}
+   .boxHeightHead{height:auto}
+   .boxGiallo.servizioClienti{background-image:none;}
+   .riga_assistenza_clienti_casa .span3:last-child{width:100%}
+   .riga_assistenza_clienti_casa .box_area_riservata_clienti .area_riservata{width:15%;float:left;line-height: 16px}
+   .riga_assistenza_clienti_casa .boxGiallo div.titolo_top{padding:1% 0;}
+   .riga_assistenza_clienti_casa .box_area_riservata_clienti .boxArea{width:20%;margin-left:3%;background-image:none;}
+   .boxGrigioHeader .boxArea{margin-top:1%;}
+   
+   /*#riga_2cols_SB_clienti{background-color: transparent}*/
+	#riga_2cols_SB_clienti{padding:15px 1%;width:98%}
+   #riga_2cols_SB_clienti > .span9 .span4{width:32%;margin-left:2%;}
+	#riga_2cols_SB_clienti > .span9 .span4:first-child{margin-left:0}
+   #riga_2cols_SB_clienti.sparatore_righe_4col{margin-bottom:0;}
+   .cls-clienti-aperto .navbar-lev3 .clearmenu{display: none}
+   .colonna3 .titolo_ed_evidenza_pad{margin:0 auto;width:93%;}
+	.titolo_ed_evidenza_pad .span2 { width:20%}
+   .archivio_immagini_new .titolo_aprichiudi a{width:88%}
+	
+	.footer .hera_ondemand .box_titolo{padding-left:1%;padding-top:2%}
+	.footer .hera_ondemand ul li{margin: 0 1%;}
+	.footer .hera_ondemand ul li img{display: none}
+   /* -----------------BOX----------------------- */
+   .row-fluid.titolo_ed_evidenza_margin{float:left;width:45%;margin-left:5%;}
+	.span6.titolo_ed_evidenza_margin{float:left;width:45%;margin-left:5%;}
+	.titolo_ed_evidenza_pad .above_footer_title{width:80%}
+	.titolo_ed_evidenza_pad .titolo_seguici{width:20%}
+	
+	.box_instagram >.above_footer_title{width:60%}
+	.box_instagram >.titolo_instagram{width:30%}
+	.box_instagram >.span2{width:10%}
+	.box_instagram >.row-fluid >.span6{width:20%;margin-left:1%}
+	.box_instagram >.row-fluid >.span6.nomargin{clear:none}
+	.box_instagram .span6 .maschera_instagram	{margin:0;}
+	#riga_2cols_SB .row-fluid.titolo_ed_evidenza_margin{width:90%}
+	#riga_2cols_BS .row-fluid.titolo_ed_evidenza_margin{width:90%}
+	#riga_3cols_SBS .row-fluid.titolo_ed_evidenza_margin{width:90%}
+	#riga_3cols_BSS .row-fluid.titolo_ed_evidenza_margin{width:90%}
+	.titolo_ed_evidenza_pad .titolo_ed_evidenza_margin:first-child{margin-left:0;}
+	.box_seguici_su{margin-bottom:15px}
+   .box_seguici_su .span12 .span2{float:left;width:10%;/*margin-left:12%;*/}
+   .box_seguici_su .span12 .span2:first-child { float:left; /*width:10%;*/ margin:0; }
+	
+   .box_menu_laterale .nav li a{width:60%}
+   .span6 > div > .box_lista_archivio .first_big .span12:first-child{width:60%;}
+   .span6 > div >.box_lista_archivio .first_big .span12.link_freccia{width:36%;margin-left:4%}
+   
+   .span9 > div .box_lista_archivio .first_big .span12:first-child{width:60%;}
+   .span9 > div .box_lista_archivio .first_big .span12.link_freccia{width:36%;margin-left:4%}
+   .box_lista_allegati{float:left;width:90%}
+   .video_r15 .box_lista_allegati {
+	   width: auto;
+   }
+   .span9 > div.span4 .box_lista_archivio .first_big .span12:first-child{width:100%;}
+   .span9 > div.span4 .box_lista_archivio .first_big .span12.link_freccia{width:100%;margin-left:0}
+   
+	.box_archivio_orizzontale .box_lista_archivio .span4{width:31%;margin-left:2.12766%}
+	.box_archivio_orizzontale .box_lista_archivio .span4:first-child{margin-left:0;}
+	
+   .box_archivio_orizzontale > .box_lista_archivio > .span3{width:22%;margin-left:2%}
+   .spazio_rigosopra{padding:0;}
+   .box_lista_archivio li .span3{width:24%}
+   .box_lista_archivio li .span9{width:74%;margin-left:2%;}
+   .elenco_img .span5{width:40%}
+   .elenco_img .span7{width:57%;margin-left:3%}
+   .sparatore_righe_4col div > .sparatore_righe_4col:first-child{margin-top:4%;margin-bottom:4%}
+   .row-fluid .menuelenco_servizi{display: none}
+   .row-fluid .menuelenco_servizi ul{width:90%;margin-left:5%;}
+   .row-fluid div.servizi{width:90%;height:14px;margin:1% 5%;}
+   .row-fluid div.servizi a{padding-top:6px;padding-bottom:6px;padding-left:50px;width:auto;text-align: left;font-size:1.2em}
+   
+   .row-fluid .box_layout.box_breadcrumbs{margin-left:0;}
+   .box_elenco_servizi.cls-clienti .navbar .nav li{width:42%}
+   .business_servizi div.servizi a{padding:0;}
+   .business_servizi div.servizi a img{margin-right: 8px;padding-left:10px;padding-bottom: 0;padding-right: 0;padding-top: 5px;width: 25px;}
+   /*.row-fluid .box_layout:first-child{margin:1%;width:98%;}*/
+   /*.box_layout{margin:1% 0;width:98%}*/
+   #riga_4cols .box_layout{margin-left:0;margin-right: 0}
+   #riga_4cols .box_box_rifiutologo{height:240px}
+   .anteprima .titolo{font-size:1.2em;margin-left:8px;}
+   
+   /*.slides-container li .over .over_link{position:absolute;top: 0;}*/
+   .box_eventi_calendario .span2.data_calendario_eventi{width:16%}
+   .box_eventi_calendario .span10{width:80%;margin-left:3%}
+   .box_lista_allegati_bianco .box_lista_allegati{float:left;width:100%}
+   #riga_content_standard > .span3{display: none}
+   #riga_content_standard .box_lista_allegati_bianco .box_lista_allegati li{float:left;border:0;}
+   .slide2 >ul >li>.span8{width:65%}
+   .slide2 >ul >li>.span3{width:31%;margin-left:2%}
+   .slider_nuovo_clienti .slide2 ul li .imghover {font-size:0.6em}
+   .above_footer_title a{margin-right:5%}
+   
+   .box_contatti .indirizzo{padding-left:10%;width:90%}
+   .box_vedohera_header{background-image:url('/images_r13/header_vedohera_responsive.jpg');background-repeat: repeat-x;}
+	.box_vedohera_header > .span8{float:left;width:70%}
+   .box_vedohera_header > .span2{float:right;width:30%}
+   .box_vedohera_home{margin:1%}
+   
+   .row-fluid .box_slider_home_gruppo {display: none}
+	.slide2 ul li .imghover .img_slide img{display: none}
+   .slide2 ul li .imghover .links_slide{display: none}
+   #riga_2cols_SB.row-fluid > div >.box_eventi_calendario.calendario_landing{width:100%;}
+	.box_eventi_calendario.calendario_landing .box_lista_archivio{width:100%;float:left;}
+	.box_eventi_calendario.calendario_landing .box_lista_archivio li {width:48%;float:left;}
+	.box_eventi_calendario.calendario_landing .box_lista_archivio li.first_big {margin-right:2%}
+	.box_eventi_calendario.calendario_landing .img_banner_calendario{margin:0 auto; width:49%}
+	body.cls-clienti .img_banner_calendario{width:49%;margin: 0 auto;}
+   
+   .box_menu_laterale{display: none}
+	
+	.slides-container li .over .over_titolo{font-size:1.8em !important;line-height: 1.2em !important;}
+	div.link_cornice_js.over.cls-slider_traccerifiuti.cls-sfondo_traccerifiuti > div.over_titolo {font-size:1.2em !important; line-height: 1.2em !important;} /*testo slide tracce rifiuti*/
+	div.link_cornice_js.over.cls-slider_ecomondo.cls-sfondo_ecomondo > div.over_titolo {line-height:1.5em !important;} /*testo slide ecomondo - line-height*/
+   	div.link_cornice_js.over.cls-slider_ecomondo.cls-sfondo_ecomondo > div.over_titolo > span {font-size:0.55em !important;} /*testo slide ecomondo - font-size */
+   	div.link_cornice_js.over.cls-slider_report.cls-slider_report > div.over_titolo {font-size:1.2em !important;line-height: 1.2em !important;} /*testo slide 4 report*/
+   	div.link_cornice_js.over.cls-slider_csr.cls-sfondo_csr.cls-sfondo_valore > div.over_titolo > span {font-size:0.7em !important;line-height: 1.2em !important;} /*testo slide valore energia*/
+	
+	.ricerca_gruppo .input_ricerca{width: 75%}
+	.box_lista_archivio li img{border:0;}
+	
+   /*CLIENTI*/
+   .menu_fixed .logo img{height:37px;}
+	/*HEADER ACEGAS*/
+	.menu_fixed .logo.logo_acegas{width:38%;background-color: #fff;padding-top: 3px;padding-bottom:3px;}
+	.menu_fixed .logo.logo_acegas img{height:auto;width:96%}
+	/*FINE HEADER ACEGES*/
+	.cls-clienti .menu_fixed .logo{background-position: center right;}
+   .navbar-lev2 .nav > li.servizio-inactive span{padding:8px 40px;}
+   .navbar-lev2 .nav > li{width:100%;margin:10px 0;height:40px;}
+   .navbar-lev2 .nav > li a{float:left;padding:8px 0;text-align: left;width:90%;padding-left:10%}
+   body.cls-clienti-aperto .navbar-lev2 .nav > li > a{padding-left:39px;padding-right:10px;}
+   body.cls-clienti  .menu_fixed .navbar-lev2 .nav > li > a{padding-left:39px;padding-right:10px;}
+   /*.cls-clienti .menu_fixed	.logo{display: none}*/
+   /*.cls-clienti .menu_fixed .navbar{width:100px;display: block}*/
+   .cls-clienti .menu_fixed .area_ricerca{display: block;width:14%}
+   .menu_fixed .area_comune{width:150px;clear:none}
+   .box_login_utente_comune .intestazione .spiegazione{width:100%}
+	.box_login_utente_comune .span2{width:50%;text-align:center}
+	.box_login_utente_comune .scelta .boxgrigio{padding:1% 0}
+	.box_login_utente_comune .scelta .casa form{margin-top:3%}
+	.box_login_utente_comune .scelta div.tipo.primo{text-align:center}
+	.box_login_utente_comune .scelta div.tipo.secondo{text-align: center}
+	.box_login_utente_comune .scelta .boxgrigio label{width:90%;margin:0 5%;text-align: center}
+	.box_login_utente_comune .scelta .casa input.clienti_comune{width:90%;margin:0 5%;padding:0;background-image: none}
+	.box_login_utente_comune .scelta .business span{margin-top:3%;margin-bottom:3%}
+	.box_login_utente_comune .scelta .business div.servizi{height:auto;}
+	.box_login_utente_comune .scelta .business div.servizi img{display: none}
+	.box_login_utente_comune .scelta .business div.servizi a{padding-left:3%}
+   .menu_servizi{display: none}
+   .area_ricerca{width:14%;clear: none}
+   .cls-clienti .navbar .nav{width:100px}
+   .cls-clienti .navbar .nav li{width:30px;height:25px;overflow: hidden}
+	.area_ricerca .input_ricerca
+	{
+	display: none;
+	height: 46px;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	top: 47px;
+	width: 98%;
+	padding-left:1%;
+	padding-right:1%;
+	z-index: 10;
+	}
+   .menu_fixed .area_ricerca .input_ricerca{width: 100%}
+   .navbar-lev3{display: none}
+   .apri_menu_clienti{text-align: center;color:white;cursor: pointer;height:40px}
+   
+   .menu_clienti_hover{position:absolute;width:100%;z-index: 3}
+   body .menu_clienti_hover .navbar-lev3 .nav-orizz{background-image:none;padding:0;margin:0;width:100%}
+   .menu_clienti_hover .navbar-lev3 .nav-orizz li{width:96%;;margin-right:1%;margin-left:1%}
+   body.cls-ambiente .apri_menu_clienti,body.cls-ambiente .menu_clienti_hover  {background-color: #00a786}
+   body.cls-acqua .apri_menu_clienti,body.cls-acqua .menu_clienti_hover {background-color: #0090d1}
+   body.cls-gas .apri_menu_clienti,body.cls-gas .menu_clienti_hover {background-color: #de188c}
+   body.cls-tlr .apri_menu_clienti,body.cls-tlr .menu_clienti_hover {background-color: #de188c}
+   body.cls-energia .apri_menu_clienti,body.cls-energia .menu_clienti_hover {background-color: #fdc600}
+   /*BUSINESS*/
+   .cls-business .navbar-lev2 .titolo_nav_aperto_business{display: none}
+   .cls-business .navbar-lev2 .nav{width:100%}
+   .cls-business .navbar-lev2 .nav li a img{width:40px;margin-right:10px;}
+   .cls-business-aperto .navbar-lev2 .nav li{overflow: hidden;width:50px;height:50px}
+
+	.slides-container li .over.cls-slider_1h2015 .over_titolo, .slides-container li .over.cls-slider_traccerifiuti .over_titolo, .slides-container li .over.cls-slider_hergoambiente .over_titolo {font-size:1.5em}
+	.slides-container li .over.cls-slider_be2015 .over_titolo, .slides-container li .over.cls-slider_traccerifiuti .over_titolo, .slides-container li .over.cls-slider_hergoambiente .over_titolo, .slides-container li .over.cls-slider_bs2015 .over_titolo {font-size:1.5em}
+
+	
+	
+}
+@media (max-width: 650px){
+	.video_r15 .form_cerca_form input.form_cerca_bottone {
+		margin-left: 0;
+	}
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_sottotitolo { margin-top:30px; }
+}
+@media (max-width: 640px) {
+	/* slider "Gasometro M.A.N. n. 3 (Carlo Valsecchi)" */
+	.slides-container li .over.cls-slider_gasometro .over_titolo { font-size: 2.2em !important; }
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:15%; font-size:1.6em !important; line-height:1.2em; }
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo { margin-top:6%; }
+}
+@media (max-width: 550px){
+	.video_r15 .form_cerca_form .raggruppa_campo {
+		float: none;
+	}
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo { width: auto; margin-top: 7%; font-size:2.2em !important; }
+}
+/*
+@media (max-width: 650px){
+   #riga_2cols_SB > .span3 > div{float:left;width:45%;margin-left:5%;margin-right:0;}
+   #riga_2cols_SB > .span3 > div:nth-child(odd){margin-left:0;clear: both;}
+   #riga_2cols_SB.row-fluid{width:98%;margin-left:1%;}
+   #riga_2cols_SB > .span9 > .span4{width:45%;margin-left:5%;margin-right:0;}
+   #riga_2cols_SB > .span9 > .span4:nth-child(even){margin-left:5%;margin-right:0;}
+   #riga_2cols_SB > .span9 > .span8 > .row-fluid.titolo_e_sottotitolo{float:left;width:37%;margin-left:2%;}
+   #riga_2cols_SB > .span9 > .span8 > .row-fluid.immagine_full{float:left;width:60%;margin-left:0;}
+   
+   #riga_2cols_SB > .span9 > .nomargin{clear: none;}
+   #riga_4cols.row-fluid{width:98%;margin-left:1%;}
+   #riga_4cols > .span3{width:45%;margin-left:5%;margin-right:0;}
+   #riga_4cols > .span3:nth-child(odd){margin-left:0%;clear: both}
+   #riga_4cols .boxHeightSmall{height:auto;}
+   
+   #riga_3cols_BSS.row-fluid{width:98%;margin-left:1%;}
+   #riga_3cols_BSS > .span6{width:100%;margin-left:0;}
+   #riga_3cols_BSS > .span3{width:45%;margin-left:5%;margin-right:0;}
+   #riga_3cols_BSS > .span3:nth-child(even){margin-left:0%;clear: both}
+   #riga_3cols_SBS.row-fluid{width:98%;margin-left:1%;}
+   #riga_3cols_SBS > .span3 > div{width:45%;margin-left:5%;margin-right:0;float: left}
+   #riga_3cols_SBS > .span3 > div:nth-child(odd){margin-left:0;clear: both;}
+   #riga_3cols_SBS > .span6 > .span6{width:45%;margin-left:5%;margin-right:0;}
+   #riga_3cols_SBS > .span6 > .span6:nth-child(odd){margin-left:0;clear: both}
+   #riga_3cols_SBS > .span6 > .span12 > .row-fluid.titolo_e_sottotitolo{float:left;width:37%;margin-left:2%;}
+   #riga_3cols_SBS > .span6 > .span12 > .row-fluid.immagine_full{float:left;width:60%;margin-left:0;}
+}*/
+@media (max-width: 480px) {
+	/* slider "Festival Filosofia" */
+	.slides-container li .over.cls-slider_festival_filosofia .over_titolo div.info {font-size:0.45em; line-height:1.2em;}
+	.slides-container li .over.cls-slider_festival_filosofia .over_titolo div.titolo {font-size:0.6em; line-height:1.3em; margin-top:3px;}
+	.slides-container li .over.cls-slider_festival_filosofia .over_sottotitolo {font-size:1em; margin-top:0; line-height:0;}
+	
+	/* Classi per la pagina "Smart City" */
+	.puntonet .nascosto_mobile {display:none;}
+	.home_cli_ee_box.smartcity.text_white .box_lista_allegati, .home_cli_ee_box.smartcity.text_blu .box_lista_allegati {padding:0 0 0 5%;}
+	.puntonet_desc {line-height:1.2em;}
+	
+	/* slider "Hera si illumina di meno" */
+	.slides-container li .over.cls-slider_illuminodimeno .over_titolo span.titolosopra_bianco {font-size:0.6em;}
+	.slides-container li .over.cls-slider_illuminodimeno .over_titolo {margin-top:2%; font-size:1.5em !important;}
+	.slides-container li .over.cls-slider_illuminodimeno .over_sottotitolo {font-size:1.4em;}
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo {font-size:1.8em !important;}
+	
+	/* slider "HeraSolidale - Insieme diamo una mano a chi ne ha bisogno" */
+	.slides-container li .over.cls-slider_hs2019 .over_titolo .logo_herasolidale {padding-top:10px;}
+	.slides-container li .over.cls-slider_hs2019 .over_titolo {font-size:1.15em !important; margin-left:3%;}
+	.slides-container li .over.cls-slider_hs2019 .over_sottotitolo {font-size:1.4em; margin-left:3%;}
+	
+	/* Report "Costruire insieme il futuro" */
+	.bg_costruire_futuro ul.box_lista_allegati {top:300px !important;}
+	.bg_costruire_futuro .abstract_report_futuro {top:310px !important;}
+	.infografica_report_futuro_mobile {text-align:left;}
+	
+	.box_layout .box_sottotitolo .nascondi_boximg_responsive {background-image:none;}
+	
+	/* slider "Al riparo dal gelo" */
+	.slides-container li .over.cls-slider_gelo .over_titolo { font-size: 1.5em !important; }
+
+	/* slider "Gasometro M.A.N. n. 3 (Carlo Valsecchi)" */
+	.slides-container li .over.cls-slider_gasometro .over_titolo { font-size: 1.7em !important; }
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:15%; font-size:1.3em !important; line-height:1.2em; }
+	.slides-container li .over.cls-slider_campagna_biometano .over_sottotitolo { margin-top:20px; font-size:1.3em }
+	
+	/* Profili top management */
+	.not_ptm_mobile .div_testo {padding-right:10px;}
+	
+	/* slider HeraLAB 2018 */
+	.slides-container li .over.cls-slider_heralab2018 .over_titolo {font-size:1.3em !important; margin-left:2%; margin-top:2%;}
+	.slides-container li .over.cls-slider_heralab2018 .over_sottotitolo {font-size:1.2em; margin-left:2%;}
+	
+	/* slider Ecomondo 2018 */
+	.slides-container li .over.cls-slider_ecomondo_2018 .over_titolo {font-size:1.4em !important; margin-left:4%; width:42%;}
+	.slides-container li .over.cls-slider_ecomondo_2018 .over_sottotitolo {font-size:1.35em; margin-left:4%; margin-top:5px; font-weight:normal;}
+	
+	/* slider "Impianto di S. Agata Bolognese" */
+	.slides-container li .over.cls-slider_impianto_biometano .over_titolo {font-size:1.3em !important; margin-top:2%;}
+	.slides-container li .over.cls-slider_impianto_biometano .over_sottotitolo {font-size:1.4em; margin-top:0;}
+	
+	/* slider Congresso nazionale dei chimici 2018 */
+	.slides-container li .over.cls-slider_congresso_chimici .over_titolo {font-size:0.9em !important; line-height:0.5em !important;}
+	.slides-container li .over.cls-slider_congresso_chimici .over_titolo .titolo_slider_next {font-size:1.35em; line-height:1.3em; margin-top:5px;}
+	.slides-container li .over.cls-slider_congresso_chimici .over_sottotitolo {font-size:1.4em; margin-top:5px;}
+	
+	/* VedoHera - valore condiviso */
+	.box_layout.header_vh_valorecondiviso_mobile img {margin-top:15px;}
+	.box_layout.vh_valorecondiviso_contesto .vh_valorecondiviso_sottotit_contesto {padding-right:0; margin-bottom:30px;}
+	.box_layout.vh_valorecondiviso_contesto .vh_valorecondiviso_etichetta_contesto {margin-bottom:30px;}
+	.box_layout.vh_valorecondiviso_impegno .box_titolo, .box_layout.vh_valorecondiviso_impegno .box_sottotitolo, .box_layout.vh_valorecondiviso_prg_pillole.vh_altezza_minima {min-height:auto;}
+	.vedohera_fascia_padding {padding:10px;}
+	.vedohera_padd_box_left0 {padding-left:10px;}
+	
+	/* slider del convegno del BS2017 */
+	.slides-container li .over.cls-slider_convegno_bs17 .over_titolo {font-size:1.2em !important;}
+	.slides-container li .over.cls-slider_convegno_bs17 .over_sottotitolo {margin-top:0; font-size:1.1em !important;}
+	.convegno_bs17_pin img {margin-top:1px;}
+	
+	/* slider "Scopri il valore dell'acqua di casa tua" */
+	.slides-container li .over.cls-slider_scopri_valore_acqua .over_titolo {font-size:1.1em !important; /* font-size:1.25em; */ margin-left:3%;}
+	.slides-container li .over.cls-slider_scopri_valore_acqua .over_sottotitolo {font-size:1.1em; margin-left:3%;}
+	
+	/* slider BE2017 */
+	.slides-container li .over.cls-slider_be2017 .over_titolo {font-size:1.25em !important;}
+	.slides-container li .over.cls-slider_be2017 .over_sottotitolo {font-size:1em; margin-left:5%; margin-top:0;}
+
+	/* slider BE2018 */
+	.slides-container li .over.cls-slider_be2018_novideo .over_titolo {font-size:1.8em !important;}
+	.slides-container li .over.cls-slider_be2018_novideo .over_sottotitolo {font-size:1.1em; margin-left:5%; margin-top:2%;}
+	.slides-container li .over.cls-slider_be2018 .over_titolo {font-size:1.25em !important;}
+	.slides-container li .over.cls-slider_be2018 .over_sottotitolo {font-size:1em; margin-left:5%; margin-top:0;}
+	
+	/* slider convegno 4 giugno 2018 */
+	.slides-container li .over.cls-slider_4giugno2018 .over_titolo {font-size:1.25em !important;}
+	.slides-container li .over.cls-slider_4giugno2018 .over_sottotitolo {font-size:1em; margin-left:5%; margin-top:0;}
+	
+	/* Nascondo il box Sostenibilità, il calendario e il banner Eureka */
+	.box_layout.nascosto_mobile {display:none;}
+	
+	/* slider "SCART" */
+	.slides-container li .over.cls-slider_scart .over_titolo {font-size:1.3em !important;}
+	.slides-container li .over.cls-slider_scart .over_sottotitolo {font-size:1em !important;}
+	
+	/* slider "Dove ci sono loro, c'� il nostro futuro" */
+	.slides-container li .over.cls-slider_nostro_futuro .over_titolo {font-size:1.1em !important;}
+	
+	.bg_traccerifiuti17 .quanto_recuperato {white-space:normal;}
+	.bg_traccerifiuti17_eng .quanto_recuperato {white-space:normal;}
+	.slides-container li .over.cls-slider_traccerifiuti .over_titolo {font-size:1.3em !important;}
+	
+	/* slider 15 anni */
+	.slides-container li .over.cls-slider_15anni .over_titolo {font-size:1.5em !important;}
+	
+	/* slider Ecomondo 2017 */
+	div.link_cornice_js.over.cls-slider_ecomondo.cls-sfondo_ecomondo > div.over_titolo > span {font-size:0.4em !important;}
+	.slides-container li .over.cls-slider_ecomondo .over_titolo {width:45% !important; margin-top:0 !important; line-height:1.5em !important;}
+	
+	/* Report In buone acque 2017 */
+	.inbuoneacque_box16_titolo {font-size:3em;}
+	
+	/* slider Digi e Lode */
+	.slides-container li .over.cls-slider_digielode .over_titolo {font-size:1.4em !important;}
+	
+	/* slider Insieme verso l'economia circolare */
+	.slides-container li .over.cls-slider_economiacircolare .over_titolo {font-size:1.1em !important;}
+	
+	/* Report I mille volti del servizio 2017 */
+	.box_millevolti .sottotit_arancione {line-height:1em;}
+	.slides-container li .over.cls-slider_millevolti .over_titolo {font-size:1.5em !important;}
+	
+	/* Report Valore all'energia 2017 */
+	.slides-container li .over.cls-slider_valoreenergia .over_titolo {font-size:1.4em !important;}
+	
+	/* BS2016 */
+	.cls-bs2016 .box_lista_link_orizzontali {font-size:0.7em;}
+	.slides-container li .over.cls-slider_bs2016 .over_titolo {font-size:1.25em !important;}
+	
+	/* slider BE2016 */
+	.slides-container li .over.cls-slider_be2016 .over_titolo {font-size:1.24em !important;}
+
+	/* slider Giornata mondiale dell'acqua */
+	.slides-container li .over.cls-slider_giornata_acqua .over_titolo {font-size:1.4em !important;}	
+
+	/* slider GMM */
+	.slides-container li .over.cls-slider_gmm .over_titolo {font-size:0.6em !important; line-height:2em !important;}
+	.slides-container li .over.cls-slider_gmm .over_titolo .verde_big {font-size:2.3em !important;}
+	.slides-container li .over.cls-slider_gmm .over_titolo .giallo_bold {font-size:1.8em !important;}
+
+	#comune_pag_form input.comune_p_nologgato, #comune_pag_form input.comune_p_loggato {margin-left:0; margin-top:0;}
+	.home_comuni_progettisti .tipo_utente_cambio form.cerca_comune input.tucomune {width:50%;}
+
+	/* Riconoscimenti */
+	div.span4.riconoscimenti img {width:90%;}
+	div.box_archivio_orizzontale.boxlista__span4.riconoscimenti .box_lista_archivio .span4 {width:33.3%;}
+
+	/*HEADER ACEGAS*/
+	.cls-clienti .logo.logo_acegas{width:50%}
+	.header .span9.navigazione_acegas{width:48%}
+	/*FINE HEADER ACEGAS*/
+	.container{width:98%;margin-left:1%;}
+   .span7.menu_principale{display: none}
+
+   .span5.apertura_menu{float:right;}
+	
+   #riga_2cols_SB > .span3 > div{float:left;width:100%;margin-left:0;margin-right:0;}
+   #riga_2cols_SB.row-fluid{width:100%;margin-left:0;}
+   #riga_2cols_SB > .span9 > .span4{width:100%;margin-left:0%;margin-right:0;}
+   #riga_2cols_SB > .span9 > .span4:nth-child(even){margin-left:0;margin-right:0;}
+   #riga_2cols_SB > .span9 > .span8 > .row-fluid.titolo_e_sottotitolo{float:left;width:100%;margin-left:0%;}
+   #riga_2cols_SB > .span9 > .span8 > .row-fluid.immagine_full{float:left;width:100%;margin-left:0;}
+   
+   #riga_3cols_BSS.row-fluid{width:100%;margin-left:0;}
+   #riga_3cols_BSS > .span6{width:100%;margin-left:0;}
+   #riga_3cols_BSS > .span3{width:100%;margin-left:0;margin-right:0;}
+   #riga_3cols_SBS.row-fluid{width:100%;margin-left:0;}
+   #riga_3cols_SBS > .span3 > div{width:100%;margin-left:0;margin-right:0;float: left}
+   #riga_3cols_SBS > .span6 > .span6{width:100%;margin-left:0;margin-right:0;}
+   #riga_3cols_SBS > .span6 > .span12 > .row-fluid.titolo_e_sottotitolo{float:left;width:100%;margin-left:0%;}
+   #riga_3cols_SBS > .span6 > .span12 > .row-fluid.immagine_full{float:left;width:100%;margin-left:0;}
+
+   #riga_4cols.row-fluid{width:100%;margin-left:0; margin-top:4%;margin-bottom:4%}
+	.sparatore_righe_4col div > .sparatore_righe_4col:last-child{margin-bottom:0}
+   #riga_4cols > .span3{width:100%;margin-left:0;margin-right:0;}
+   #riga_4cols > .span3 > div{margin-top:0;}
+   #riga_2cols_SB_clienti > .span9 .span4{width:100%}
+	#riga_multimedia .titolo_canale_youtube_pad .row-fluid .span4{width:38%}
+   .navbar-main .nav > li.active > h1 > a{padding-right:5px;}
+   .navbar-main .nav > li > a{padding-right:5px;}
+   .immagineleft,.immagineright{float: left}
+   /*.cls-clienti .navbar .nav{width:100%}*/
+   
+   /*.cls-clienti .navbar .nav li{width:45%;}*/
+   /*.area_ricerca{clear: both}*/
+	.cls-clienti.box_elenco_servizi .navbar .nav {
+		width: 63%;
+	}
+	.cls-clienti .menu_fixed .logo{width:auto;max-width: none;width:43%}
+	.menu_fixed .logo img{width:auto;max-width: none}
+	/*HEADER ACEGAS*/
+	.cls-clienti .menu_fixed .logo.logo_acegas{width:48%;background-color:white;padding-top:10px;padding-bottom:10px}
+	.menu_fixed .logo.logo_acegas img{width: 94%;max-width: 100%}
+	/*FINE HEADER ACEGAS*/
+   .menu_fixed .area_assistenza{display: none}
+	.area_comune{width:150px;}
+   /*.area_ricerca .input_ricerca{width:60%}*/
+   /*.area_comune.comune_copia{width:90%;}*/
+   /*.cls-clienti .menu_fixed .navbar{width:100%;}*/
+   
+   .span6 > div > .box_lista_archivio .first_big .span12:first-child{width:100%;}
+   .span6 > div >.box_lista_archivio .first_big .span12.link_freccia{width:100%;margin-left:0%}
+   
+   body.cls-clienti-aperto .navbar-lev2 .nav > li{height:46px;width:46px;cursor: pointer;}
+	.cls-clienti-aperto .navbar-lev2 .nav > li.servizio-inactive span{padding:0;display: none}
+   body.cls-clienti .menu_fixed .navbar-lev2 .nav > li{height:46px;width:46px;cursor: pointer;}
+   body.cls-clienti .menu_fixed .navbar-lev2 .nav > li a{display: none}
+   body.cls-clienti-aperto .navbar-lev2 .nav > li > a,body.cls-clienti-aperto .navbar-lev2 .nav > li >h1 > a{display: none}
+   .span9 > div .box_lista_archivio .first_big .span12:first-child{width:100%}
+   .span9 > div .box_lista_archivio .first_big .span12.link_freccia{width:100%;margin-left:0}
+   .immagine_full img{width:100%}
+   .first_big img{border:0;width:100%;}
+	.box_lista_archivio li img{border:0;}
+   .box_default_banner  img{width:100%}
+	.img_banner_calendario img{width:100%}
+	.link_contatti a img{width:100%}
+	.box_archivio_orizzontale .box_lista_archivio img{width:100%}
+   #riga_4cols > .span3 >.box_layout img{width:100%}
+   #riga_4cols > .span3 >.box_layout [class*="span"] img{width:auto}
+	
+	.slides-container li .over .over_titolo{font-size:1.2em;line-height: 1.2em}
+	.box_link_affiancati .box_lista_allegati li{width:auto;border-top:1px solid #fff;float: none}
+	.above_footer_title span{float:left;width:100%;}
+	.above_footer_title a{float:left;width:100%;margin:0;text-align:left;margin-top:10px;margin-bottom:10px;}
+	.box_archivio_orizzontale .box_lista_archivio .span4{width:100%;margin-left:0;}
+	.box_titolo_big{margin-right:0;}
+	.box_link_affiancati_2 .box_lista_allegati li{width:90%}
+	.box_eventi_calendario.calendario_landing .box_lista_archivio{width:100%;float:left;}
+	.box_eventi_calendario.calendario_landing .box_lista_archivio li {width:100%;float:left;}
+	.box_eventi_calendario.calendario_landing .box_lista_archivio li.first_big {margin-right:0}
+	.box_eventi_calendario.calendario_landing .img_banner_calendario{margin:0; width:100%}
+	body.cls-clienti  .img_banner_calendario{width:100%;margin:0;}
+	.box_ricerca_eventi{display: none}
+	.ricerca_gruppo .submit_ricerca{width:26%;}
+	.ricerca_gruppo .input_ricerca{width:73%}
+	.ricerca_gruppo{width:40%}
+	.box_login_utente_comune .intestazione{height: auto}
+	.box_login_utente_comune .intestazione .spiegazione{margin-top:10px;}
+	.box_login_utente_comune .scelta .casa input{margin-left:5%}
+	.cls-clienti .menu_fixed .wrapper{float:left;height:auto;}
+	.riga_assistenza_clienti_casa .boxGiallo div.titolo_top{padding:4% 0;}
+	.riga_assistenza_clienti_casa .box_area_riservata_clienti .boxArea{width:28%}
+	.box_eventi_ultimi .singolo_evento{margin-top:10%}
+	.box_eventi_ultimi .giorno_calendario_eventi{margin-bottom:5px;margin-top:0px;}
+	
+	
+	/* prettyPhoto styling for small screens */
+	.pp_pic_holder.pp_default { width: 100%!important; left: 0!important; overflow: hidden; }
+	div.pp_default .pp_content_container .pp_left { padding-left: 0!important; }
+	div.pp_default .pp_content_container .pp_right { padding-right: 0!important; }
+	.pp_content { width: 100%!important; height: auto!important; }
+	.pp_fade { width: 100%!important; height: 100%!important; }
+	a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom { display: none!important; }
+	#pp_full_res img { width: 100%!important; height: auto!important; }
+	.pp_details { width: 94%!important; padding-left: 3%; padding-right: 4%; padding-top: 10px; padding-bottom: 10px; background-color: #fff; margin-top: -2px!important; }
+	a.pp_close { right: 10px!important; top: 10px!important; }
+}
+
+@media (max-width: 360px) {
+	/* slider "Gasometro M.A.N. n. 3 (Carlo Valsecchi)" */
+	.slides-container li .over.cls-slider_gasometro .over_titolo { font-size: 1.25em !important; }
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:15%; font-size:1.1em !important; line-height:1.2em; }
+	.slides-container li .over.cls-slider_campagna_biometano .over_sottotitolo { margin-top:10px; font-size:1.1em }
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo { font-size:1.8em !important; }
+}
+@media (max-width: 320px) {
+	/* slider "Gasometro M.A.N. n. 3 (Carlo Valsecchi)" */
+	.slides-container li .over.cls-slider_gasometro .over_titolo { font-size: 1.0em !important; }
+	
+	/* slider "Campagna biometano - mobilita' sostenibile" */
+	.slides-container li .over.cls-slider_campagna_biometano .over_titolo { margin-top:8%; margin-left:15%; font-size:1.0em !important; line-height:1.2em; }
+	.slides-container li .over.cls-slider_campagna_biometano .over_sottotitolo { margin-top:5px; font-size:1.0em }
+
+	/* slider "Il 25 Aprile il Tricolore tinge il gasometro" */
+	.slides-container li .over.cls-slider_25aprile19 .over_titolo { font-size:1.2em !important; }
+}
+
+
+/*MEDIAQUERIES SOLO PER LEGACY*/
+@media (max-width: 980px) {
+.riga_legacy .container{width: 940px}
+
+
+
+.riga_legacy .row-fluid [class*="span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  *margin-left: 2.074468085106383%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.riga_legacy .row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+
+.riga_legacy .row-fluid .controls-row [class*="span"] + [class*="span"] {
+  margin-left: 2.127659574468085%;
+}
+
+.riga_legacy .row-fluid .span12 {
+  width: 100%;
+  *width: 99.94680851063829%;
+}
+
+.riga_legacy .row-fluid .span11 {
+  width: 91.48936170212765%;
+  *width: 91.43617021276594%;
+}
+
+.riga_legacy .row-fluid .span10 {
+  width: 82.97872340425532%;
+  *width: 82.92553191489361%;
+}
+
+.riga_legacy .row-fluid .span9 {
+  width: 74.46808510638297%;
+  *width: 74.41489361702126%;
+}
+
+.riga_legacy .row-fluid .span8 {
+  width: 65.95744680851064%;
+  *width: 65.90425531914893%;
+}
+
+.riga_legacy .row-fluid .span7 {
+  width: 57.44680851063829%;
+  *width: 57.39361702127659%;
+}
+
+.riga_legacy .row-fluid .span6 {
+  width: 48.93617021276595%;
+  *width: 48.88297872340425%;
+}
+
+.riga_legacy .row-fluid .span5 {
+  width: 40.42553191489362%;
+  *width: 40.37234042553192%;
+}
+
+.riga_legacy .row-fluid .span4 {
+  width: 31.914893617021278%;
+  *width: 31.861702127659576%;
+}
+
+.riga_legacy .row-fluid .span3 {
+  width: 23.404255319148934%;
+  *width: 23.351063829787233%;
+}
+
+.riga_legacy .row-fluid .span2 {
+  width: 14.893617021276595%;
+  *width: 14.840425531914894%;
+}
+
+.riga_legacy .row-fluid .span1 {
+  width: 6.382978723404255%;
+  *width: 6.329787234042553%;
+}
+
+.riga_legacy .row-fluid .offset12 {
+  margin-left: 104.25531914893617%;
+  *margin-left: 104.14893617021275%;
+}
+
+.riga_legacy .row-fluid .offset12:first-child {
+  margin-left: 102.12765957446808%;
+  *margin-left: 102.02127659574467%;
+}
+
+.riga_legacy .row-fluid .offset11 {
+  margin-left: 95.74468085106382%;
+  *margin-left: 95.6382978723404%;
+}
+
+.riga_legacy .row-fluid .offset11:first-child {
+  margin-left: 93.61702127659574%;
+  *margin-left: 93.51063829787232%;
+}
+
+.riga_legacy .row-fluid .offset10 {
+  margin-left: 87.23404255319149%;
+  *margin-left: 87.12765957446807%;
+}
+
+.riga_legacy .row-fluid .offset10:first-child {
+  margin-left: 85.1063829787234%;
+  *margin-left: 84.99999999999999%;
+}
+
+.riga_legacy .row-fluid .offset9 {
+  margin-left: 78.72340425531914%;
+  *margin-left: 78.61702127659572%;
+}
+
+.riga_legacy .row-fluid .offset9:first-child {
+  margin-left: 76.59574468085106%;
+  *margin-left: 76.48936170212764%;
+}
+
+.riga_legacy .row-fluid .offset8 {
+  margin-left: 70.2127659574468%;
+  *margin-left: 70.10638297872339%;
+}
+
+.riga_legacy .row-fluid .offset8:first-child {
+  margin-left: 68.08510638297872%;
+  *margin-left: 67.9787234042553%;
+}
+
+.riga_legacy .row-fluid .offset7 {
+  margin-left: 61.70212765957446%;
+  *margin-left: 61.59574468085106%;
+}
+
+.riga_legacy .row-fluid .offset7:first-child {
+  margin-left: 59.574468085106375%;
+  *margin-left: 59.46808510638297%;
+}
+
+.riga_legacy .row-fluid .offset6 {
+  margin-left: 53.191489361702125%;
+  *margin-left: 53.085106382978715%;
+}
+
+.riga_legacy .row-fluid .offset6:first-child {
+  margin-left: 51.063829787234035%;
+  *margin-left: 50.95744680851063%;
+}
+
+.riga_legacy .row-fluid .offset5 {
+  margin-left: 44.68085106382979%;
+  *margin-left: 44.57446808510638%;
+}
+
+.riga_legacy .row-fluid .offset5:first-child {
+  margin-left: 42.5531914893617%;
+  *margin-left: 42.4468085106383%;
+}
+
+.riga_legacy .row-fluid .offset4 {
+  margin-left: 36.170212765957444%;
+  *margin-left: 36.06382978723405%;
+}
+
+.riga_legacy .row-fluid .offset4:first-child {
+  margin-left: 34.04255319148936%;
+  *margin-left: 33.93617021276596%;
+}
+
+.riga_legacy .row-fluid .offset3 {
+  margin-left: 27.659574468085104%;
+  *margin-left: 27.5531914893617%;
+}
+
+.riga_legacy .row-fluid .offset3:first-child {
+  margin-left: 25.53191489361702%;
+  *margin-left: 25.425531914893618%;
+}
+
+.riga_legacy .row-fluid .offset2 {
+  margin-left: 19.148936170212764%;
+  *margin-left: 19.04255319148936%;
+}
+
+.riga_legacy .row-fluid .offset2:first-child {
+  margin-left: 17.02127659574468%;
+  *margin-left: 16.914893617021278%;
+}
+
+.riga_legacy .row-fluid .offset1 {
+  margin-left: 10.638297872340425%;
+  *margin-left: 10.53191489361702%;
+}
+
+.riga_legacy .row-fluid .offset1:first-child {
+  margin-left: 8.51063829787234%;
+  *margin-left: 8.404255319148938%;
+}
+
+.riga_legacy .row-fluid > .footer [class*="span"]{width:99%;margin-left:0;}
+
+}
+
+/* classi per il box "scopri le nuove offerte..." nella home TLR - 1024px */
+@media (max-width: 1024px) {
+	.box_tlr_alto {background:none; background-position:top left; background-repeat:no-repeat; margin-top:1px;}
+	.box_tlr_basso {background:none; background-position:bottom left; background-repeat:no-repeat;}
+	.box_tlr_repeat {background:none; background-position:top left; background-repeat:repeat-y;}
+	.box_tlr_primo {float: left;
+	width: 99%;
+	margin-right: 0;
+	margin-bottom: 10px;
+	border-style: groove;
+	border-color: rgba(239, 128, 198, 0.4);
+	border-radius: 9px;}
+}

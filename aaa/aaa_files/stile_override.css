@@ -1,0 +1,573 @@
+@import "stile_dossier.css";
+
+/* home tab */
+a.puntatore_link,a.puntatore_link:visited,a.puntatore_link:hover,a.puntatore_link:active,a.puntatore_link:link { color:white; text-decoration:none; }
+a.puntatore_link_evid,a.puntatore_link_evid:visited,a.puntatore_link_evid:hover,a.puntatore_link_evid:active,a.puntatore_link_evid:link { color:#575757; text-decoration:none; }
+
+/* home resp soc */
+.setting_elem_hr_responsabilita_sociale a.puntatore_link:hover, .setting_elem_hr_responsabilita_sociale a.puntatore_link:visited {
+color:white;
+}
+.setting_elem_hr_responsabilita_sociale a.puntatore_link_evid:hover, .setting_elem_hr_responsabilita_sociale a.puntatore_link_evid:visited {
+color:#575757;
+}
+
+/* RIFIUTOLOGO */
+.rifiutologo_box {background-image: url(../immagini/rifiutologo_rip.gif); background-repeat:repeat-x; background-position:bottom; width:100%}
+.rifiutologo_boxm, .ritiro_ingombranti_info { /*margin:0 15px;*/ display:none; }
+.ritiro_ingombranti_info {border-bottom: 5px solid #FBB151}
+.padd8 {padding: 8px 0}
+.tit_istr {padding-top: 8px}
+.bck_transp {background-color:transparent}
+.p_right15 {padding-right: 15px} 
+.p_left15 {padding-left: 15px}
+.padd_top5 {padding: 5px 0 0 0}
+/*.rifiutologo_boxm_not_found { margin:0 15px; }*/
+.rifiutologo_boxm2 {background-image: url(../immagini/rifiutologo_rip.gif); background-repeat:repeat-x; background-position:bottom; }
+.rifiutologo_box2 {background-image: url(../immagini/rifiutologo_rip2.gif); background-repeat:repeat-y; background-position:left}
+.rifiutologo_box3 {background-image: url(../immagini/rifiutologo_rip2.gif); background-repeat:repeat-y; background-position:right}
+.rifiutologo_box_top1 {background-image: url(../immagini/rifiutologo_sx_su.gif); background-repeat:no-repeat; background-position:left top}
+.rifiutologo_box_top2 {background-image: url(../immagini/rifiutologo_dx_su.gif); background-repeat:no-repeat; background-position:right top}
+.rifiutologo_box_top3 {border-top:1px solid #d3d3d3; margin:0 5px}
+.rifiutologo_box_top4 {border-top:5px solid #3ec8f4; font-size:0.5em}
+.rifiutologo_box_bot1 {background-image: url(../immagini/rifiutologo_sx_giu.gif); background-repeat:no-repeat; background-position:left bottom}
+.rifiutologo_box_bot2 {background-image: url(../immagini/rifiutologo_dx_giu.gif); background-repeat:no-repeat; background-position:right bottom}
+.rifiutologo_box_bot3 {border-bottom:1px solid #d3d3d3; margin:0 5px}
+.rifiutologo_box_bot4 { border-bottom:5px solid #fbb151; font-size:0.5em}
+.rifiutologo_boxm .rifiutologo_box_bot1,.rifiutologo_boxm_not_found .rifiutologo_box_bot1 {background-image: url(../immagini/rifiutologo_sx_giu_m.gif); background-repeat:no-repeat; background-position:left bottom}
+.rifiutologo_boxm .rifiutologo_box_bot2,.rifiutologo_boxm_not_found .rifiutologo_box_bot2 {background-image: url(../immagini/rifiutologo_dx_giu_m.gif); background-repeat:no-repeat; background-position:right bottom}
+.rifiutologo_boxm .rifiutologo_box_bot4,.rifiutologo_boxm_not_found .rifiutologo_box_bot4 { border-bottom:5px solid #00a88b; font-size:0.5em}
+.rifiutologo_cosa { float:left; width:175px; font-size:0.9em}
+.rifiutologo_dove { margin-left:180px; font-size:0.9em}
+.rifiutologo_cosa form, .rifiutologo_boxm form, .rifiutologo_boxm_not_found form {margin:0; padding:0}
+.rifiutologo_cosa input {padding:3px; border-bottom:none; border-right:none; border-left:1px solid #c2c2c2; border-top :1px solid #c2c2c2; width:140px;font-size:0.9em}
+.rifiutologo_cosa .bot_invia { background-color: transparent; width:11px; overflow:hidden; border:none; text-align:right; background-image:url(../immagini/rifiutologo_freccia.gif); background-position:left; background-repeat:no-repeat; height:23px; min-height:23px; padding:0; margin:0}
+.rifiutologo_dove img {float:left; margin-right:5px; margin-left:5px}
+.rifiutologo_dove .p10,.rifiutologo_cosa .p10 {font-size:1.3em}
+.rifiutologo_boxm .bot_invia,.rifiutologo_boxm_not_found .bot_invia {background-color:#000; color:#FFF; width:60px; border:none; padding:2px; margin:0; text-transform:uppercase; font-size:0.8em}
+.rifiutologo_boxm input,.rifiutologo_boxm_not_found input {font-size:0.9em; margin:0 10px}
+.rifiutologo_dove ul {margin:0 0 0 5px; padding:0}
+.rifiutologo_dove li {margin:0 3px 0 0; padding:3px 0 3px 3px; /* display: inline;list-style-type:none; background-image: url(../immagini/asterisco.gif); background-repeat:no-repeat; background-position:left; white-space:nowrap*/}
+.rifiutologo_dove li a:link, .rifiutologo_dove li a:visited { font-weight:normal;}
+.rifiutologo_dove li a:hover, .rifiutologo_dove li a:active { font-weight:normal; text-decoration:underline; }
+.rifiutologo_mappa_box { margin-top:20px; visibility:hidden; }
+.rifiutologo_mappa_contenitore { width:100%; height:340px; overflow:hidden; }
+.rifiutologo_mappa_header { background:url(../immagini/rifiutologo_mappa_header_cx.png);background-repeat:repeat-x; height:37px; width:100%; }
+.rifiutologo_mappa_header_sx { background:url(../immagini/rifiutologo_mappa_header_sx.png);background-repeat:no-repeat; height:37px; width:100%;}
+.rifiutologo_mappa_header_dx { background:url(../immagini/rifiutologo_mappa_header_dx.png);background-repeat:no-repeat; background-position:right; height:37px; width:100%;}
+.rifiutologo_mappa_header_pad { padding:10px 15px;}
+	.lista_rif_box { display:none; position:absolute;background:white;border:1px solid #D3D3D3;width:480px;height:0px;overflow:auto;overflow-x:hidden; }
+	.lista_rifiuti_filtrata { font-size:0.7em; }
+	.lista_item { background:white; border-bottom:1px solid #D3D3D3;padding:3px;display:block;text-decoration:none; cursor:pointer; }
+	.lista_item_b { background:#F7F7F7; }
+	.lista_item_selected { background:#F3DA30; color:#000; }
+	.dove_ico { float:left;width:47px; }
+	.dove_text { margin-left:47px; }
+	.rifiutologo_cosa { width:500px; }
+	.rifiutologo_cosa input { border: 1px solid #C2C2C2; font-size: 0.9em; padding: 3px; width: 474px; }
+	.rifiutologo_dove { margin:0; }
+
+/* COLLETTAMENTO */
+.collettamento_ricerca { float:left; width:175px; font-size:0.9em; }
+.collettamento_ricerca form {margin:0; padding:0; }
+.collettamento_ricerca input {padding:3px; border-bottom:none; border-right:none; border-left:1px solid #c2c2c2; border-top :1px solid #c2c2c2; width:140px;font-size:0.9em; }
+.collettamento_ricerca .bot_invia { background-color: transparent; width:11px; overflow:hidden; border:none; text-align:right; background-image:url(../immagini/rifiutologo_freccia.gif); background-position:left; background-repeat:no-repeat; height:23px; min-height:23px; padding:0; margin:0; }
+.collettamento_ricerca .p10 {font-size:1.3em; }
+	.collettamento_ricerca { width:500px; }
+	.collettamento_ricerca input { border: 1px solid #C2C2C2; font-size: 0.9em; padding: 3px; width: 474px; }
+
+/* SPAZZAMENTO - WIDGET */
+.spazzamento_cosa { float:left; width:175px; font-size:0.9em; }
+.spazzamento_cosa form { margin:0; padding:0; }
+.spazzamento_cosa input { padding:3px; border-bottom:none; border-right:none; border-left:1px solid #c2c2c2; border-top :1px solid #c2c2c2; width:140px;font-size:0.9em; }
+.spazzamento_cosa .bot_invia { background-color: transparent; width:11px; overflow:hidden; border:none; text-align:right; background-image:url(../immagini/rifiutologo_freccia.gif); background-position:left; background-repeat:no-repeat; height:23px; min-height:23px; padding:0; margin:0; }
+
+/* DOwnload center new */
+.hera_dwloar_box { background-color:#f9f9f9; border:1px solid #e7e7e7; padding:2px 1px 2px 2px}
+.hera_dwloar_box .fl33 { float:left; width:33%}
+.hera_dwloar_box .fl34 { float:left; width:34%; margin-left:-1px}
+.hera_dwloar_box .fl50 { float:left; width:50%}
+.hera_dwloar_box .hera_dwloar_tit {background-color:#e7e7e7; padding:7px; text-transform:uppercase; font-size:0.9em}
+.hera_dwloar_box .hera_dwloar_tit0 { border-left:1px solid #f9f9f9; border-right:1px solid #d7d7d7}
+.hera_dwloar_box .hera_dwloar_tit1 { border-left:1px solid #f9f9f9; border-right:1px solid #d7d7d7}
+.hera_dwloar_box .hera_dwloar_tit2 { border-left:1px solid #f9f9f9;}
+.hera_dwloar_box img {float:left; margin-right:5px}
+.hera_dwloar_box_testo {padding:10px 6px}
+.hera_dwloar_box_testo p { font-size:0.9em}
+/*.dwl_anni_notab { padding:10px 0; border-bottom:1px solid #cdccc8; border-left:1px solid #cdccc8; border-right:1px solid #cdccc8}*/
+.dwl_anni_notab { padding:5px 0 8px 0; clear:both; background-color: #F1F2F2; margin-bottom:2%}
+.dwl_anni_notab .freccia_sx {float:left; width:15px; text-align:center}
+.dwl_anni_notab .freccia_dx {float:right; width:15px; text-align:center}
+.dwl_anni_notab .dwl_anni_notab_anni { margin:5px 15px 0px 0}
+.dwl_anni_notab .dwl_anno {float:left; width:auto; text-align:center; margin-left:4px;display:inline; padding-left:10px; padding-right:10px; text-transform:uppercase}
+.dwl_anni_notab .dwl_anno a:link,.dwl_anni_notab .dwl_anno a:visited {color:#909090; font-weight:normal}
+.dwl_anni_notab .dwl_anno a:hover,.dwl_anni_notab .dwl_anno a:active { font-weight:normal}
+.dwl_anni_notab .dwl_anno.tab_corr { background-color:#006EBB; color:#FFFFFF}
+.dwl_anni_notab .dwl_anno.tab_corr a:link,.dwl_anni_notab .dwl_anno.tab_corr a:visited {color:#FFFFFF}
+.dwl_anni_notab .dwl_anno a:link,.dwl_anni_notab .dwl_anno a:visited {text-decoration:none; color:#005C84}
+/*.dwl_anni_notab .anno_cor a:link,.dwl_anni_notab .anno_cor a:visited { font-size:1.2em; text-decoration:underline; color:#005C84}*/
+.dwl_fr_on {cursor: pointer;}
+.dwl_anni_notab .annovuoto{ color:#909090;}
+.dwl_anni_notab div.tab_corr .annovuoto{ color:#FFF;}
+
+.dwl_anni_notab_ter {padding-bottom:0px}
+.dwl_anni_notab_ter .dwl_anni_notab_anni { margin:5px 0px 0px 0}
+.dwl_anni_notab_ter .dwl_anno {padding-bottom:8px}
+.dwl_anni_notab_territori {background-color:#006EBB; clear:both}
+.dwl_anni_notab_territori .dwl_anno {text-transform:none; margin-top:8px; border:2px solid #006EBB; padding-bottom:0px; margin-bottom:8px}
+.dwl_anni_notab_territori .dwl_anno a:link,.dwl_anni_notab_territori .dwl_anno a:visited {color:#FFF; font-weight:normal}
+.dwl_anni_notab_territori .dwl_anno.tab_corr {border:2px solid #FFFFFF}
+
+
+.tab_anni_dwc2 .tab_allineati {width:auto !important; width:86px;min-width:86px} 
+.tab_anni_dwc2 .tab_allineati div.anno_generico .anni_int, .tab_anni_dwc2 .tab_allineati div.anno_corrente .anni_int {width:auto !important; width:82px;min-width:82px;}
+.tab_anni_dwc2 .tab_allineati div.anno_generico .anni_int div, .tab_anni_dwc2 .tab_allineati div.anno_corrente .anni_int div{ padding-left:5px !important; padding-right:5px !important}
+.tab_anni_dwc2 .tab_allineati div.anno_generico,.tab_anni_dwc2 .tab_anni .tab_allineati div.anno_corrente {background-color: #F1ECE9; margin-right: 4px !important; text-align:center;  border-bottom:1px solid #CDCCC8; }
+.tab_anni_dwc2 .tab_spento div.anno_generico,.tab_anni_dwc2 .tab_anni .tab_spento div.anno_corrente {background-color: #F8F6F4; margin-right: 4px !important; text-align:center;  border-bottom:1px solid #CDCCC8; color:#6C6C6C}
+.tab_anni_dwc2 .tab_allineati div.anno_corrente {background-color: #FFF; border:1px solid #CDCCC8;border-bottom:0px solid #FFF; margin-top:0; font-size:1em}
+.tab_anni_dwc2 .tab_allineati div.anno_corrente .anni_int div {padding-top:17px;}
+.tab_anni_dwc2 .tab_allineati div.anno_corrente{padding-top:6px !important}
+.tab_anni_dwc2 .tab_allineati div.anno_generico {padding-top:10px !important}
+
+
+.test_hera_spazio_domanda {padding:8px 0}
+.test_hera_padding_box {padding:6px}
+.test_hera_stile_clear {clear:both; height:1px; overflow:hidden; color:#fff; margin-bottom:-1px}
+.test_hera_flotta_radio {float:left; width:15px}
+.test_hera_sposta_risposta {margin-left:23px; padding-top:3px}
+
+/* classi per le nuove img apri/chiudi nel js */
+div.apri_chiudi_it a:link, div.apri_chiudi_it a.freccia_giu:link {background-image:url(../immagini/frecciagiu_it.jpg); background-position:right; background-repeat:no-repeat}
+div.apri_chiudi_it a.freccia_su:link {background-image:url(../immagini/frecciasu_it.jpg); background-position:right; background-repeat:no-repeat}
+div.apri_chiudi_en a:link, div.apri_chiudi_en a.freccia_giu:link {background-image:url(../immagini/frecciagiu_en.jpg); background-position:right; background-repeat:no-repeat}
+div.apri_chiudi_en a.freccia_su:link {background-image:url(../immagini/frecciasu_en.jpg); background-position:right; background-repeat:no-repeat}
+div.apri_chiudi_it a, div.apri_chiudi_en a {text-decoration:none; display:block; width:100%; cursor:pointer}
+div.apri_chiudi_it a span, div.apri_chiudi_en a span {width:90%; display:block}
+
+/* classi per il box In Evidenza nella home del CSR */
+.flotta_left {float:left}
+.video_home_csr .jq_gallery_params, .video_home_csr .jq_thumb_big {display:none}
+.video_home_csr .jq_scroll_window {overflow:hidden; position:static}
+.video_home_csr .jq_thumb {overflow:hidden; padding-left:0px}
+ul.archivio_immagini li img.no_flotta {float:none}
+.separatore_grigio {border-right:1px solid #E9E9E9}
+.adatta_banner_foo_csr {padding:20px 6px 20px 0}
+.altri_banner_foo_csr {padding:20px 10px 20px 7px}
+
+/* classi per il motore di ricerca delle posizioni per EB */
+input.profili_width_parola_it {width:131px}
+input.profili_width_parola_en {width:131px}
+label.profili_settore_it {margin-right:16px}
+label.profili_sede_lavoro_it {margin-right:17px}
+label.profili_sede_lavoro_en {margin-right:4px}
+label.profili_tipo_rapporto_it {margin-right:9px}
+label.profili_tipo_rapporto_en {margin-right:4px}
+select.profili_width_settore {width:163px}
+select.profili_width_sede_it {margin-right:0; width:130px !important; width/**/:/**/127px}
+label.profili_settore_en {margin-right:0}
+select.profili_width_rapporto_it {margin-right:0; width:128px !important; width/**/:/**/126px}
+select.profili_width_sede_en {margin-right:0; width:178px}
+select.profili_width_rapporto_en {margin-right:0; width:113px}		
+.allinea_bot_cerca_profili {text-align:right; padding-right:11px !important; padding-right/**/:/**/14px}
+div.pos_aperte_wbot_en {width:106px}
+div.pos_aperte_mright_en {margin-right:116px}
+
+/* classi per le voci utilita' nel Gruppo */
+div.voci_utilita.voci_utilita_sx {width:43%}
+div.voci_utilita.voci_utilita_dx {width:57%; margin-left/**/:/**/-1px}
+
+form.formfeedback input.width20 {width:20px}
+form.formfeedback input.width25 {width:25px}
+
+/* classi per layout tariffe */
+.height490_ie6 {height/**/:/**/490px; min-height:490px !important}
+.box_tariffa_rosa {float:left; width:96px; text-align:center; margin-top:126px; margin-left:5px}
+	.box_tariffa_rosa a:link, .box_tariffa_rosa a:visited {display:block; color:#fff; text-decoration:none; padding:20px 6px 0 6px; background-image:url(../immagini/box_rosa_tariffa.jpg); background-position:0 0; background-repeat:no-repeat; height:81px}
+	.box_tariffa_rosa span {display:block; color:#fff; text-decoration:none; padding:20px 6px 0 6px; background-image:url(../immagini/box_rosa_tariffa.jpg); background-position:0 0; background-repeat:no-repeat; height:81px}
+.pulsante_uguale {float:left; width:40px; margin-top:152px; text-align:center}
+.box_grigio_tariffa {float:left; width:87px; position:relative}
+	.box_grigio_tariffa a:link, .box_grigio_tariffa a:visited {text-decoration:none; color:#5E5E5E; display:block; background-image:url(../immagini/box_grigio_tariffa.jpg); background-position:0 0; background-repeat:no-repeat; height:42px; padding-top:10px; text-align:center} 
+.box_grigio_tariffa span {color:#5E5E5E; display:block; background-image:url(../immagini/box_grigio_tariffa_no_info.jpg); background-position:0 0; background-repeat:no-repeat; width:100%; height:42px; padding-top:10px; text-align:center}
+.pulsante_piu {text-align:center; padding:10px 0 8px 0}
+.adatta_testo_tariffa {padding:0 5px}
+.box_testo_tariffa {font-size:0.95em; width:260px; height:480px; position:absolute; left:244px; z-index:3; overflow:auto; margin:10px; background-color:#fff}
+.adatta_img_click_dettagli {padding-top:160px; padding-left:18px}
+.box_info_tariffa_bottom {background-image:url(../immagini/box_info_tariffa_bottom.jpg); background-position:bottom left; background-repeat:no-repeat}
+.box_info_tariffa_top {background-image:url(../immagini/box_info_tariffa_top.jpg); background-position:top left; background-repeat:no-repeat; padding-top:3px}
+.box_info_tariffa_r {background-image:url(../immagini/box_info_tariffa_r.jpg); background-position:0 0; background-repeat:repeat-y}
+.box_info_tariffa_generale {width:285px; height:493px; position:absolute; left:250px; z-index:1; overflow:auto; visibility:visible}
+
+/* classi per l'archivio a tab per il bilancio IR con effetto slide */
+.dwl_anni_notab.no_bordo_anni {border:none; padding:0}
+.p_top15 {padding-top:15px}
+.dwl_anni_notab div.dwl_anni_notab_anni.adatta_anni_tab {margin:0 28px}
+div.anno_generico_tab, div.anno_corrente_tab {background-color:#F1ECE9; text-align:center; border-bottom:1px solid #CDCCC8; margin-right:4px}			
+.dwl_anni_notab_anni.adatta_anni_tab div.anni_int_tab a {text-decoration:none; color:#1a3d50; font-size:1em}			
+.dwl_anni_notab_anni .dwl_anno.set_tab50 {float:left; width:auto !important; width:50px; min-width:50px}		
+div.anno_corrente_tab {background-color:#FFF; border:1px solid #CDCCC8; border-bottom:0px solid #FFF; margin-top:0; font-size:1.3em}
+div.anno_generico_tab .anni_int_tab, div.anno_corrente_tab .anni_int_tab {height:auto !important; height:36px; min-height:36px; width:auto !important; width:47px; min-width:47px}
+div.anno_generico_tab .anni_int_tab div {border-top:13px solid #FFF; padding-top:5px}
+div.anno_corrente_tab .anni_int_tab div {padding-top:12px}
+
+/* classi per tab Top Employers 2012 */
+ul.top_employers_elenco {margin:0; padding:0; list-style-type:none;}
+ul.top_employers_elenco li {border-bottom:1px dashed #FBCCD4; padding:7px 0 5px 0;}
+.top_employers_info {text-align:right;}
+	.top_employers_info a:link, .top_employers_info a:visited,   
+	.top_employers_info a:hover, .top_employers_info a:active {color:#005C84; background-image:url(../immagini/img_continua.gif); background-position:right 4px; background-repeat:no-repeat; padding-right:15px;}	
+*:first-child+html .top_employers_info a /* solo IE 7.0 */
+{
+	background-position:right 6px !important;
+}
+
+/* classi per quiz Storie Hera */
+.nascondi {display:none}
+a.indizio_icona_1 {background-image:url(../immagini/storie_hera/icona_indizio1_off.gif);}
+a.indizio_icona_2 {background-image:url(../immagini/storie_hera/icona_indizio2_off.gif);}
+a.indizio_icona_3 {background-image:url(../immagini/storie_hera/icona_indizio3_off.gif);}
+a.indizio_icona_1.indizio_usato {background-image:url(../immagini/storie_hera/icona_indizio1_on.gif);}		
+a.indizio_icona_2.indizio_usato {background-image:url(../immagini/storie_hera/icona_indizio2_on.gif);}		
+a.indizio_icona_3.indizio_usato {background-image:url(../immagini/storie_hera/icona_indizio3_on.gif);}	
+a.jq_soluzione {background-image:url(../immagini/storie_hera/icona_soluzione_off.gif);}
+a.jq_soluzione.soluzione_aperta {background-image:url(../immagini/storie_hera/icona_soluzione_on.gif);}	
+.indizi_sol_riga_grigia {border-top:1px solid #E0E0E0; margin-top:5px;}
+.indizi_sol_riga_bianca {border-top:1px solid #fff; padding-top:10px;}
+.box_indizi_soluzione {float:right; width:350px;}
+.link_avanti_storia {float:right; width:200px;}
+.vedi_soluzione {float:right;}
+	.vedi_soluzione a {color:#333333; text-decoration:none; background-position:top right; background-repeat:no-repeat; height:30px; display:block; padding-right:40px; font-weight:600; padding-top:8px;}
+.box_indizi {margin-right:355px;}
+.titolo_indizi {float:left; width:35px; padding-top:8px; color:#333; font-weight:600;}
+.box_lenti_indizi {margin-left:35px;}
+	.box_lenti_indizi a {display:block; float:left; width:28px; background-position:0 0; background-repeat:no-repeat; height:28px; text-decoration:none;}
+.maiuscolo {text-transform:uppercase;}
+.risposta_indizio {background-color:#6F6F6F; color:#fff; margin-top:15px;}
+.curva_alto_sx_grigio {background-image:url(../immagini/storie_hera/curva_alto_sx_grigio.gif); background-position:top left; background-repeat:no-repeat; width:100%;}
+.curva_alto_dx_grigio {background-image:url(../immagini/storie_hera/curva_alto_dx_grigio.gif); background-position:top right; background-repeat:no-repeat; width:100%;}
+.curva_basso_sx_grigio {background-image:url(../immagini/storie_hera/curva_basso_sx_grigio.gif); background-position:bottom left; background-repeat:no-repeat; width:100%;}
+.curva_basso_dx_grigio {background-image:url(../immagini/storie_hera/curva_basso_dx_grigio.gif); background-position:bottom right; background-repeat:no-repeat; width:100%;}
+.padding10 {padding:10px;}
+.box_soluzione {border:1px solid #C7C7C7; background-color:#fff; margin-top:10px; padding:10px;}
+.adatta_soluzione {padding:5px 0;}
+.titolo_soluzione {color:#6F6F6F; margin-bottom:3px;}
+.storia_successiva_it, .storia_successiva_en {border:none; background-color:transparent; background-image:url(../immagini/storie_hera/icona_avanti_storia.gif); background-position:top right; background-repeat:no-repeat; padding-right:35px; font-weight:bold; cursor:pointer; font-size:1em; font-family:Arial, Helvetica, sans-serif; color:#333; height:29px;}	
+.titolo_quiz {font-size:1.3em; font-weight:bold; font-style:italic; padding:0 0 10px 0;}
+*:first-child+html .storia_successiva_it {padding-right:5px !important;}
+*:first-child+html .storia_successiva_en {padding-right:12px !important;}
+
+/* classi per sezione Laboratori */
+.lab_box {float:left; width:273px;}
+.lab_box_sposta {margin-left:300px;}
+.lab_box_div {width:215px;}
+	.lab_box_div ul {margin:0; padding:0; padding-top:5px;}
+		.lab_box_div ul li {margin:0; padding:0; list-style-type:none;}
+		.lab_box_div ul li.separatore {border-top:1px solid #CED7DC; padding-top:10px; margin-top:10px;}
+		.lab_box_div ul li a:link, .lab_box_div ul li a:visited {color:#234A5F; text-decoration:none;}
+		.lab_box_div ul li a:hover, .lab_box_div ul li a:active {color:#234A5F; text-decoration:underline;}
+		
+/* classi per la nuova pagina Pronto Intervento */
+.box_pi {float:left; width:290px;}
+.sposta_box_pi {margin-left:290px;}
+
+/* classi per il nuovo box Hera On Demand (WR 2012) */
+.box_hod_spazio {margin-bottom:5px;}	
+	.box_hod_spazio a:link, .box_hod_spazio a:visited {color:#2A2A2A; text-decoration:none; font-weight:normal;}
+	.box_hod_spazio a:hover, .box_hod_spazio a:active {color:#000; text-decoration:none; font-weight:normal;}
+.box_hod_voci {float:left; width:49%; background-position:0 0; background-repeat:no-repeat;}
+.box_home_colorato_hr_fornitori_8, .box_home_colorato_hr_progettisti_tecnici_5, .box_home_colorato_hr_gruppo_19, .box_home_colorato_hr_gruppo_20, .box_home_colorato_hr_gruppo_42 {margin-top:15px;}
+
+/* classi per il nuovo box Hera in Borsa (WR 2012) */
+.feed_borsa_wr12_link {float:right; width:9px;}
+	.feed_borsa_wr12_link img {position:relative; top:-2px;}
+.feed_borsa_wr12_dati {margin-right:9px;}
+	.feed_borsa_wr12_dati ul {margin:0; padding:0;}
+		.feed_borsa_wr12_dati ul li {display:inline; padding-right:1px;}
+			.feed_borsa_wr12_dati ul li.feed_borsa_wr12_nopadd {padding-right:0;}
+.nero {color:#000;}
+
+/* classi per la form di ricerca dei comunicati dell'IR */
+.form_cerca_price_sens .form_cerca_price_sens1 {display:inline-block; width:42px;}
+.form_cerca_price_sens #mese { width:121px;}
+.form_cerca_price_sens .form_cerca_price_sens2 {display:inline-block; width:60px;}
+.form_cerca_price_sens #categoria { width:150px} 
+.form_cerca_price_sens #anno { width: 98px !important; width:95px}
+*:first-child+html .form_cerca_price_sens #anno  /* solo IE 7.0 */
+{ width:95px !important}
+
+/* classi per il nuovo layout contatti dell'IR */
+.box_contatti_ir li.elenco_img.no_padd_bottom {padding-bottom:0;}
+.box_contatti_ir div.evid_primo_box {background-color:#F2F2F2; padding:20px 0 18px 20px; margin-bottom:10px;}
+.box_contatti_ir div.evid_altri_box {background-color:#ECF1F9; padding:10px 0 8px 35px;}
+	.box_contatti_ir div.evid_altri_box img {margin-right:24px;}
+.box_contatti_ir li img {margin-right:10px;}
+
+/* classi per layout Posizione di Mercato */
+.tab_posizione_mercato .tab_anni .tab_allineati div.anno_generico, .tab_posizione_mercato .tab_anni .tab_allineati div.anno_corrente {margin-right:0 !important;}
+.tab_posizione_mercato .tab_anni .tab_allineati div.anno_generico .anni_int, .tab_posizione_mercato .tab_anni .tab_allineati div.anno_corrente .anni_int {height:auto !important; width:auto !important;}
+div.padd_sx_dx_6 {padding-left:6px; padding-right:6px;}
+div.padd_sx_dx_10 {padding-left:10px !important; padding-right:10px !important;}
+
+/*Hera & SocialMedia*/
+.box_half {float:left; width: 255px; font-weight:bold; margin-top:10px; margin-right:4px;}
+.box_full {float:left; width: 514px; font-weight:600; margin-top:10px;}
+.clear {clear: both; margin-top: -1px;height: 1px;overflow: hidden;}
+.grayback {background:#F4F8FB;}
+.grayback_podcast {background:#F7F7F7;color:#888;}
+.boxpad {padding:10px 10px 10px 9px;}
+.gallery_clipper {width:495px;height:80px;overflow:hidden;}
+.youtube_thumb {width:159px;height:106px; overflow:hidden;}
+a.youtube_boxlink:link,a.youtube_boxlink:visited,a.youtube_boxlink:focus,a.youtube_boxlink:hover {display: block; float: right; width:159px;height:19px; line-height:19px; color:white; background:#0B699F; text-align: center; text-decoration:none;}
+a.youtube_boxlink:hover {display: block; float: right; width:159px;height:19px; line-height:19px; color:white; background:#173746; text-align: center; text-decoration:none;}
+a.flickr_prev:link,a.flickr_prev:visited,a.flickr_prev:focus,a.flickr_prev:hover {display: block; float: left; width:75px;height:19px; line-height:19px; color:white; background:#0B699F; text-align: center; text-decoration:none;}
+a.flickr_prev:hover {display: block; float: left; width:75px;height:19px; line-height:19px; color:white; background:#173746; text-align: center; text-decoration:none;}
+a.flickr_next:link,a.flickr_next:visited,a.flickr_next:focus,a.flickr_next:hover {display: block; float: right; width:75px;height:19px; line-height:19px; color:white; background:#0B699F; text-align: center; text-decoration:none;}
+a.flickr_next:hover {display: block; float: right; width:75px;height:19px; line-height:19px; color:white; background:#173746; text-align: center; text-decoration:none;}
+.flickr_linkto {margin:0 auto;color:#0B699F;text-align: center; font-size:0.9em; padding-top:3px;}
+.separat_xsm {margin-bottom:4px;}
+.separat_sm {margin-bottom:5px;}
+.separat {margin-bottom:9px;}
+.righetta {border-bottom:1px solid #EDF1F4;}
+a.low_linkto {display: block; float: right; color:#005C85; font-weight:normal; font-size:0.9em; text-decoration:none;}
+
+/* FAQs */
+.faq_box {float:left; width:160px;}
+.faq_box_bordo {border:1px solid #EAEAEA;}
+.faq_box_adatta {margin-top:2px;}
+.faq_bk_r {background-image:url(../immagini/bk_r_faq.jpg); background-position:0 0; background-repeat:no-repeat; margin-left:2px;}
+.faq_img_bassa {background-position:bottom right; background-repeat:no-repeat; width:100%; height:auto !important; min-height:238px; height:238px;}
+.faq_titolo {color:#333; padding-top:15px; height:auto !important; min-height:52px; height:52px;}
+.faq_entra a:link, .faq_entra a:visited {color:#fff; text-decoration:none; background-color:#005C84; width:68px; display:block; padding:2px 5px 2px 4px; font-weight:normal; font-size:0.9em; background-image:url(../immagini/raquo_faq.gif); background-position:right; background-repeat:no-repeat;}
+.m_right15 {margin-right:15px;}
+
+/* classi per layout Servizi Responsabili */
+.m_right2 {margin-right:2px;}
+.box_serv_resp .box_img {background-position:0 0; background-repeat:no-repeat; height:auto !important;}
+.box_serv_titolo {padding-left:10px;}
+.box_serv_titolo a:link, .box_serv_titolo a:visited, .box_serv_titolo a:hover, .box_serv_titolo a:active {color:#fff; display:block; text-decoration:none; font-size:0.85em;}
+.IE8 .box_serv_titolo a:link,.IE8 .box_serv_titolo a:visited,.IE8 .box_serv_titolo a:hover,.IE8 .box_serv_titolo a:active {font-size:0.8em; color:#FFF}
+.box_serv_titolo span {padding-top:145px; display:block;}
+.box_serv_titolo span span {position:relative; top:-14px; padding-top:0;line-height:14px;}
+.box_serv_resp_thumbs {float:left; margin-right:3px;}
+
+/* classi per layout In Sintesi nel tab home dell'IR */
+div.clear.in_sintesi {border-top:1px solid #ccc; height:5px; margin-top:7px;}
+.risorse_sintesi_wr12 {background-color:#ECF0F1; color:#244A5F; font-weight:normal; padding:8px 10px 6px; text-transform:uppercase;}
+.icona_pdf_price a:link, .icona_pdf_price a:visited, .icona_pdf_price a:hover, .icona_pdf_price a:active {background-position:0 0; background-repeat:no-repeat; padding-left:22px; padding-bottom:8px;}
+.m_right10 {margin-right:10px;}
+.m_bottom15 {margin-bottom:15px;}
+.box_highlights_ir {background-color:#ECF0F1; padding:6px 10px 6px 10px; height:auto !important; min-height:222px; height:222px;}
+.riga_highlights {border-bottom:1px solid #ccc; padding-bottom:10px;}
+.link_utili_ir {padding-top:2px;}
+.link_utili_ir a:link, .link_utili_ir a:hover, .link_utili_ir a:active, .link_utili_ir a:visited {display:block; background-image:url(../immagini/secondo_livello_selected.gif); background-position:right 2px; background-repeat:no-repeat; width:100%;}
+.p_top5 {padding-top:5px;}
+.p_right5 {padding-right:5px;}
+.m_top2 {margin-top:2px;}
+a.primo_cs:link, a.primo_cs:hover, a.primo_cs:active, a.primo_cs:visited {color:#333;}
+
+/* classi per tab categorizzato press-kit */
+.tab_categ .tab_anni {border-bottom:1px solid #fff;}
+.tab_categ .tab_anni .tab_allineati div.anno_generico, .tab_categ .tab_anni .tab_allineati div.anno_corrente.togli_margine_dx,
+.tab_categ .tab_anni .tab_allineati div.anno_generico, .tab_categ .tab_anni .tab_allineati div.anno_generico.togli_margine_dx {margin-right:0 !important;}
+.tab_categ .tab_anni .tab_allineati div.anno_generico, .tab_categ .tab_anni .tab_allineati div.anno_generico {margin-right:4px !important;}
+.tab_categ .tab_anni .tab_allineati div.anno_corrente a, .tab_categ .tab_anni .tab_allineati div.anno_generico a {display:block; width:170px;}
+*:first-child+html .tab_categ .tab_anni .tab_allineati div.anno_corrente a.anno_corr_ie7 {background-color:#fff; padding-bottom:5px; position:relative; top:1px;}
+
+/* classi per la chat dell'acqua */
+.box_chat_sx {width:465px; float:left; margin-right:20px;}
+.box_chat_dx {width:460px; float:left; margin-left:5px;}
+.box_chat_sx #cboxdiv, .box_chat_dx #cboxdiv {text-align:center; line-height:0;}
+.box_chat_titolo {color:#54A0D3; font-size:1.65em; margin-bottom:10px;}
+.box_chat_bordo {border:1px solid #ababab;}
+
+/* classi per il layout della sorgente urbana e case dell'acqua */
+.su_maptiptext {padding:5px 4px;}
+.su_maptiptext a {display:block; border-top:1px solid #C5C5C5; text-align:right; padding-top:0px; margin-top:4px; color:#067AB7; background-image:url(../immagini/sorgente_urbana/raquo_azzurro.gif); background-position:right 8px; background-repeat:no-repeat; padding-right:8px;}
+.su_maptiptext a:link, .su_maptiptext a:visited, .su_maptiptext a:active {text-decoration:none; color:#067AB7;}
+.su_maptiptext a:hover {text-decoration:underline; color:#067AB7;}
+.su_foto_home {float:right; width:324px;}
+	.su_foto_home img, .su_foto_interne img {vertical-align:bottom;}
+.su_flotta_foto {float:left; border:1px solid #C4E5F4; width:139px; padding:2px;}
+.su_flotta_foto.mleft14 {margin-left:14px;}
+.su_mleft15 {margin-left:15px;}
+.su_didascalia_foto {background-color:#90C2DD; height:52px;}
+	.su_didascalia_foto a {color:#000; text-decoration:none; display:block; height:52px; padding-left:10px; padding-top:5px; padding-right:5px;}		
+.su_height17 {height:17px;}
+.su_tabella_sx {width:100%;}
+table.su_tabella_sx caption, table.su_tabella_dx caption {color:#fff; font-weight:600; background-image:url(../immagini/sorgente_urbana/bk_sfum_azzurro.jpg); background-position:0 0; background-repeat:repeat-x; height:27px; font-size:1.1em; padding-left:10px; padding-top:6px;}
+table.su_tabella_sx td {border-top:1px solid #D3D3D3; padding:10px; color:#545454;}
+table.su_tabella_sx td.no_bordo_top_td, table.su_tabella_dx td.no_bordo_top_td {border-top:none; padding-top:0;}
+table.su_tabella_sx td.su_colore_blu, table.su_tabella_dx td.su_colore_blu, span.su_colore_blu {color:#0A7CBA;}
+.su_mleft7 {margin-left:7px;}	
+table.su_tabella_dx td {border-top:1px solid #D3D3D3; padding:6px 10px 6px 10px; color:#545454; vertical-align:top;}
+table.su_tabella_dx td.no_bordo_td {border:none;}
+table.su_tabella_dx td.bordo_grigio_sotto {border-bottom:1px solid #D3D3D3;}
+table.su_tabella_dx .evidenzia_cella {background-color:#D3EAF8; border-top:1px solid #fff; border-bottom:1px solid #fff;}
+img.adatta_stella {position:relative; top:-5px;}
+.flotta_asterisco {float:left; text-align:right; padding-top:2px; width:25px;}
+.distanza_asterisco {margin-left:30px; margin-bottom:8px;}
+.su_mappa {border:1px solid #D3D3D3; padding:10px; margin-bottom:20px;}
+.su_mappa #mappa {width:322px; height:245px;}
+.su_mappa_flotta, .su_box_video {float:right; width:324px;}
+.su_mappa_right350 {margin-right:350px;}
+.su_mappa_flotta_video {float:right; width:267px;}
+.su_mappa .su_mappa_dist_video #mappa {width:267px; height:245px;}
+.su_mappa_right280 {margin-right:280px;}
+.td_width17 {width:17%;}
+.su_tabella_dx td.su_nopadd_left_right {padding-left:0; padding-right:0;}
+.su_tabella_dx td.su_paddleft4 {padding-left:4px;}
+.su_flotta_video {float:right; width:324px;}
+.su_distanza_mappa {margin-right:339px;}
+
+.footer_boxcx .titolo_bh_foo_new {margin-left:10px;}
+.footer_boxcxm10 .titolo_bh_foo_new {font-size:0.85em;}
+.titolo_div_rd {color:#00A77D; font-size:1.6em; padding-bottom:10px; margin-right:30px;}
+.testo_home_comuni .titolo_bh_clienti {font-size:1.4em; font-weight:normal;}
+
+/* classi per layout visita impianti nel canale Acqua */
+.acqua_visita_impianti_blu {color:#2C68B1;}
+.acqua_visita_impianti_azzurro {color:#35B1E5;}
+.acqua_visita_impianti_tit {padding-top:25px;}
+.acqua_visita_impianti_posti {text-transform:uppercase; float:left; width:155px;}
+img.acqua_visita_impianti_pulsante {position:relative; top:-12px;}
+
+/* classi per i box nella home TLR */
+.box_tlr_alto {background:url(../immagini/box_tlr_alto.gif); background-position:top left; background-repeat:no-repeat; margin-top:1px;}
+.box_tlr_primo {float:left; width:100%; margin-right:0; margin-bottom:10px;}
+.box_tlr_secondo {float:left; width:49%; margin-bottom:10px;}
+.box_tlr_bollo {background:url(../immagini/box_tlr_bollo.jpg); background-position:135px 42px; background-repeat:no-repeat;}
+.box_tlr_basso {background:url(../immagini/box_tlr_basso.gif); background-position:bottom left; background-repeat:no-repeat;}
+.box_tlr_repeat {background:url(../immagini/box_tlr_repeat.gif); background-position:top left; background-repeat:repeat-y;}
+.box_tlr_adatta {height:108px; padding:16px; width:420px; font-size: 1.2em; text-align:right;}
+
+/* classi per sezione Dove Siamo per WR2013 */
+.div_testo a.bullet_blu:link, .div_testo a.bullet_blu:visited,
+.div_testo a.bullet_blu:hover, .div_testo a.bullet_blu:active {text-decoration:none; background-image:url(../immagini/bullet_blu.gif); background-position:0 2px; background-repeat:no-repeat; padding-left:14px;}
+*:first-child+html .div_testo a.bullet_blu {background-position:0 3px !important;}
+*:first-child+html .div_testo .azzera_p_ie7 {margin-bottom:0 !important;}
+.show_hide {display:none;}
+.slidingDiv_dove_siamo {background-color:#F9F9F9; padding:10px;}
+.riga_divisoria_sedi {border-bottom:1px solid #333; margin-bottom:10px; padding-bottom:10px;}
+
+form.form_geosms .radio_item { float:left; width:50px}
+form.form_geosms .clear { padding-bottom:5px}
+
+/* classi per Hera Lab per VedoHera */
+div.sottotitolo_hera_lab.p p {display:inline;}
+div.sottotitolo_hera_lab img {margin-left:3px;}
+.w338 {width:338px;}
+.box_hera_lab {border-top:1px solid #C6C7A7; border-bottom:1px solid #C6C7A7; padding:10px 0; margin-top:10px;}
+	.box_hera_lab ul {margin:0; padding:0; list-style-type:none;}
+		.box_hera_lab ul li {display:inline; background-image:url(../immagini/triangolo.gif); background-position:right; background-repeat:no-repeat; padding-right:10px; margin-right:20px;}
+			.box_hera_lab ul li a:link, .box_hera_lab ul li a:visited {color:#333; font-weight:normal; text-decoration:none;}
+
+/* classi per la sezione "Hera ti insegna un mestiere" in HerAcademy */
+ul.punto_elenco_heracademy {margin:0; padding:0; list-style-type:none;}
+	ul.punto_elenco_heracademy li {background-image:url(../immagini/logo_heracademy_small.gif); background-position:0 0; background-repeat:no-repeat; padding:2px 0 10px 40px; font-size:1.2em; margin-bottom:10px;}
+
+/* classi per il link torna indietro a "Formazione e Corporate University" nel canale "HerAcademy" e "Hera ti insegna un mestiere" */
+ul.torna_indietro_formazione {margin:0;}
+ul.torna_indietro_formazione li {display:block; float:left;}
+ul.torna_indietro_formazione li.freccina_sx {margin-right:25px; background-image:url(../immagini/freccina_sx.gif); display:block; float:left;}
+
+/* classi per il numero verde nell'area Clienti */
+.formattazione_numero_verde {color:#00a786; font-size:1.7em; font-weight:bold;}
+h2.formattazione_h2.no_ptop {padding-top:0;}
+h2.formattazione_h2.no_pbottom {padding-bottom:0;}
+.big1_7em {font-size:1.7em;}
+.grassetto {font-weight:bold;}
+span.no_maiuscolo {text-transform:none;}
+
+/* classe per la form alerting generale */
+form.alerting input.bottone_alerting {background-color:#006EBB; border:none; color:#fff; font-weight:normal; text-align:center; width:100px; padding:5px 0; font-size:0.95em; margin-top:20px;}
+
+/* classe per la comunicazione di avviso per lo sportello */
+.avviso_sportello {padding-top:40px; padding-bottom:10px;}
+
+/* classi per l'area Video (Restyle 2015) */
+.video_r15_tooltip_titolo {display:none; position:absolute; border:1px solid #333; background-color:#575652; border-radius:5px; padding:10px; color:#fff; font-size:0.9em;}
+.video_r15 li.li_link.span4.riga_divisoria {border-left:1px solid #E2E2E2; background-position:5% 50%; padding-left:38px;}
+.video_r15_seguici_yt {float:right; width:80px; text-align:right;}
+.video_r15_dist_titolo {margin-right:90px;}
+.video_r15 .box_titolo_big h2 {font-size:0.95em; font-weight:normal; margin-bottom:0;}
+	.video_r15 .box_titolo_big h2.small {font-size:0.82em;}
+		.video_r15 .box_titolo_big h2.small.riga_divisoria_cat {border-bottom:1px solid #e9e9e9;}		
+.video_r15_bottom40 {margin-bottom:40px;}
+.video_r15 .box_lista_allegati {margin-top:0;}
+.video_r15 .categorie_video .box_lista_allegati {margin-top:0;}
+	.video_r15 .categorie_video .box_lista_allegati li {padding-top:5px; margin-top:0; margin-bottom:0;}
+		.video_r15 .categorie_video .box_lista_allegati li a:link, .video_r15 .categorie_video .box_lista_allegati li a:visited,
+		.video_r15 .categorie_video .box_lista_allegati li a:hover, .video_r15 .categorie_video .box_lista_allegati li a:active {color:#0073b9; font-size:1.1em;}
+.video_r15 .box_layout.box_gruppo {margin-bottom:20px;}
+.video_r15_box {
+	position: relative;
+	height: auto !important;
+	min-height: 380px;
+	height: 380px;
+	background-color: #006EBB;
+}
+	.video_r15_box a:link, .video_r15_box a:visited,
+	.video_r15_box a:hover, .video_r15_box a:active {display:block; color:#fff; }
+	.video_r15_box img {margin-top:0;}
+.video_r15_adatta_box { padding: 35px 10px 0 20px; }
+.video_r15 .data_video { margin-bottom:5px; font-size:1.2em; color: white; }
+.video_r15 .titolo_video { display:block; padding-bottom:10px; font-size:1.3em; font-weight:bold; color:white; }
+.video_r15 .sottotitolo_video {
+	margin-top: 3px;
+	font-size: 1.2em;
+	color: white;
+}
+.video_r15 .backstage_video {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: white;
+}
+	.video_r15 .backstage_video a {
+		display: block;
+		padding: 4px 0 4px 35px;
+		background: url('../images_r13/ico_bianco/backstage_white.png') center left no-repeat transparent;
+	}
+
+.video_r15 .loaderImage {
+	background-position: center center;
+}
+
+.video_r15 .bg_responsive {
+	background: none center center no-repeat transparent;
+	background-size: cover;
+}
+.video_r15 a .play {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+.video_r15 a .play img {
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+.video_r15 .box_titolo_big.float_link {
+	margin-right: 160px;
+}
+
+.video_r15 .float_link.gruppo_blu {
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+/* .video_r15 form.bordo_grigio {border:1px solid #E1E1E1;} */
+.video_r15 form .raggruppa_campo.campo_inlinea {margin-right:30px; margin-top:5px;}
+.video_r15 form label.form_cerca_price_sens1.inline, .video_r15 form .raggruppa_campo label.inline {
+	display: inline-block;
+	width: 70px;
+}
+.video_r15 form .raggruppa_campo.top_bottom4 {margin:4px 0;}
+.video_r15 form input.height14 {height:14px;}
+.video_r15 form input.form_cerca_bottone.bottone_rosso_lente {margin-top:0; padding:0; background-color:#C31A00; width:78px; background-image:url(../images_r13/bottone_rosso_cerca.png); background-position:0 0; background-repeat:no-repeat; height:29px;}

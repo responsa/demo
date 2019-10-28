@@ -1,0 +1,327 @@
+body {font-family:"Times New Roman", Times, serif; font-size:110%; margin:0; padding:0; background-repeat:no-repeat; color:#000000;}/* dinamico */
+p {margin-top:0}
+.p, .p p{margin:0; padding:0}
+.clear {clear:both; font-size:0.1em; color:#ffffff;}
+.bold {font-weight:600;}
+table caption {text-align:left; margin-bottom:5px;}
+.testoright {text-align:right;}
+.td_width15 {width:15%;}
+.td_width40 {width:40%;}
+.blocco_testo a:link {text-decoration:underline;} 
+.big2 {font-size:1.15em;}
+
+.logo_stampa {float:left !important; float:none; text-align:left; width:100%;}
+.header, .skip, .titolo_pagina, .div_nav_int_float_sx, .div_nav_int_float_dx, .div_nav_int_float_cx, .footer1, .footer2, .briciole, .agenda_padding, .blocco_box, ul.agenda2, .glossario_lettere, .header_box1, .footer_cms, .footer2, .footer_box_banner, .footer, .blocco_briciole, .icona_lingua, .htdig_display_none, .nostampa_bh_foo, .icona_lingua_foo, .footer_tag_clouds, div.footer_dx.small, div#languagesel_container, div.jqt_handle, div.jqt_subtitle, div.jqt_footer_contents, div.jqt_footer_contents span, div.scroll_js_blu, .ter_link, .bk_grigio_tlr, .box_teleriscaldamento .ter_spazio.p_top15, .box_teleriscaldamento .ter_home_dx, .testo_dx_tlr.pream .div_testo{display:none}
+.testo_dx_tlr img {float: none; text-align:center}
+h1.skip_stampa {font-size:1.85em; margin:0; padding:0; margin-top:10px;}
+.qui_stampo { display: block}
+iframe.iframe_hr_ir_375 {margin:0; padding:0; width:610px; height:650px;}
+iframe.iframe_hr_ir_364 {margin:0; padding:0; width:530px; height:1000px;}
+iframe.iframe_hr_ir_366 {margin:0; padding:0; width:520px; height:450px;}
+iframe.iframe_hr_ir_367 {margin:0; padding:0; width:520px; height:550px;}
+
+form.formfeedback .fb_titolo {float:left; width:195px;}
+form.formfeedback .fb_titolo.stile_radio {float:none; width:auto; margin-bottom:5px;}
+form.formfeedback .fb_titolo.no_float {float:none; width:100%; margin-bottom:5px;}
+form.formfeedback textarea {width:138px;}
+
+/* adattamenti solo per la form dell'offerta risparmio */	
+form.formfeedback div.invia {margin:20px 0 0 195px;}
+form.formfeedback input.via {width:152px;}	
+form.formfeedback label.flotta_label {float:left; width:115px;}
+form.formfeedback select.width_tendina {width:255px;}
+form.formfeedback select.tipo_via {width:95px;}
+form.formfeedback select.width_speciale {width:83px;}
+form.formfeedback div.flotta_campo {float:left; width:195px;}
+form.formfeedback div.margine, form.formfeedback div.torna_indietro {margin-top:10px;}
+
+form.forminterna label {float:left; width:130px;}
+form.forminterna div.radio div.radio_corpo div.radio_item input {float:left; width:auto;}
+form.forminterna div.radio div.radio_corpo div.radio_item label {padding-top:4px;}
+form.alerting input {width:220px;}
+form.alerting input.cellulare {width:137px;}
+form.alerting div.alert_cellulare span {float:left; width:130px;}
+form.alerting div.scelta_avviso {float:left; width:50px;}
+	form.alerting div.scelta_avviso input {width:auto;}
+	
+.footer_testo {float:none; width:100%; padding:5px 0; margin:5px 0 0 0; border-top:1px solid #000}
+	.footer_testo img {display:none;}
+.dimensione_carattere1 { font-size:0.7em;}
+.dimensione_carattere2 { font-size:0.85em;}
+.dimensione_carattere3 { font-size:1.0em}
+
+.immagineright { float:right; padding: 5px 0 3px 5px}
+.immagineleft { float:left; padding:5px 5px 0px 0}
+.immaginemiddle, .immagine {text-align:center;  padding: 3px 0 3px 0}
+
+.titolo {margin:0; padding:5px 0 2px 0; font-size:1.3em; font-weight:600;  color:#000000;}
+.titolo_categorie {margin:0; padding:5px 0 2px 0; font-size:1.2em; font-weight:600; color:#000000;}
+.sottotitolo { font-style:italic; font-size:1.0em; font-weight:600; padding-bottom: 2px} /* dinamico */
+.box_secondario { font-weight:600; font-size:1.1em;}
+
+ul {list-style-type:square; margin:0; padding:0; margin-bottom:10px; color:#000000;}
+ul.archivio_immagini {list-style-type:none;}
+li {padding:0px; margin:3px 20px; color:#000000}
+li div, li span {color:#000000}
+a:link, a:visited, a:hover, a:active, a:focus { text-decoration:none; font-weight:600; color:#000000; text-align:right;}
+.home_int_link {color:#000000; }
+
+/* elenco puntato archivio */
+ul {list-style-type:square;}
+ul.archivio_immagini img.visualizza_mappa {float:none; margin:0; position:relative; top:3px;}
+ul.archivio_immagini {clear: both; /*margin: 10px*/ padding: 0;} /* dinamico */
+	ul.archivio_immagini.adatta_societa_territoriali {clear:none; margin-left:330px;}
+	ul.archivio_immagini img.immaginerightrss {float:right;}
+	ul.archivio_immagini img, .box_img_float img {float: left; margin: 0 5px 0 0}
+	ul.archivio_immagini p {padding:0; margin:0}
+	ul.archivio_immagini li.elenco a, ul.archivio_immagini li.elenco_img a {text-decoration:underline;}
+	ul.archivio_immagini span, ul.archivio_immagini div { color:#000000}
+	li.elenco_img, li.elenco, li.elenco_raquo {padding:0 0 8px 0px; margin-left:0;}
+	li.elenco_img div a img {}
+	/*li.elenco_img span, li.elenco span, li.elenco_raquo span {font-weight: 600}*/ 
+		li.elenco_img {list-style-type: none; list-style-position: outside;}
+		li.elenco {list-style-type: square; list-style-position: inside;}
+		li.elenco div {display: inline}
+	.archivio_immagini_spazio {/*padding-left:14px*/}
+		/*li.elenco_raquo {list-style-image:url(../immagini/lista1.gif); list-style-position: inside;}*/
+	.archivio_sottotitolo { padding-left:15px}
+	/*.lista_agenda li {padding: 0 0 2px 0; margin-bottom:89px; border-bottom:1px solid #fe9f22}*/
+	/*.lista_agenda .testoarancio {color: #EA7500}*/
+div.img_societa_territoriali {float:left; width:328px;}
+div.testo2 div.div_testo ul {color: #000}	
+div.div_testo a {text-decoration:underline;}
+div.div_testo div.box_guida {float:right; width:120px;}
+div.informativa_box {margin-top:10px; font-weight:normal;}
+	div.informativa_box a {text-decoration:underline;}
+
+	
+/* corpo pagina */
+.contenitore {width:100% !important; width: auto;}
+.contenitore2 {width:99%;/*border-left: 1px dashed #272197; border-right: 1px dashed #f90*/}/*margin-left:-3px*/ /*serve per ie5 */
+.testo_contenuto {padding-top:10px}
+
+/* Link e allegati */
+.risorse {font-weight:600; margin:10px 0 5px 0;} 
+ul.lista_allegati li a {text-decoration:underline;}
+.elem_colorati { color:#000000;} 
+.titolo_categorizzato { font-size:110%; font-weight:600; padding-top:5px; color:#000000;} /* dinamico */
+
+a.link_allegati:link, a.link_allegati:visited {/*display:none;*/}
+	 a.link_allegati:hover, a.link_allegati:active {/*display:none;*/}
+	.link_allegati span {/*display:none;*/}
+
+.navigazione a {display:none;}
+a img {border:0px}
+
+/* TESTO */ 
+h1.titolo_pagina { display:none}
+h2 {margin:0; padding:5px 0 2px 0; font-size:1.2em; font-weight:600; color: #000000}
+div.titolo.elem_colorati {margin:0; padding:5px 0 5px 0; font-size:1.2em; color: #000000}
+div.sottotitolo.elem_colorati.p {font-size: 0.9em; color: #000}/* dinamico */
+div.stiletitolo_stampa {font-size:1.7em; font-weight:600; padding:10px 0 2px 0;}
+
+.contenitore_landing ul ul {margin:0; padding:0}
+
+div.bot_gruppo {display:none;}
+div.divbox49 {float:none;}
+	div.divbox49 ul.archivio_immagini li.elenco {margin-left:0;}
+	div.divbox49 ul.archivio_immagini li.elenco a {text-decoration:underline;}
+div.boxjs_invisibile {margin-top:10px;}
+div.set_altezza {padding-top:0;}
+div.box_informazioni_default {margin-top:10px;}
+	div.box_informazioni_intestazione {font-weight:600; font-size:1.1em;}
+	div.box_informazioni_default a {text-decoration:underline;}
+div.titolo_sottosezione {padding:10px 0; font-weight:600; font-size:1.4em;}
+	.titolo_sezione_macro h1, .titolo_sottosezione h1 {margin:0; padding:0; display:inline; font-size:1em;}
+	
+div.titolo_sezione_macro {font-size:1.85em; margin-top:10px; padding-bottom:5px;}
+ul.elenco_no_punto li a {text-decoration:underline;}
+div.box_fotogallery a {text-decoration:underline;}
+
+table.numeri_chiave {margin-bottom:20px; width:100%;}
+	table.numeri_chiave tr th {border-bottom:3px solid #000;}
+	table.numeri_chiave tr th.left {text-align:left;}
+	table.numeri_chiave tr td {border-bottom:1px solid #000;}
+	table.numeri_chiave tr td.right, table.numeri_chiave tr th.right {text-align:right;}
+table.formattazione_tabella_staff_dirigente {width:100%;}	
+	table.formattazione_tabella_staff_dirigente tr th {border-bottom:1px solid #000;}
+	
+table.principali_indicatori {margin-bottom:20px; width:100%;}
+table.principali_indicatori caption {padding:3px 0 3px 3px;}
+table.principali_indicatori tr td {border-bottom:1px solid #000; padding-top:5px;}
+table.principali_indicatori tr th.intestazione {padding-top:10px; border-bottom:3px solid #000;} 
+table.principali_indicatori tr th.left {text-align:left; padding-left:3px;}	
+
+table.formattazione_tabella_obbligazioni {width:100%;}
+table.formattazione_tabella_obbligazioni th {border-bottom:1px solid #000; text-align:left;}
+table.formattazione_tabella_obbligazioni td {border-bottom:1px solid #000;}
+
+table.attivita {width:100%;}
+table.attivita tr td {border-bottom:1px solid #000; padding-top:10px;}
+table.attivita tr td.left, table.attivita tr th.left {text-align:left; padding-left:3px;}
+table.attivita tr td.centrato, table.attivita tr th.centrato {text-align:center;}
+table.attivita tr th.intestazione {color:#000; border-bottom:3px solid #000;}
+
+div.box_home_titolo_hr_acqua_1, div.box_home_titolo_hr_energia_1, div.box_home_titolo_hr_ambiente_1 {display:none;}
+h2.stile_stampa {display:none;}
+
+table.formattazione_tabella_termovalorizzatori {width:100%;}
+table.formattazione_tabella_termovalorizzatori th {padding-top:5px; border-top:1px solid #000;}
+	table.formattazione_tabella_termovalorizzatori th a {text-decoration:underline;}
+table.formattazione_tabella_termovalorizzatori td {padding:3px 0; border-bottom:1px solid #000; text-align:center;}
+table.formattazione_tabella_termovalorizzatori td.giorno_foot, table.formattazione_tabella_termovalorizzatori td.giorno_foot2 {padding:3px 0 8px 0; text-align:center;}
+table.formattazione_tabella_termovalorizzatori td.giorno_foot {border-bottom:1px solid #000;}
+table.formattazione_tabella_termovalorizzatori td.giorno_foot2 {border-bottom:none;}
+table.formattazione_tabella_termovalorizzatori tr.errore_impianto {text-align:center;}
+
+div.box_agenda_rassegna a {text-decoration:underline;}
+div.clienti_comune_cambia {float:right;}
+div.clienti_servizi {float:left; width:49%; margin-bottom:10px;}
+.testo_home_comuni .w100 h2 {font-size:1.4em;}
+
+div.az_titolo_centrato {text-align:center;}
+div.az_primo_box {float:left; width:70%;}
+div.az_secondo_box {float:left; width:30%;}
+
+div.box_home_titolo_hr_clienti_7, div.box_home_titolo_hr_clienti_11, div.box_home_titolo_hr_clienti_27, div.box_home_titolo_hr_clienti_26, div.box_home_titolo_hr_clienti_1 {display:none;}
+
+/* css di stampa per la newsletter csr */
+div.testata_vedohera_stampa {margin-top:20px;}
+div.eventi_generali ul li.elenco div.clear {border:none;}
+div.eventi_generali div.testo_contenuto {padding-top:0;}
+div.eventi_generali ul li.elenco a, div.eventi_generali ul li.elenco div p {font-size:0.9em;}
+div.eventi_generali div.titolo_sezione_macro {display:none;}
+div.eventi_generali div.titolo_sottosezione.elem_colorati {display:none;}
+div.box_informazioni_csr {font-size:0.95em; padding:5px;}
+div.testata_csr_home {margin-bottom:15px;}
+div.numero_newsletter {text-align:right; color:#000; font-weight:600; font-size:0.95em; padding-top:2px; padding-right:2px;}
+div.height30 {height:30px;}
+div.top20 {padding-top:20px;}
+div.clear_csr {clear:both; border-top:1px solid #C5C6C8; margin:20px 20px 0 20px;}
+div.float65 {float:left; width:65%;}
+div.float25 {float:left; width:25%;}
+div.titolo_aggiornamenti {padding-top:5px; padding-left:17px; padding-bottom:3px;}
+	div.titolo_aggiornamenti a:link, div.titolo_aggiornamenti a:visited, div.titolo_aggiornamenti span {text-decoration:none; font-size:1.1em; padding-right:10px; color:#707423;}
+div.box_aggiornamenti {width:138px; margin-left:7px; padding:10px;}
+div.cornice_verde {border-top:2px solid #8D904F; border-bottom:2px solid #8D904F; padding:3px 0;}
+	div.cornice_verde a:link, div.cornice_verde a:visited {color:#000; text-decoration:underline; font-size:0.9em;}
+	div.cornice_verde span {color:#000;}
+div.sottotitolo_editoriale {margin-left:335px; padding-top:5px;}
+	div.sottotitolo_editoriale.p p {display:inline;}
+	div.sottotitolo_editoriale img {margin-left:3px;}
+div.titolo_notizia_editoriale {text-align:left; font-weight:600; font-size:1.2em; float:left; width:330px;}
+div.titolo_notizia_editoriale a:link, div.titolo_notizia_editoriale a:visited {text-decoration:underline; color:#000;}
+div.titolo_notizia_editoriale_interna {padding-bottom:5px; font-size:1.3em; font-weight:600;}
+div.titolo_sezione_editoriale {margin-left:335px; color:#707423; font-weight:600;}
+div.bordo_separazione {border-top:2px solid #707423; margin-top:5px; padding-bottom:15px;}
+div.img_editoriale {float:left; width:330px;} 
+div.clear_editoriale {border-top:1px solid #C5C6C8; clear:both; margin:0 20px 0 20px;}
+div.sottotitolo_focus {font-size:0.95em; padding-top:4px;}
+	div.sottotitolo_focus.p p {display:inline;}
+	div.sottotitolo_focus.p p em {font-style:normal;}
+div.box_focus {float:left; width:33%;}
+	div.box_focus_verde img {border-bottom:2px solid #B8B991;}
+div.stile_link_focus {padding-left:3px; padding-bottom:2px; font-size:0.9em; font-weight:600; min-height:25px;}	
+	div.stile_link_focus a:link, div.stile_link_focus a:visited {text-decoration:underline; color:#000;}
+div.no_link_focus {padding-left:3px; padding-bottom:2px; color:#000; font-size:0.85em; font-weight:600;}	
+div.w160 {width:160px;}
+div.bordo_titolo_progetti {border-bottom:2px solid #707423; padding-bottom:2px;}
+div.stile_titolo_progetti {font-size:1.4em; margin:0; padding:0; color:#707423; font-weight:600;}
+	div.stile_titolo_progetti span {background-color:#fff; padding-right:5px;}	
+	div.stile_titolo_progetti span a:link {text-decoration:none;}
+ul.archivio_immagini li.elenco_progetti {list-style-type:square; margin:0; padding:0; margin-left:15px; font-size:0.9em; margin-bottom:5px; color:#797C31;}
+div.testata_nav_csr {background-color:#707423; margin-top:2px; margin-bottom:15px;}
+div.testata_nav_csr_int_r {width:100%; background-position:left bottom; background-repeat:repeat;}
+div.testata_nav_csr_sotto {width:100%; background-position:top left; background-repeat:repeat; height:14px;}
+div.nascondi_riga {width:240px; padding-right:5px; padding-left:2px;}
+div.box_nav_csr {width:240px; padding-right:5px; padding-left:2px;}
+	div.box_nav_csr ul.link_nav_csr {margin:0; padding:0; list-style-type:none; text-align:right; font-size:0.85em; padding:2px 0;}
+	div.box_nav_csr ul.link_nav_csr li {line-height:1.2em; padding-right:8px; color:#000;}
+	div.box_nav_csr ul.link_nav_csr li a:link, div.box_nav_csr ul.link_nav_csr li a:visited,  
+	div.box_nav_csr ul.link_nav_csr li a:hover, div.box_nav_csr ul.link_nav_csr li a:active {text-decoration:underline; color:#000;}		
+div.spazio_paginazione {margin-bottom:10px;}
+div.titolo_progetto {margin-left:170px; padding-bottom:5px; font-size:1.3em; font-weight:600;}
+div.bordo_verde {border-top:2px solid #707423;}
+div.flotta_img_progetto {padding-top:0; width:160px; float:left;}
+div.testo_progetto {margin-left:170px; padding-top:5px;}
+div.footer_newsletter_csr {font-size:1em; margin-right:20px;}
+	div.footer_newsletter_csr ul {margin:0; padding:0;}
+		div.footer_newsletter_csr ul li {margin:0; padding:0; float:right; width:25%; list-style-type:none;}				
+		div.footer_newsletter_csr ul li div.link_iscrizione_newsl {color:#000; padding-bottom:14px;}
+		div.footer_newsletter_csr ul li div.archivio_newsl {color:#000; padding-bottom:15px;}	
+		div.footer_newsletter_csr ul li div.allegato_newsl {color:#000; padding-bottom:18px;}			
+		div.footer_newsletter_csr ul li a:link, div.footer_newsletter_csr ul li a:visited,
+		div.footer_newsletter_csr ul li a:hover, div.footer_newsletter_csr ul li a:active {text-decoration:underline; color:#000;}		
+form.formfeedback input.larghezza100 {width:100px;}	
+form.formfeedback input.larghezza_check {width:auto;}
+div.no_top {padding-top:0;}
+div.spazio_sottotitolo_editoriale {padding-top:5px;}
+div.numero_newsletter_interno {text-align:right; color:#000; font-weight:600; font-size:0.95em; padding-top:2px; padding-right:2px; float:right; width:auto;}
+
+/* Sezione Overview */
+div.box_overview div.grafico_dx {float:right; width:260px; position:relative; top:-25px;}
+div.box_overview div.allinea_link {margin-left:32px;}
+div.box_overview div.allinea_link ul {width:100%;}
+div.box_overview div.right270 {margin-right:270px;}
+div.box_overview div.riga_separazione {border-top:1px solid #D0D0D0; margin-top:5px;}
+div.box_overview div.elem_colorati {color:#000;}
+div.box_overview div.risorse {font-size:1.1em; padding-bottom:4px; clear:none;}
+div.box_overview div.adatta_allegati {float:left; width:99%; margin-bottom:4px;}
+div.box_overview a.link_allegati:link, div.box_overview a.link_allegati:visited, div.box_overview a.link_allegati:hover, div.box_overview a.link_allegati:active {text-decoration:underline;}
+div.stile_zoom {float:right; width:60px;}
+div.left49 {margin-bottom:20px;}
+
+/* classi per la nuova sezione Eventi in Comunicazione */
+div.eventi_comunicazione {margin-top:6px;}
+div.eventi_comunicazione div.box_eventi {height:auto !important; height:80px; min-height:80px; width:160px; border:1px solid #000;}
+div.eventi_comunicazione div.stile_clear {padding-top:8px; margin-bottom:6px;}
+div.eventi_comunicazione div.distanza_link {padding-left:4px;}
+div.eventi_comunicazione img.img_arc {float:left; padding-right:5px;}
+div.eventi_comunicazione div.left49 {float:left; width:49%;}
+div.eventi_comunicazione a:link, div.eventi_comunicazione a:visited {text-decoration:underline;}
+div.solo_clear {clear:both;}
+div.anni {margin:10px 0;}
+	div.anni a {text-decoration:underline;}
+
+/* classi per il calendario eventi (tab) */
+div.colore_cat {padding-left:3px; margin-top:2px; margin-bottom:5px;}
+div.raquo_blu a {text-decoration:underline;}
+
+/* classi per il sito offerta */
+.titolo_box_rosa {font-weight:600;}
+.sottotitolo_box_offerta {margin-bottom:15px;}
+
+/* adattamenti per immagini */
+.flotta_allegato img, div.home_ir_wr10_dx ul.archivio_immagini li img, div.icona_info img, div.apri_risposta a, div.apri_aggiornamenti a, ul.lista_allegati li img {display:none}
+
+/* classi per RD */
+.alza_leggi_archivio {margin-bottom:10px}
+.titolofascia_rd {font-size:1.6em; font-weight:600}
+.rd_sottotitolo {padding-top:10px}
+
+/* classi per dossier */
+.box_testata_dossier, .content_dx_dossier, .box_sommario {display:none}
+.desc_dossier {padding:20px 0; font-size:2.2em}
+.immagineleft_dossier {float:left; padding:3px 10px 0 0}
+
+/* classi per consumatori */
+.consumatori_titolo_box, .tlr_link, .consumatori_home_box_sopra1, .consumatori_home_box_sopra2, .box_home_titolo_hr_consumatori_1, .box_home_titolo_hr_consumatori_9 {display:none;}
+.consumatori_home_w50_1 {margin-top:20px;} 
+.home_consumatori .navigazione_tit {float:right; font-size:0.7em; text-align:right; width:120px; text-transform:none;}
+.home_consumatori .no_padding_sx {text-transform:uppercase; font-size:1.5em;}
+.flotta_left {float:left;}
+div.clear.nobordo_clear {height:10px; line-height:10px;}
+.video_float .video_item_home {float:left; margin-right:46px; width:130px;}
+.box_home_titolo_hr_consumatori_7 {margin-top:15px;}
+.consumatori_table .cella_grigia {font-weight:600}
+.consumatori_table th {font-size:1.3em}
+.consumatori_table th.big3 {font-size:2.5em; line-height:1em}
+.consumatori_table .cella_grigia .big2 {font-size:1.9em}
+.consumatori_table .cella_grigia .big {font-size:1.2em; line-height:1em}
+.testoleft {text-align:left;}
+.cst_layout_cont {float:none; margin-left:330px;}
+.blocco_titolo_cst {float:left; width:310px;}
+.cst_layout .titolo, .cst_layout .titolo_sezione_macro {font-size:1.25em; text-transform:uppercase; padding-bottom:15px;}
+.cst_layout_cont ul.archivio_immagini, .cst_layout_cont .clear {clear:none;}
+ul.archivio_immagini li img.no_flotta {float:none;}
+.cst_layout_cont ul.archivio_immagini li {list-style-type:none;}

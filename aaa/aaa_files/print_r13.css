@@ -1,0 +1,131 @@
+body {font-family:"Times New Roman", Times, serif; font-size:110%; margin:0; padding:0; background-repeat:no-repeat; color:#000000;}/* dinamico */
+p {margin-top:0}
+.p, .p p{margin:0; padding:0}
+.clear {clear:both; font-size:0.1em; color:#ffffff;}
+.bold {font-weight:600;}
+table caption {text-align:left; margin-bottom:5px;}
+.testoright {text-align:right;}
+.td_width15 {width:15%;}
+.td_width40 {width:40%;}
+.blocco_testo a:link {text-decoration:underline;} 
+.big2 {font-size:1.15em;}
+
+.logo_stampa {float:left !important; float:none; text-align:left; width:100%;}
+.row-fluid .header{display:none;}
+.header,.navbar-top,.navbar,.row-fluid .box_breadcrumbs{display: none}
+#riga_ani_landing{display: none}
+#riga_servizi_landing{display: none}
+#riga_3cols_SBS > .span3:first-child,#riga_2cols_SB > .span3:first-child,#riga_content_standard > .span3:first-child{display: none;}
+#riga_2cols_SB > .span9 {width:100%}
+#riga_content_standard > .span9{width:98%}
+#riga_2cols_SB .span9 .span4{margin:0}
+#riga_3cols_SBS > .span6{width:65%;}
+#riga_3cols_SBS > .span3{width:28%;}
+#riga_3cols_SBS > .span6 > .span6{width:45%;}
+/* Footer */
+.row-fluid .footer {display:block;}
+.row-fluid .footer_rigo, .row-fluid .footer .span6, .row-fluid .siti_gruppo_nostampa, .row-fluid .dove_siamo_nostampa, .row-fluid .footer_menu2 {display:none;}
+.row-fluid .sede_legale_stampa .box_sottotitolo p {text-align:left;}
+.row-fluid .sede_legale_stampa {width:800px;}
+.row-fluid .sede_legale_stampa span.small2 {display: block; clear: both}
+.row-fluid .sede_legale_stampa br {display:none;}
+.row-fluid .footer [class*="span"] {float:none;}
+.sede_legale_stampa{page-break-inside:avoid;}
+/*.box_layout{page-break-inside:avoid;}*/
+.box_gruppo .box_titolo{font-size:20px;}
+.box_gruppo .box_lista_allegati li{padding-left:0;margin-left:0;}
+/*.box_lista_allegati[style]{margin-top:12px !important;}
+.box_sottotitolo{height: 150px;overflow: hidden}*/
+#riga_2cols_SB > .span9 > .span4{width:45%;}
+.box_lista_archivio li{width:100%;float:left;}
+
+.box_fullimg_gruppo,.box_archivio{page-break-inside: avoid}
+
+/*.box_gruppo{border:1px solid red}*/
+.box_gruppo .box_lista_allegati{padding-left:0;margin-left:0;}
+.box_layout ul{list-style: none;padding-left:0;margin-left:0;}
+
+.box_valori_borsa{display: none}
+
+.navigazione.new, .navigazione, .row-fluid .quick_views_on_nostampa {display:none;}
+
+
+.archivio_immagini_new {float:left;width:98%;margin:0;padding:0;}
+.archivio_immagini_new li {float:left;width:95%;padding:0;padding-right:2%;margin-bottom:2%;background-color:#f1f2f2;}
+
+li.elenco_img, li.elenco, li.elenco_raquo {padding: 0 0 6px 0px} 
+li.elenco_img {list-style-type: none;}
+.box_layout ul{list-style-type: none;list-style: none}
+.box_lista_archivio{list-style: none}
+.box_titolo_medio{font-size:20px;}
+.row-fluid .archivio_immagini_new [class*="span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 30px;
+    margin-left: 2.564102564102564%;
+    *margin-left: 2.5109110747408616%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-fluid .archivio_immagini_new [class*="span"]:first-child {
+    margin-left: 0;
+  }
+
+/*SLIDER*/
+.box_slider_home_gruppo{height:320px;margin:0;padding:0;overflow: hidden}
+.marginbottom_16{margin:0;}
+.slide2{position: static;margin:0;height:auto;overflow: visible;margin:0;padding:0;}
+.slide2 .links_slide{display: none}
+
+.slide2 ul li img {position: static}
+.slide2 ul{float: none;width:100%;list-style: none;padding:0;margin:0;}
+.slide2 ul li{position: static; margin:0;padding:0;width:100%;display: none}
+.slide2 ul li.current{display: block;}
+.slide2 .freccine{display: none;}
+.slide2 ul li .imghover{display: none}
+/*fine slider*/
+form.new.form_cerca_form{display: none}
+form.scelta_anni{display: none}
+.clear{display: none;}
+.stampo_mese, .nome_cat{font-size:26px}
+
+.riga_assistenza_clienti_casa{display: none}
+.navbar-lev2,.navbar-lev3{display: none;}
+.row-fluid .box_slidertimeline{display: none}
+/*.box_titolo,.box_titolo_big{font-size:24px;}*/
+/*.testo_contenuto_new{width:90%}*/
+.navigazione.new{display: none}
+
+.archivio_immagini_new li .span12.margin{margin-left:0;}
+.row-fluid ul.archivio_immagini_new li{width:90%}
+.nuovo_tab_anni .anno_generico{display: none}
+.nuovo_tab_anni .anno_corrente{display: block}
+.dwl_anni_notab_anni .dwl_anno{display: none}
+.dwl_anni_notab_anni .dwl_anno.tab_corr{display: block}
+.archivio_immagini_new .pdf a{display: none}
+.row-fluid ul.archivio_immagini_new li .span2{width: 20%}
+.row-fluid ul.archivio_immagini_new li .span10{width:65%;}
+
+/* Classi per il BS2015 */
+.cls-bs2015 .box_lista_link_orizzontali, .cls-bs2015 .box_default_banner, .cls-bs2015 .uibox_leggi, .cls-bs2015 .box_avevamo_detto,
+.cls-bs2015 .default_box_linkunico, .box_azzurro_bs15 li, .tabella_bs15 caption {display:none;}
+.cls-bs2015 .boxfigli .uibox_ctit, .cls-bs2015 .boxfigli .box_titolo {display:block; margin-bottom:10px; text-align:left;}
+.cls-bs2015 .boxfigli .box_sottotitolo {text-align:left; margin:0; padding:0;}
+.cls-bs2015 .boxfigli .nomargin {clear:both; margin-left:0;}
+.cls-bs2015 .box_macrobox .span4 {margin-bottom:20px;}
+.cls-bs2015 .box_fullimg_imgaccanto {margin-top:20px;}
+.cls-bs2015 .box_fullimg_imgaccanto img {padding-top:15px;}
+.bs15_sfondihome .box_sottotitolo img {margin:30px 0 10px 0;}
+.approv_bs15_home {margin-bottom:50px;}
+.box_azzurro_bs15 .box_titolo {margin-bottom:10px;}
+.tabella_bs15 p.tabella_bs15_testobig {font-size:2.2em;}
+
+#riga_multimedia,#riga_ani_gruppo{display:none;}
+.menu_fixed{display: none;}
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}

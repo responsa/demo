@@ -1,0 +1,477 @@
+/* stile_mediaqueries.css - LIVE */
+/********* MEDIA QUERY PER layout fluido *********/
+/*@media (max-width: 979px) {
+	.box_layout { text-align:left; font-size:0.6em;line-height:1em; }
+	#riga_4cols .boxHeightSmall{ height:167px; }
+	.boxHeightHead{height: 170px;}
+	.sparatore_righe_4col {margin:17px 0}
+	.navbar .nav > li > a{padding:10px 10px;}
+	#riga_multimedia {	background-image: url(../images_r13/sfondo_riga_multimedia_xs.png);	}
+}*/
+
+/*@media (min-width: 980px) and (max-width: 1199px) {*/
+@media (max-width: 1199px) {
+	/* Classi per la pagina "Smart City" */
+	.smartcity_menu {min-height:auto;}
+	.puntonet_items {padding-left:38px; padding-right:38px;}
+	.home_cli_ee_slider.puntonet .box_lista_allegati {margin-top:20px;}
+	.puntonet.row_slider .slide2 ul li img {margin-left:0; margin-right:0;}
+
+	/* slider "HeraSolidale - Insieme diamo una mano a chi ne ha bisogno" */
+	.slides-container li .over.cls-slider_hs2019 .over_link ul li {margin-top:5px !important;}
+	
+	/* Report "Costruire insieme il futuro" */
+	.bg_costruire_futuro {background-image:url(../images_r13/box_bg/report_costruire_futuro/bg_costruire_futuro_small.png); background-position:0 0; background-repeat:no-repeat; height:485px;}
+	
+	/* slider Congresso nazionale dei chimici 2018 */
+	.slides-container li .over.cls-slider_congresso_chimici .over_link ul li {margin-top:15px;}
+	
+	/* Convegno del BS2017 */
+	.convegno_bs17_foglie_mondo, .convegno_bs17_mondo_dx, .convegno_bs17_ape {background-image:none;}
+	.slides-container li .over.cls-slider_convegno_bs17 .over_link {margin-top:0;}
+	
+	/* slider "Scopri il valore dell'acqua di casa tua" */
+	.slides-container li.cls-slider_scopri_valore_acqua .over .over_link {margin-top:0;}
+	
+	.box_bianco_clienti.bg_hera_economia_circolare {height:222px;}
+	#riga_4cols .boxHeightSmall.h576 {height:464px;}
+	/* Box Twitter */
+	.spazio_rigosopra.logo_twitter {padding-top:50px;}
+	.logo_twitter .box_titolo_big {margin-bottom:12px;}
+	/* Report I mille volti del servizio 2017 */
+	.slides-container li .over.cls-slider_millevolti .over_link {margin-top:1% !important;}
+	/* STORYTELLING - UN VALORE CONDIVISO */
+	.layer_sottosito.cls-slider_valore_condiviso.cls-sfondo_valore_condiviso h2 {margin-top:57%;}
+	.layer_sottosito.cls-slider_valore_condiviso .div_testo div.titolo_verdechiaro_sopra {font-size:2.6em; left:-18px;}
+	.layer_sottosito.cls-slider_valore_condiviso .div_testo div.titolo_nero_sotto {font-size:1.75em; top:-16px;}
+	.layer_sottosito.cls-slider_valore_condiviso .div_testo div.titolo_nero_sopra {font-size:1.75em;}
+	.layer_sottosito.cls-slider_valore_condiviso .div_testo div.titolo_verdechiaro_sotto {font-size:2.6em; top:10px; left:-18px;}
+	.layer_sottosito.cls-slider_valore_condiviso.cls-sfondo_valore_condiviso .story_valore_footer a:link,
+	.layer_sottosito.cls-slider_valore_condiviso.cls-sfondo_valore_condiviso .story_valore_footer a:visited {padding-left:40px;}
+	/* BS2016 */
+	.cls-bs2016 .box_fullimg_imgaccanto .box_titolo a {padding-right:0;}
+	.cls-bs2016 .box_bg_homebs15 .boxaltobs14 {background-image:url('../images_r13/bs16/bg_home_small.jpg');}
+	.cls-bs2016 .box_bg_bs15relatore, .cls-bs2016 .box_bg_bs15relatore_eng {background-image:url('../images_r13/bs16/relatore_noscritta.png');}
+	.slides-container li .over.cls-slider_bs2016 .over_titolo {font-size:3.7em;}
+	.slides-container li .over.cls-slider_bs2016 .over_sottotitolo {color:#005d9a;}
+	/* slider BE2016 */
+	.slides-container li .over.cls-slider_be2016 .over_link ul li {margin-top:5px;}
+	/* Inizio: SOL */
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .campo input {width:158px;}
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .accedi {margin-top:5px;}
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .accedi input {width:160px;}
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .bot_privati {margin-right:56px; width:20%;}
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .bot_aziende {width:20%;}
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .bot_privati a, 
+	.box_area_riservata_clienti_r16 .form_login_sol_interna .bot_aziende a {width:59px;}
+	#riga_content_standard .form_login_sol_interna .campo input {width:183px;}
+	#riga_content_standard .form_login_sol_interna .accedi input {width:190px;}
+	#riga_content_standard .form_login_sol_interna .bot_privati, #riga_content_standard .form_login_sol_interna .bot_aziende {width:42.6%;}
+	#riga_content_standard .form_login_sol_interna .bot_privati a, #riga_content_standard .form_login_sol_interna .bot_aziende a {width:auto;}
+	/* Fine: SOL */
+
+	/* slider GMM */
+	.slides-container li .over.cls-slider_gmm .over_sottotitolo {font-size:1.4em; line-height:22px; margin-top:2px;}
+	.slides-container li .over.cls-slider_gmm .over_sottotitolo p {margin:0 0 2px;}
+	.slides-container li .over.cls-slider_gmm .over_link {margin-top:3px;}
+
+	.box_home_colorato_hr_progettisti_tecnici_4 ul li a:link, .box_home_colorato_hr_progettisti_tecnici_4 ul li span {font-size:0.9em;}
+	.box_layout.box_menu_contestuale {position:relative; top:-1px;}
+	.box_menu_contestuale .nav.nav-list li.active h1 a {padding-top:4px; padding-bottom:10px;}
+	.box_slider_home_gruppo .sottotitolo_slide_heracademy {font-size:0.8em;}
+	table.herasolidale_r15_tabella td.distanza_valore {padding-left:80px;}
+	.video_r15 object, .video_presentazione_gruppo object {height:450px;}
+	.box_layout { text-align:left; font-size:0.75em;line-height:1.2em; }
+	#riga_4cols .boxHeightSmall{ height:221px; /*padding:20px 5px 5px*/}
+	#riga_3cols_SSB .boxHeightSmall_rd, .default_box_linkunico a, .default_box_linkunico a.onelink_macrolink, #riga_2cols_BB .boxHeightSmall_rd { height:221px; /*padding:20px 5px 5px*/}
+	#riga_3cols_SSB .boxHeightSmall.rd_perche_15 {height: auto}
+	#riga_3cols_SSB .boxHeightSmall.performance_faremo_r15 {height:463px;}
+	#riga_3cols_SSB .boxHeightSmall.h572 {height:460px;}
+	#riga_2cols_SB .box_login_ambiente.boxHeightSmall{height: 221px;}
+	#riga_2cols_SB .box_mappa_cassonetti.boxHeightSmall{height: 221px;}
+	#riga_2cols_SB .box_orari_discarica.boxHeightSmall{height: 221px;}
+	.box_macrobox_generale .boxHeightSmall_rd {height: 221px;}
+	.box_box_fullimg{padding-left:0;padding-right:0;}
+	.boxHeightHead {/*height:193px;*/ height:205px;}
+	.box_bg_alberi,.box_bg_alberi_tree,.box_bg_bidone_marrone,.box_bg_bidone_verde,.box_bg_tenda,.box_bg_persone, .box_arancio_tracce.box_bg_riciclo,.box_bg_cosa_abbiamo_fatto_cosa_faremo,.box_bg_performance_hera,.box_bg_palazzi_camion,.box_bg_certificati_bianchi,.box_bg_auto_elettrica,.box_bg_case_lampioni, .box_bg_clienti_territorio, .box_bg_sostegno_utenze, .box_bg_clienti_tutelati, .box_bg_offerte_mercato_libero, .box_bg_sicurezza_continuita, .box_bg_qualita_soddisfazione, .box_bg_presenti_territorio, .box_bg_progetti_innovativi,
+	.bg_presenza_territorio, .bg_sostegno_famiglie, .bg_primo_contatto, .bg_risparmio, .bg_servizio, .bg_qualita, .box_layout.nascondi_boximg_responsive {background-image:none;}
+	.sparatore_righe_4col {margin:20px 0}
+	/*INIZIO modifica per aggiunta voce menu e-mobility*/
+	.navbar-top .nav li a{padding:0 8px 0.7%}
+	body.IE8 .navbar-top .nav li a{padding:0 4px 0.7%}
+	/*FINE modifica*/
+	.navbar-dx .nav{width:100%}
+	.navbar .nav > li > a{padding:10px 7px;}
+	.menu_reti .navbar .nav > li > a, .menu_inrete .navbar .nav > li > a {padding:10px 6px;}
+	.navbar .nav > li > h1 > a{padding:10px 10px;}
+	.cls-business .navbar-lev2 .nav li a {padding:1px 17px;}
+	/*.cls-business .navbar-lev2 .nav li a img{width:50%}*/
+	.box_box_fullimg .box_titolo{margin:0px 15px 8px;}
+	.box_box_fullimg .box_lista_allegati{margin-top:5px;padding-top:0;}
+	.box_info_evento{height:250px}
+	.cls-business-aperto .navbar-lev2 .nav li h1{line-height:22px;}
+	.cls-business.cls-business-aperto .navbar-lev2  .nav li a{padding-top:6px;line-height: 1em;}
+	/*.box_contatti .persona .cv{margin-top:0;}
+	.box_contatti .persona .linkedin{margin-top:0;width:32%}*/
+	.box_slider_home_gruppo .slide2 { height:209px; }
+	.slider_nuovo_clienti .slide2{height:190px}
+	.slider_interno_height .slide2 { height:257px; }
+	.slider_interno_height .slide2 .freccine{top:137px}
+	.slide2 ul li .imghover .links_slide { margin-top:0.5%; }
+	div.servizi{height:125px}
+	div.servizi.cls-ambiente a{width:68%;padding-left:32%;text-align: left}
+	#riga_multimedia {	background-image: url(../images_r13/sfondo_riga_multimedia_s.png);	}
+	.tipo_utente_cambio form.cerca_comune input.tucomune{width:63%;}
+	
+	.slide2 ul li .imghover .links_slide li {margin-left:5px;margin-right:5px;}
+	.box_slider_home img.main {
+		max-width: 940px;
+	}
+	.footer_tenda a, .footer_tenda *:visited {
+	  width:170px;
+	}
+	.footer_tenda ul ul {
+	  width:170px;
+	}
+	
+	body.cls-business-aperto .navbar-lev2 .titolo_nav_compatto.business,
+	.cls-business-aperto .menu_fixed .cls-clienti-aperto .navbar-lev2 .titolo_nav_compatto.business{width:18%}
+	
+	.menu_fixed .cls-business-aperto .titolo_nav_compatto.business {width:18%}
+	.cls-business-aperto .navbar-lev2 .nav{width:80%}
+	.cls-business-aperto .navbar-lev2 .nav li, .cls-business-aperto .menu_fixed .cls-clienti-aperto .navbar-lev2 .nav > li {width:25%}
+	
+	/*HACK per IE8*/
+	body.IE8 .box_box_fullimg.adatta_ie .box_sottotitolo{margin-left:10px;margin-right:10px;}
+	body.IE8 .box_box_fullimg.adatta_ie .box_lista_allegati{margin-left:10px;margin-right:10px;}
+	body.IE8 .box_box_fullimg.adatta_ie .box_lista_allegati li a{font-weight: 300}
+	body.IE8 .box_gruppo .box_lista_allegati{padding:10px 5px}
+	body.IE8 .box_lista_allegati li.li_link{padding-left:20px;}
+	.elenco_tracciabilita .sfondo_grigio_chiaro{width:60%}
+	.elenco_tracciabilita .tipo_materiale{height:41px;padding-top:8px;}
+	.elenco_tracciabilita .posizione{height:42px;padding-top:8px;}
+	.elenco_tracciabilita .rifiuti_traccia{height:33px;}
+	.elenco_tracciabilita .rifiuti_traccia.separazione_bottom{height:32px;}
+	
+	.slides-container li.cls-sfondo_12anni .over_titolo { margin-top: 4%; }
+	
+	.slides-container li.cls-sfondo_nero.cls-sfondo_acquarifiuti .over_titolo { width: 80%; font-size: 2.5em; }
+	.cls-sfondo_acquarifiuti .testo2 * { font-size: 1em; line-height: 1.7em; }
+	
+	
+	.slides-container li .over.cls-sfondo_herastartup .over_titolo { line-height: 1.2em; }
+	.cls-sfondo_herastartup.layer_sottosito .sottotitolo { line-height:1.6em; margin-top:130px; }
+	.cls-sfondo_herastartup.layer_sottosito .div_testo { line-height:1.6em; }
+	.cls-sfondo_herastartup .st_banner_under_content_container { margin-top: 30px; }
+	.cls-sfondo_herastartup.layer_sottosito .notizia h2 { width: 45%; }
+	.cls-sfondo_herastartup.layer_sottosito .div_testo img { width:50%; margin: 15px 15px 10px 0; display: block; }
+	.cls-sfondo_herastartup.layer_sottosito .div_testo .st_banner_under_content img { width:100%; }
+	.cls-slider_startup.cls-sfondo_herastartup.layer_sottosito { background-position: top left; }
+	
+	/* BS2014 */
+	.default_box_linkunico .onelink_sottotitolo1 { font-size: 1.4em !important; }
+	/*.default_box_linkunico .onelink_macrolink { padding-right: 1%; }*/
+	.box_bg_bs14relatore, .box_bg_bs14relatore_eng {background-image:url('../images_r13/bs14/relatore_noscritta.png')}
+
+	/* BS2015 */
+	.cls-bs2015 .box_bg_bs15relatore, .cls-bs2015 .box_bg_bs15relatore_eng {background-image:url('../images_r13/bs15/relatore_noscritta.png')}
+	
+	.slides-container li.cls-slider_acquapulita .over .over_titolo {
+		margin-top: 4%;
+	}
+	.slides-container li.cls-slider_indispensabile .over .over_titolo {
+		margin-top: 4%;
+	}
+
+	.bg_top_left .immagine_full,
+	.bg_top_center .immagine_full,
+	.bg_top_right .immagine_full,
+	.bg_bottom_left .immagine_full,
+	.bg_bottom_center .immagine_full,
+	.bg_bottom_right .immagine_full { background-image: none !important; }
+	.report_acqua_2014.h270 .immagine_full { height:200px; }
+	.report_acqua_2014.h570 .immagine_full { height:420px; }
+
+	.market_insight_box_titolo .span7 {width:50%} 
+	.market_insight_box_titolo .span5 {width:47%}
+	.market_insight_box_titolo .span7 p {margin:2px 25px 0 0;}
+	
+	/* slider BE2017 */
+	.slides-container li .over.cls-slider_be2017 .over_titolo {margin-top:3%;}
+	.slides-container li .over.cls-slider_be2017.video .over_link {margin-top:24%;}
+	
+	/* slider convegno 4 giugno 2018 */
+	.slides-container li .over.cls-slider_4giugno2018 .over_titolo {margin-top:3%;}
+	.slides-container li .over.cls-slider_4giugno2018.video .over_link {margin-top:24%;}
+
+	.slides-container li .over.cls-slider_herambiente_10anni.video .over_link { margin-top: 24%; }
+}
+@media (min-width: 1200px) {
+	.box_layout { text-align:left; font-size:0.9em;line-height:1.3em; }
+	
+	.archivio_rifiutologo_corpo_scheda .box_layout { line-height:20px; }
+	
+	#riga_4cols .boxHeightSmall, .box_herasolidale.boxHeightSmall {height: 272px;}
+	#riga_4cols .boxHeightSmall.h286 {height:286px;}
+	#riga_4cols .boxHeightSmall.h576 {height:576px;}
+	#riga_4cols .boxHeightSmall.h604 {height:604px;}
+	#riga_3cols_SSB .boxHeightSmall_rd, .default_box_linkunico a{height: 272px;}
+	#riga_3cols_SSB .boxHeightSmall.rd_perche_15 {height:570px}
+	#riga_3cols_SSB .boxHeightSmall.performance_faremo_r15 {height:577px;}
+	#riga_3cols_SSB .boxHeightSmall.h572, #riga_4cols .boxHeightSmall.h572 {height:572px;}
+	#riga_2cols_SB .box_login_ambiente.boxHeightSmall{height: 272px;}
+	#riga_2cols_SB .box_mappa_cassonetti.boxHeightSmall{height: 272px;}
+	#riga_2cols_SB .box_orari_discarica.boxHeightSmall{height: 272px;}
+	#riga_2cols_BS .boxHeightSmall_rd, #riga_3cols_SSB .boxHeightSmall, #riga_2cols_BB .boxHeightSmall.h272, #riga_1cols_B .boxHeightSmall.h272 {height:272px;}
+	.box_macrobox_generale .boxHeightSmall_rd, .box_verde_tracce, .box_arancio_tracce  {height: 272px;}
+	.boxHeightHead {/*height:230px;*/ height:235px;}
+	.sparatore_righe_4col {margin:30px 0}
+	.navbar .nav > li > a{padding:10px 15px;}
+	.cls-business .navbar-lev2 .nav li a {padding:14px 20px;}
+	/*.cls-business.cls-business-aperto .navbar-lev2 .nav li a {padding:1px 20px;}*/
+	
+	.navbar-lev2 .nav > li{width:155px;height:155px;}
+	div.servizi{height:155px;}
+	.navbar-lev2 .nav > li a{padding-top: 68px;padding-bottom:68px;}
+	/*.navbar-lev2 .nav > li > span {padding-top: 68px;padding-bottom:68px;width:110px;}*/
+	div.servizi a{padding-bottom:68px;padding-top:68px;}
+	div.servizi span{padding-bottom:68px;padding-top:68px;}
+	
+	.box_slider_home_gruppo .slide2 { height:260px; }
+	.slider_nuovo_clienti .slide2{height:236px}
+	.slider_interno_height .slide2 { height:320px; }
+	.slider_interno_height .slide2 .freccine{top:137px}
+	
+	#riga_multimedia {	background-image: url(../images_r13/sfondo_riga_multimedia.png);	}
+	
+}
+
+@media (max-width: 990px) {
+	.slides-container li.cls-sfondo_12anni .over_titolo { margin-top: 8%; }
+	/* BS2016 */
+	.cls-bs2016 .box_bg_homebs15 .boxaltobs14 {background-image:none;}
+
+	.slides-container li.cls-slider_6giugno2019 .over .over_link ul li { margin-top: 7px; }
+
+	.slides-container li.cls-slider_herambiente_10anni .over .over_link ul li { margin-top: 7px; }
+}
+@media (max-width: 980px) {
+	.archivio_rifiutologo_corpo_scheda .box_layout { font-size: 0.9em; }
+	/* ---------------------- rifiutobox ---------------------- */
+	#riga_content_standard #rifiutobox { clear:both; min-height: inherit; }
+	#riga_content_standard #rifiutobox.box_bg_smile { background-image: none; }
+	#riga_content_standard #rifiutobox .spaziatore { padding: 2% 11% 3%; }
+	#riga_content_standard #rifiutobox .box_titolo { display: none; }
+	#riga_content_standard #rifiutobox .contenitore_link { margin:3% 0 5% 5%; }
+	#riga_content_standard #rifiutobox .lista_allegati { margin-left: 2px; }
+	#riga_content_standard #rifiutobox .lista_allegati li { float:left; width:44%; font-size:1.2em; }
+	#rifiutobox .rifiutologo_cosa .p10 {
+		font-size: 2.3em;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	#dataworkbox .collettamento_ricerca .p10 {
+		font-size: 2.3em;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	#riga_content_standard #rifiutobox #rifiuto {
+		background: none repeat scroll 0 0 #f3da30;
+		border: 0 none;
+		color: #615400;
+		font-size: 1.9em;
+		padding: 1.3% 2%;
+		width: 90%;
+	}
+	#riga_content_standard #rifiutobox .jq_findgarbage {
+		margin-top: 4%;
+	}
+	#riga_content_standard #rifiutobox .jq_submit_boxrif {
+		border: 0 none;
+		float: right;
+		margin: 0;
+		padding: 0;
+		width: 5.7%;
+	}
+	#riga_content_standard #rifiutobox .lista_rifiuti_filtrata {
+		font-size: 1em;
+		line-height: 20px;
+	}
+	.consumatori_box_grigio .span9 { font-size:0.8em}
+	.box_archivio_orizzontale_titsot .box_lista_archivio .span3 {width:48% !important; margin-left:0; margin-right:0}
+	.box_archivio_orizzontale_titsot .box_lista_archivio .span8 {width:66%} 
+.box_archivio_orizzontale_titsot .box_lista_archivio .span4 {width:30%} 
+	/* slider BE2014 */
+	.slides-container li .over.cls-slider_be2014 .over_titolo {color:#005D9A; width: 40%; margin-top:5%; margin-left: 15%; font-weight:400; font-size:1.6em}
+	.slides-container li .over.cls-slider_be2014 .over_sottotitolo {color:#005D9A; margin-left: 15%}
+	.box_rosa_bs.box_gruppo .box_titolo, .box_macrobox.box_gruppo .boxfigli .box_titolo, .default_box_linkunico .box_titolo, .cls-bs2015 .box_azzurro_bs15.box_gruppo .box_titolo { font-size:2.2em; }
+	/* fine slider BE2014 */
+	.box_macrobox .uibox_leggi p { font-size: 0 !important; }
+	.fullimg_accanto_generica .img_fullimg_freccia_sx {position:absolute; top:40% ; right:0}
+	.fullimg_accanto_generica .img_fullimg_freccia_dx {position:absolute; top:40% ; left:0}
+	.box_macrobox_generale .boxHeightSmall_rd, .box_verde_tracce, .box_arancio_tracce { background-image:none}
+	/* BS2015 */
+	.cls-bs2015 .box_bg_homebs15 .boxaltobs14 {background-image:none;}
+	/* slider BE2016/BS2016 */
+	.slides-container li .over.cls-slider_be2016 .over_titolo, .slides-container li .over.cls-slider_bs2016 .over_titolo {font-size:2.8em;}
+}
+
+@media (max-width: 979px) {
+	.cls-serv_acqua .report_acqua_2014.h270 .box_titolo,
+	.cls-serv_acqua .report_acqua_2014.h570 .box_titolo { font-size:1.7em; }
+	.report_acqua_2014.box_gruppo.box_interviste .box_titolo,
+	.report_acqua_2014.box_gruppo.box_trasparenti .box_titolo { margin-top:15px; font-size:1.7em; }
+	.cls-serv_acqua .report_acqua_2014.box_gruppo.box_interviste .box_sottotitolo { font-size:1.4em; font-weight:bold; }
+		.cls-serv_acqua .report_acqua_2014.box_trasparenti .box_lista_allegati li.li_link a { font-size:1.3em; line-height:1.0em; }
+	.slider_home_top {margin-top:20px;}
+	.slider_home_heracademy {margin-bottom:20px;}
+	.slider_home_heracademy .slide2 ul li .imghover .sottotitolo_slide span.arancione_big {font-size:1.2em;}
+	.slider_home_heracademy .slide2 ul li .imghover .sottotitolo_slide {line-height:inherit;}
+	.slider_home_heracademy .slide2 ul li .imghover .links_slide li {margin-top:0;}
+	.slider_home_heracademy .sottotitolo_slide_heracademy {font-size:0.7em;}
+	.slider_home_heracademy .data_grigio_small {font-size:0.5em;}
+	.slider_home_heracademy ul li {line-height:19px;}
+
+	.slides-container li .over.cls-slider_6giugno2019 .over_sottotitolo { margin-top: 170px; margin-left: 2%; }
+
+	.slides-container li .over.cls-slider_herambiente_10anni .over_sottotitolo { margin-top: 170px; margin-left: 2%; }
+}
+
+@media (max-width: 799px) {
+	.box_bg_casa,.box_bg_bidone_rusco,.box_bg_ruspa,.box_bg_riciclo,.box_bg_camion,.box_bg_centrale { background-image: none; }
+	.box_default_box.rd_home_boxtitle .spaziatore {
+		margin-top: 0;
+	}
+	.box_archivio_orizzontale_titsot .box_lista_archivio .span3 {width:48% !important; margin-left:0; margin-right:0}
+	.box_archivio_orizzontale_titsot .box_lista_archivio .span3 img {width:30%}
+	.box_archivio_orizzontale_titsot .box_lista_archivio .span8 {width:66%} 
+	.consumatori_box_grigio .span3 { width:28% !important;}	
+	.consumatori_box_grigio .span9 { width:48%}
+	/* slider BE2014 */
+	.slides-container li .over.cls-slider_be2014 .over_sottotitolo {color:#005D9A; margin-left: 15%; font-size: 1.5em}
+	/* fine slider BE2014 */
+	/* BS2014 */
+	.box_rosa_bs.box_gruppo .box_titolo, .box_macrobox.box_gruppo .boxfigli .box_titolo, .default_box_linkunico .box_titolo { font-size:2em; }
+	.default_box_linkunico .onelink_sottotitolo2 { margin-top:3%; }
+	.default_box_linkunico .onelink_ctit,.default_box_linkunico .box_titolo { padding-top: 3%; }
+	.macrobox_macrolink { position: relative; }
+	.macrobox_macrolink .uibox_leggi { position: absolute; bottom: 3%; left: -5.5%; }
+	.macrobox_macrolink .uisottotitolo { position: absolute; bottom: 5.5%; right: 5.5%; }
+	
+	.bs14_box_unannodi { width: 99% !important;float:left !important;clear:none !important; }
+	.bs14_box_avevamodetto { width: 99% !important;float:left !important;clear:none !important;margin-top: 4% !important;margin-bottom: 0 !important; }
+	/*.bs14_box_datacenter { width: 50% !important;float:left !important;clear:none !important; }*/
+	.box_fullimg_imgaccanto .span6 { width: 50% !important; }
+	.box_archivio_3colonne h2 {font-size:1.9em}
+}
+
+@media (max-width: 775px) {
+	.report_acqua_2014.h270 .immagine_full { height:150px; }
+	.report_acqua_2014.h570 .immagine_full { height:230px; }
+	.market_insight_box_titolo .span7 {width:100%; padding: 15px} 
+	.market_insight_box_titolo .span5 {width:100%; background-image: none;} 
+}
+
+@media (max-width: 768px) {
+	.box_home_colorato_hr_progettisti_tecnici_4 ul li a:link, .box_home_colorato_hr_progettisti_tecnici_4 .cls_piani_urbanistici a:link, .box_home_colorato_hr_progettisti_tecnici_4 ul li span {color:transparent;}
+	.macrobox_macrolink .uibox_leggi { position: absolute; bottom: 5.5%; left: 5.5%; }
+	.bs14_box_unannodi { width: 50% !important;float:left !important;clear:none !important; }
+	.bs14_box_avevamodetto { width: 50% !important;float:left !important;clear:none !important;margin-top: 4% !important;margin-bottom: 0 !important; }
+	.box_archivio_3colonne h2 {font-size:1.5em}
+	.arc_storytelling_desc div {padding:10px}
+	.fullimg_accanto_generica .img_fullimg_freccia_sx,	.fullimg_accanto_generica .img_fullimg_freccia_dx { display:none}
+
+	.report_acqua_2014.h270 .immagine_full { height:150px; }
+	.report_acqua_2014.h570 .immagine_full { height:230px; }
+	.cls-serv_acqua .report_acqua_2014.h320.box_trasparenti .immagine_full { height:260px; }
+		.cls-serv_acqua .report_acqua_2014.box_trasparenti .box_lista_allegati { margin-top:1%; }
+	.cls-serv_acqua .report_acqua_2014.box_trasparenti.dich_dnv .box_lista_allegati {margin-top:1%;}
+	table.herasolidale_r15_tabella td.distanza_valore {padding-left:60px;}
+}
+
+@media (max-width: 640px) {
+	.slides-container li .over.cls-slider_6giugno2019 .over_sottotitolo { margin-top: 150px; }
+
+	.slides-container li .over.cls-slider_herambiente_10anni .over_sottotitolo { margin-top: 150px; }
+}
+
+@media (max-width: 480px) {
+	
+	/*TOOL CALCOLO CO2 */
+	.n_rifiuti {
+		width: 90px;
+		margin-top: 10px;
+		text-align: center;
+	}
+	
+	.tot_eq_text {
+		float: left;
+		position: relative;
+		padding-left: 0;
+		padding-top: 10px;
+	}
+		    
+	/*FINE*/
+
+	.slides-container li.cls-sfondo_nero.cls-sfondo_acquarifiuti .over_titolo {
+		width: 70%; font-size: 2em;
+		/*color:black;
+		text-shadow: 0 0 5px rgba(255, 255, 255, 1);*/
+		font-weight: 400;
+		letter-spacing: -1px;
+	}
+	.rd_home_boxtitle_15 p {margin-bottom:5%;}
+	.box_default_box.rd_home_foglia_15 {margin-top:2%}
+	.box_default_box.rd_home_foglia_15 div, .box_default_box.rd_home_foglia_15 p, .sparatore_righe_4col div > .rd_quanto_15.sparatore_righe_4col:first-child, .sparatore_righe_4col div > .rd_home_boxtitle_15.sparatore_righe_4col:first-child {margin-top:0 !important; padding-top:0 !important; margin-bottom:0 !important; padding-bottom:0 !important}
+	.div_testo img { margin-top: 10px; margin-bottom: 10px; }
+	.st_banner_under_content { margin-top: 25px; }
+	/* slider BE2014 */
+	.slides-container li .over.cls-slider_be2014 .over_titolo {color:#005D9A; width: 40%; margin-top:10%; margin-left: 13%; font-weight:400; font-size:1em}
+	.slides-container li .over.cls-slider_be2014 .over_sottotitolo, .slides-container li .over.cls-slider_bs2015 .over_sottotitolo {color:#005D9A; margin-left: 13%; font-size: 1em}
+	/* fine slider BE2014 */
+
+	.macrobox_macrolink .uibox_leggi { left: 0; }
+	.macrobox_macrolink .uisottotitolo { right: 0; }
+	.row-fluid .box_archivio_3colonne_box4 {width:50%}
+	.box_archivio_3colonne_clear0 { clear: none}
+	.box_archivio_3colonne h2 {font-size:1.3em}
+	.arc_storytelling_desc div {padding:5px}
+
+	.report_acqua_2014.h270 .immagine_full { height:120px; }
+	.report_acqua_2014.h570 .immagine_full { height:160px; }
+	.cls-serv_acqua .report_acqua_2014.h320.box_trasparenti .immagine_full { height:210px; }
+	.slides-container li .over.cls-slider_augurinatale .over_titolo {font-size:3.3em; margin-bottom:15%}
+	.herasolidale_margine_assoc {margin-left:0;}
+	.slides-container li.cls-slider_cultura.cls-sfondo_cultura .over_titolo {font-size:1.7em}
+
+	.slides-container li .over.cls-slider_6giugno2019 .over_sottotitolo { margin-top: 110px; }
+
+	.slides-container li .over.cls-slider_herambiente_10anni .over_sottotitolo { margin-top: 110px; }
+}
+
+@media (max-width: 360px) {
+	.report_acqua_2014.h270 .immagine_full { height:130px; }
+	.report_acqua_2014.h570 .immagine_full { height:180px; }
+	.cls-serv_acqua .report_acqua_2014.h320.box_interviste .immagine_full { height:340px; }
+	.slides-container li.cls-slider_cultura.cls-sfondo_cultura .over_titolo {font-size:1.7em}
+	/* slider "Gruppo Hera presenta "Volo sull'acqua" */
+	.slides-container li .over.cls-slider_volo_acqua .over_titolo {font-size:1.1em !important;}
+	.slides-container li .over.cls-slider_volo_acqua .over_sottotitolo {font-size:1.3em !important;}
+
+	.slides-container li .over.cls-slider_6giugno2019 .over_sottotitolo { margin-top: 80px; }
+
+	.slides-container li .over.cls-slider_herambiente_10anni .over_sottotitolo { margin-top: 80px; }
+}
+
+@media (max-width: 320px) {
+	.report_acqua_2014.h270 .immagine_full { height:130px; }
+	.report_acqua_2014.h570 .immagine_full { height:190px; }
+	.cls-serv_acqua .report_acqua_2014.h320.box_interviste .immagine_full { height:360px; }
+	.slides-container li.cls-slider_cultura.cls-sfondo_cultura .over_titolo {font-size:1.7em}
+
+	.slides-container li .over.cls-slider_6giugno2019 .over_sottotitolo { margin-top: 65px; }
+
+	.slides-container li .over.cls-slider_herambiente_10anni .over_sottotitolo { margin-top: 65px; }
+}

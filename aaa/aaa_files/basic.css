@@ -1,0 +1,13 @@
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000;}
+
+/* Container */
+#simplemodal-container {/* height:550px; */ height:650px; width:800px; background-color:#fff; border:3px solid #ccc;}
+#simplemodal-container a.modalCloseImg {background:url(../../immagini/chiudi.png) no-repeat !important; background:url(../../immagini/chiudi_ie6.gif) no-repeat; width:66px; height:66px; display:inline; z-index:3200; position:absolute; top:-33px; right:-33px; cursor:pointer;}
+#simplemodal-container #basicModalContent {padding:8px;}
+
+/* Container canale acqua - scopricosabevi */
+#scopricosabevi-container {height:390px; width:500px; background-color:#fff; border:3px solid #ccc;}
+#scopricosabevi-container a.modalCloseImg {background:url(../../immagini/chiudi.png) no-repeat !important; background:url(../../immagini/chiudi_ie6.gif) no-repeat; width:66px; height:66px; display:inline; z-index:3200; position:absolute; top:-33px; right:-33px; cursor:pointer;}
+#scopricosabevi-container #basicModalContent {padding:8px;}
