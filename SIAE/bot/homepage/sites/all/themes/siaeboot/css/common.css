@@ -1,0 +1,581 @@
+
+/*MODALE MODIFICA ACCOUNT START*/
+#dvModalNosolAccount .modal-dialog {width:95%;height:95%}
+#dvModalNosolAccount .modal-body{    height: 500px;}
+
+body.page-siae-auth-user .main,   body.page-siae-auth-account .main{ margin-top:0}
+body.page-siae-auth-user .row section.col-sm-12,   body.page-siae-auth-account .row section.col-sm-12{ margin-top:40px;background:#fff}
+body.page-siae-auth-user footer,   body.page-siae-auth-account footer{ display:none}
+body.page-siae-auth-user #navigator_menu_logged,   body.page-siae-auth-account #navigator_menu_logged{ display:none}
+body.page-siae-auth-user #sol_path .logo,   body.page-siae-auth-account #sol_path .logo{ display:none}
+
+
+#siae_user_account{border:none}
+
+body.mobile.page-siae-auth-user footer,   body.mobile.page-siae-auth-account footer{ display:block}
+
+body.mobile.page-siae-auth-user #sol_path .logo,   body.mobile.page-siae-auth-account #sol_path .logo{ display:block}
+ 
+
+#dvModalNosolAccount .button-modal {
+    background-color: transparent;
+    clear: both;
+    color: #666666;
+    float: right;
+    font-size: 20px;
+    border: medium none;
+}
+/*MODALE MODIFICA ACCOUNT END*/
+
+/*MENU SERVIZI START*/
+body.noScrollFirst {
+    overflow: hidden;
+}
+
+header .service {
+    background: #09b6eb none repeat scroll 0 0;
+    margin-left: 1px;
+}
+
+header .service:hover {
+    background: #01a3e3 none repeat scroll 0 0;
+}
+
+header .service .username [class^="icon-"], header .service .username [class*=" icon-"] {
+    font-size: 1.2em;
+    position: absolute;
+    right: 0.5em;
+    top: 0.3em;
+}
+
+header .service .actions {
+    background: #09b6eb none repeat scroll 0 0;
+    float: none;
+    left: auto;
+    letter-spacing: 0.08em;
+    padding: 1.2em 0 0;
+    position: absolute;
+    right: 0;
+    width: 19.5em;
+}
+
+.service, .top-nav-wrapper li a:hover {
+    background-color: unset;
+    color: inherit;
+}
+
+/*
+    CSS per il menu di sinistra dell'utente loggato
+*/
+
+#menu-services-logged{
+    display: inline-block;
+    /*position: relative;*/
+    vertical-align: middle;
+}
+
+#menu-services-logged{
+    padding-right: 7em!important;
+}
+
+.right-service{
+    background: #303548;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: transparent;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: unset;
+    text-decoration: none;
+}
+
+
+
+#menu-services-logged .dropdown-menu .divider {
+    background: #9bafe1;
+    /*background: rgba(0, 0, 0, 0) linear-gradient(20deg, #7358a8 1%, #3cc5f1 100%) repeat scroll 0 0;*/
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.top-nav-wrapper li .no-uppercase{
+    text-transform: none!important;
+    /*width: 100%;*/
+}
+
+/*.dropdown-menu.columns-3 {
+    min-width: 1120px;
+}*/
+
+/*#menu-services-logged .padding-menu{
+    padding-right: 30px;
+}*/
+
+#menu-services-logged .dropdown-header {
+    font-family: dosismedium;
+    font-size: 15px;
+}
+
+.multi-column-dropdown li a {
+    font-family: dosismedium;
+    font-size: 14px;
+    width: 100%;
+}
+
+/*.scrollable-menu {
+    height: auto;
+    max-height: 600px;
+    overflow-x: hidden;
+    min-height: 620px;
+}*/
+
+@media only screen and (max-height: 670px){
+    .scrollable-menu {
+        height: auto;
+        max-height: 630px;
+        overflow-x: hidden;
+        min-height: 620px;
+    }
+}
+
+@media only screen and (min-height: 670px) {
+    @media only screen and (max-height: 800px) {
+    .scrollable-menu {
+        height: auto;
+        max-height: 730px;
+        overflow-x: hidden;
+        min-height: 720px;
+    }
+    }
+}
+@media only screen and (min-height: 800px) {
+    /*@media only screen and (max-height: 1080px) {*/
+        .scrollable-menu {
+            height: auto;
+            /*max-height: 600px;*/
+            overflow-x: hidden;
+            /*min-height: 620px;*/
+        }
+    /*}*/
+}
+
+/*modifica a siae.css*/
+/*.home header.fullMenu .right-menu{
+    padding-right:5px!important;
+}*/
+
+#menu-services-logged .menu-service-newsletter{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    font-size: small;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    margin: -1px 0 0;
+}
+
+.img_sol_service{
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#menu-services-active, #menu-services-activable, #menu-services-activating a:hover {
+    color: #303647;
+}
+
+#menu-services-logged .nav > li.dropdown.open{
+    position: static;
+}
+
+
+.home .sliding-popup{
+    background-color: #09b6eb;
+}
+
+#menu-services-active li{
+    padding: 10px;
+}
+
+#menu-services-activable li{
+    padding: 10px;
+}
+
+#menu-services-activating li{
+    padding: 10px;
+}
+
+#menu-services-logged .paddong-menu{
+    border-right: 1px solid #000000;
+}
+
+#menu-services-active li.colonne2{
+    width: 40%;
+    float: left;
+}
+
+#menu-services-logged .dropdown-menu{
+    background: rgba(0, 0, 0, 0) linear-gradient(20deg, #7358a8 1%, #3cc5f1 100%) repeat scroll 0 0;
+    min-width: 100%;
+}
+
+#menu-services-logged .newsletter-div{
+    /*background: rgba(0, 0, 0, 0) linear-gradient(20deg, #7358a8 1%, #3cc5f1 100%) repeat scroll 0 0;*/
+    /*min-height: 545px;*/
+
+}
+
+#menu-services-logged .divider-newsletter{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#menu-services-logged .newsletter-div{
+    padding-left: 8px!important;
+}
+
+#menu-services-logged .menu-div{
+    background: rgba(0, 0, 0, 0) linear-gradient(20deg, #7358a8 1%, #3cc5f1 100%) repeat scroll 0 0;
+    min-height: 580px;
+    /*border-right: 1px solid transparent;*/
+    /*min-height: 545px;*/
+}
+
+#menu-services-logged .img_newsletter{
+    padding-top: 10em;
+    text-align: center;
+}
+
+#menu-services-logged .text_newsletter{
+    padding-top: 50px;
+}
+
+#menu-services-logged .font-regular{
+    font-family: "dosisregular", Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+#menu-services-logged #menu-services-active{
+    padding-top: 20px;
+    width: 100%;
+}
+#menu-services-logged #menu-services-activable{
+    padding-top: 20px;
+    width: 100%;
+}
+
+#menu-services-logged #menu-services-activating{
+    padding-top: 20px;
+    /*float: none;*/
+    width: 100%;
+}
+
+#menu-services-logged .titolo-menu-service{
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+#menu-services-active .width100{
+    width: 100%;
+}
+
+#menu-services-activating .width100{
+    width: 100%;
+}
+
+#menu-services-activable .width100{
+    width: 100%;
+}
+
+/*#menu-services-logged .serviziattivi{
+    background-image: url("../img/flag.png");
+    background-repeat: no-repeat;
+}*/
+
+#menu-services-logged .bkg-flag{
+     background-image: url("../img/flag.png");
+     background-position: left bottom;
+     background-repeat: no-repeat;
+     bottom: 20px;
+     display: flex;
+     margin-left:60px;
+     position: absolute;
+ }
+
+#menu-services-logged .bkg-flag-red{
+    background-image: url("../img/flag_red.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    bottom: 20px;
+    display: flex;
+    margin-left:60px;
+    position: absolute;
+}
+
+#menu-services-logged .bkg-flag-yellow{
+    background-image: url("../img/flag_yellow.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    bottom: 20px;
+    display: flex;
+    margin-left:60px;
+    position: absolute;
+}
+
+#menu-services-logged .menu-servizi-manutenzione{
+    /*background-image: url("../img/flag.png");*/
+    font-family: dosismedium;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    line-height: 2.1em;
+    padding: 0 10px;
+}
+
+#menu-services-logged .content-title{
+ 
+    width: auto; 
+    float: left;
+    height: 90px;
+}
+#menu-services-logged .content-msg{
+    /*width: 70%;
+    float: left;*/
+    padding-top: 5%;
+    width: auto;
+
+}
+
+.html #sliding-popup .popup-content {
+    /*border: 0 none;*/
+}
+
+.html #sliding-popup .popup-content #popup-text {
+    font-size: 16px;
+    float: none;
+    max-width: 100%;
+    text-align:center;
+}
+
+.html #sliding-popup .popup-content #popup-buttons {
+     float: left;
+     margin-left: 31%;
+     margin-top: -88px;
+     max-width: 100%;
+ }
+@media only screen and (min-width: 670px) {
+    @media only screen and (max-width: 768px) {
+        .html #sliding-popup .popup-content #popup-buttons {
+            float: left;
+            margin-left: 40%;
+            margin-top: -88px;
+            max-width: 100%;
+        }
+    }
+}
+
+
+#sliding-popup .popup-content #popup-text p {
+    font-size: 14px;
+    margin-left: 3%;
+    text-align: left;
+}
+
+#sliding-popup .popup-content #popup-buttons button {
+    margin-bottom: 13px;
+    font-size: 12px;
+    margin-right: 24px;
+    width: 46px;
+    color: #09b6eb;
+}
+
+#sliding-popup {
+    text-align: right;
+    padding-bottom: 0.1%;
+    z-index: 99999;
+    position: absolute;
+}
+
+/* gestione tendina cookies versione inglese */
+.i18n-en #sliding-popup {
+    text-align: center;
+}
+
+.i18n-en #sliding-popup .popup-content{
+    padding-top: 10px;
+    text-align: center !important;
+}
+.i18n-en #sliding-popup .popup-content #popup-buttons{
+    margin-left: auto;
+    margin-top: auto;
+    float: none;
+}
+
+.i18n-en #sliding-popup .popup-content #popup-buttons button{
+    width: 160px;
+    height: 28px;
+}
+
+.i18n-en #sliding-popup .popup-content #popup-text p{
+    text-align: center;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1px) and (max-width: 600px) {
+    .i18n-en #sliding-popup .popup-content #popup-buttons {
+        margin-left: 0%!important;
+        margin-top: -13px!important;
+    }
+
+    .i18n-en #sliding-popup .popup-content #popup-text{
+        margin: 0 0 20px 0;
+    }
+}
+
+/* FINE - gestione tendina cookies versione inglese */
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.assistenza-logged a{
+    color: #ffffff!important;
+}
+
+#sliding-popup .popup-content #popup-text u{
+    margin-left:0%;
+}
+
+@media screen and (min-width: 1px) and (max-width: 600px) {
+
+    .html #sliding-popup .popup-content #popup-buttons {
+        margin-left: 58%;
+        margin-top: -83px;
+    }
+
+    #sliding-popup .popup-content #popup-text p {
+        font-size: 14px;
+        margin-left: 1%;
+    }
+
+}
+.maintenance-page{
+    background: #37b5e9 url("../img/404.jpg") repeat scroll center center / cover ;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.maintenance-page .logo::before {
+    color: #fff;
+}
+
+.maintenance-page header .logo::before {
+    content: "\e950";
+    /*color: #263248;*/
+    font-size: 75px;
+    line-height: 1.4em;
+}
+
+.maintenance-page header .logo::before{
+    font-family: "icomoon";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+}
+
+.maintenance-page header .logo img {
+    display: none;
+}
+.maintenance-page header .logo:after {
+    display: none; }
+
+.maintenance-page header .logo {
+    text-align: center;
+    width: 100%;
+    height: 6.5em;
+    display: block;
+}
+
+.maintenance-page article.maintenance {
+    float: none;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.maintenance-page .height100x100{
+    height: 100%;
+}
+
+.maintenance-page .animate-container-style{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.maintenance-page #content{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 150px;
+}
+
+.maintenance-page header{
+    transform: translate3d(0px, 0%, 0px);
+    transition: transform 0s ease 0s;
+    width: auto;
+    top: 20px;
+}
+
+
+.maintenance-page h1 {
+    font-family: "dosislight",Arial,sans-serif;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+}
+
+.maintenance-page #content-content{
+    font-size: 1.25em;
+    padding-top: 20px;
+}
+
+.maintenance-page footer, .errorPage .copyright {
+    background: transparent none repeat scroll 0 0;
+    color: rgba(255, 255, 255, 0.6)!important;
+    opacity: 1 !important;
+    text-align: left;
+}
+
+.maintenance-page footer {
+    bottom: 0;
+    position: fixed;
+    visibility: visible;
+    width: 100%;
+    z-index: 2;
+}
+
+.maintenance-page footer p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+

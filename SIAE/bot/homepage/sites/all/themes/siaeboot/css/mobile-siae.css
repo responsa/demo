@@ -1,0 +1,205 @@
+/*CSS for Mobile Version*/
+
+.mobile-menu-container .menu-responsive-logged, .mobile-menu-container .menu-responsive-not-logged{
+    padding: 0;
+    width: 100%;
+}
+
+.mobile-menu-container .menu-responsive-logged, .mobile-menu-container .menu-responsive-not-logged{
+    display: block;
+    text-transform: uppercase;
+}
+
+.mobile-menu-container .menu-responsive-logged{
+    background-color: #5ac0e9;
+
+}
+
+/*.mobile-menu-container .menu-responsive-logged ul, .mobile-menu-container .menu-responsive-not-logged ul{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-color: #fff #fff rgba(255, 255, 255, 0.3);
+}*/
+
+.mobile-menu-container .menu-responsive-logged ul, .mobile-menu-container .menu-responsive-not-logged ul{
+    background: transparent;
+    border: 0 none;
+    box-shadow: none;
+    float: none;
+    margin-top: 0;
+    position: static;
+    width: auto;
+}
+
+.mobile-menu-container .navbar-nav {
+    margin: 0;
+}
+
+.mobile-menu-container .menu-responsive-logged li, .mobile-menu-container .menu-responsive-not-logged li{
+    color: #fff;
+    line-height: 1.2em;
+}
+
+.mobile-menu-container .menu-responsive-logged li, .mobile-menu-container .menu-responsive-logged a {
+    display: block;
+    width: 100%;
+}
+
+.mobile-menu-container .menu-responsive-not-logged li, .mobile-menu-container .menu-responsive-not-logged a {
+    display: block;
+    width: 100%;
+}
+
+.mobile-menu-container .menu-responsive-not-logged li a {
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    padding: 0.93em 15px;
+}
+
+.mobile-menu-container .menu-responsive-logged li a{
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    padding: 0.93em 15px;
+    margin-left: 10px;
+}
+
+.mobile-menu-container .menu-responsive-logged a, .mobile-menu-container .menu-responsive-not-logged a{
+    color: #ffffff !important;
+}
+
+.mobile-menu-container .menu-responsive-logged li.parent > span:before, .mobile-menu-container .menu-responsive-logged li.parent > a:before {
+    content: "\e601";
+    margin-right: 0.3em;
+    margin-left: -0.2em;
+    display: inline-block;
+    position: absolute;
+    top: 0.7em;
+    left: 30px;
+}
+
+.mobile-menu-container .menu-responsive-logged li.parent > span:before, .mobile-menu-container .menu-responsive-logged li.parent > a:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mobile-menu-container .menu-responsive-logged li.parent > span, .mobile-menu-container .menu-responsive-logged li.parent > a {
+    display: block;
+    line-height: 1.1em;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom: 0;
+    color: #fff;
+    padding: 0.8em 30px 0.8em 45px;
+    position: relative;
+    margin: 0;
+}
+
+.mobile-menu-container .username-logged{
+    display: inline-block;
+    /*height: 20px;*/
+    left: 30px;
+    padding: 10px 10px 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.mobile-menu-container .username-logged > span{
+    font-size: 1.4em;
+}
+
+.mobile-menu-container .menu-responsive-not-logged ul {
+    margin: 0 15px;
+    padding: 0 0 1em 0;
+    border-color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 700;
+}
+
+.mobile-menu-container .serviziattivi > img{
+    display: none;
+}
+
+.mobile-menu-container .serviziinattivazione > img{
+    display: none;
+}
+
+.mobile-menu-container .serviziattivabili > img{
+    display: none;
+}
+
+.mobile-menu-container .serviziattivi .bkg-flag{
+    display: none;
+}
+
+.mobile-menu-container .serviziinattivazione .bkg-flag{
+    display: none;
+}
+
+.mobile-menu-container .serviziattivabili .bkg-flag{
+    display: none;
+}
+
+.mobile-menu-container .titolo-menu-service{
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    margin-top: 10px;
+}
+
+.mobile-menu-container .icon-data-magement:before {
+    /*content: "\e611"; */
+    display: none;
+}
+
+.mobile-menu-container #menu-services-activating-mobile{
+    border-bottom: 0;
+}
+
+.mobile-menu-container .serviziattivi{
+    text-transform: none!important;
+    font-family: dosisregular;
+}
+
+.mobile-menu-container .serviziinattivazione{
+    text-transform: none!important;
+    font-family: dosisregular;
+}
+
+.mobile-menu-container .serviziattivabili{
+    text-transform: none!important;
+    font-family: dosisregular;
+}
+
+.mobile-menu-container .text-user-logged{
+    font-weight: 700;
+}
+
+.mobile-menu-container .mobile-myaccount{
+    width: 100%;
+    float: left;
+}
+
+.mobile .footer-text-low{
+    margin:0;
+    padding:4% 0 0 60%;
+}
+
+/* MODIFICHE PER SIAE.IT */
+@media (max-width: 992px) {
+    .mobile .navbar-nav {
+        float: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .page-utilizzatori .ui-dialog{
+        top: 1% !important;
+    }
+}

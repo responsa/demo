@@ -1,0 +1,125 @@
+
+#menu-sol-portup li a{
+  font-size:13px;
+}
+/*ADESIONE start*/
+
+#sol-portup-adesione > #sol_content {max-width: 70% !important; }
+
+#sol-portup-adesione .paddingTop40 {
+    padding-top: 40px;
+}
+
+#sol-portup-adesione .marginLeft15 {
+    margin-left: 15px;
+}
+
+#sol-portup-adesione .marginBottom0 {
+    margin-bottom: 0;
+}
+
+#sol-portup-adesione #avvertenze_adesione_div {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#sol-portup-adesione #avvertenze_adesione {
+    padding: 10px 10px 0 10px;
+    margin-top: 5px;
+    resize: none;
+}
+
+#sol-portup-adesione .styleOuterTextarea {
+    height: 120px;
+    overflow-y: scroll;
+}
+
+#sol-portup-adesione .styleInnerTextarea {
+    cursor: not-allowed;
+}
+
+#sol-portup-adesione .colorBox_adesione {
+    border: 2px solid #00b4f9 !important;
+    margin-left: 15px;
+}
+
+#sol-portup-adesione .md-checkbox label > .check {
+    border-color: #00b4f9;
+}
+
+#sol-portup-adesione #doc_giovani {
+    display: inline;
+}
+
+/*ADESIONE end*/
+
+/*DASHBOARD start*/
+
+.page-sol-portup.desktop section.col-sm-12{
+  padding:0;
+}
+
+#sol_portup_a .dashboard-wrapper.portup {
+    background: url("/sites/all/modules/custom/features/sol_portup/theme/img/bg-dashboard.jpg") no-repeat scroll center top / cover rgba(0, 0, 0, 0);
+}
+
+.dashboard-portup h2 {
+    font-family: Conv_clarenbd;
+    font-size: 2.5em !important;
+    text-shadow: 2px 1px #303647;
+    text-transform: none;
+}
+
+.dashboard-portup .portup_desc {
+    font-size: 180%;
+    line-height: 1.2em;
+    text-shadow: 1px 2px #303647;
+} 
+
+.dashboard-portup  .services_button {
+    background-color: #00b4f9;
+    border: medium none;
+    color: #fff;
+    height: 50px;
+    width: 230px;
+    margin-top: 20px;
+}
+
+#sol_portup_a_home .box_user .padding-icon {
+    margin-bottom: 26px;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+#sol_portup_a_home .icon_bozze {
+    background: url("/sites/all/modules/custom/features/sol_portup/theme/img/ico-bozze.png") no-repeat scroll center center #fff;
+}
+#sol_portup_a_home .icon_inviate {
+    background: url("/sites/all/modules/custom/features/sol_portup/theme/img/ico-inviate.png") no-repeat scroll center center #fff;
+}
+#sol_portup_a_home .icon_pagate {
+    background: url("/sites/all/modules/custom/features/sol_portup/theme/img/ico-pagate.png") no-repeat scroll center center #fff;
+}
+#sol_portup_a_home .icon_da_pagare {
+    background: url("/sites/all/modules/custom/features/sol_portup/theme/img/ico-da-pagare.png") no-repeat scroll center center #fff;
+}
+#sol_portup_a_home .icon_respinte {
+    background: url("/sites/all/modules/custom/features/sol_portup/theme/img/ico-respinte.png")  no-repeat scroll 20px center #fff;
+}
+#sol_portup_a_home .box_user #dportup_linkrespinte {
+    padding: 0;
+}
+/*DASHBOARD end*/
+#tblShortcut td {
+    padding: 3px !important;
+    border-top:none;
+    border-left:none;
+    border-bottom:solid #9cc2e5 1.0pt;
+}
+#tblShortcut td:nth-child(2) {
+    text-align: right;
+    border-left: none;
+}
+#menu-sol-portup li a {
+    padding: 10px 5px
+}

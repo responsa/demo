@@ -1,0 +1,171 @@
+/* GSA */
+.header-area .search-form-gsa{
+    padding-bottom:15px;margin-bottom:15px
+}
+
+.header-area .search-form-gsa input[type="text"]{
+    font-family:"dosismedium",Arial,sans-serif;
+    border:0;width:100%;
+    background:#fff;
+    color:#374761;
+    font-size:1.5em;
+    padding:0 0.9em;
+    line-height:2.2em;
+    height:2.2em;
+    border-radius:1.2em;
+    margin-bottom:0
+}
+
+@media (max-width: 992px){
+    .header-area .search-form-gsa input[type="text"]{
+        font-size:20px;font-family:"dosisregular",Arial,sans-serif
+    }
+}
+
+.header-area .search-form-gsa ::-webkit-input-placeholder{
+    color:#374761
+}
+
+.header-area .search-form-gsa :-moz-placeholder{
+    color:#374761;opacity:1
+}
+
+.header-area .search-form-gsa ::-moz-placeholder{
+    color:#374761;opacity:1
+}
+
+.header-area .search-form-gsa :-ms-input-placeholder{
+    color:#374761
+}
+
+#ui-id-1.ui-widget-content a{
+    color: #585e78;
+}
+
+#ui-id-1.ui-widget-content{
+    border: medium none;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+#ui-id-1.ui-menu .ui-menu-item{
+    /*font-size: 1.3em;*/
+}
+
+.ui-state-focus, .ui-state-hover, .ui-widget-content .ui-state-focus, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-focus, .ui-widget-header .ui-state-hover{
+    background: #f6f6f6 none repeat scroll 0 0!important;
+    border: 0!important;
+    color: #09b6eb!important;
+}
+
+#ui-id-1.ui-menu .ui-menu-item {
+    cursor: pointer;
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+    margin: 0;
+    min-height: 0;
+    padding: 10px 1em 10px 1.2em;
+    position: relative;
+}
+
+#ui-id-1.ui-front {
+    z-index:9999;
+}
+
+#ui-id-1.ui-widget {
+    font-family: "dosisregular", Arial,sans-serif;
+}
+
+.ui-state-focus a, .ui-state-focus a:hover, .ui-state-focus a:link, .ui-state-focus a:visited, .ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited{
+    color: #09b6eb!important;
+}
+
+.searchOverPage .close{
+    text-align: center;
+    cursor: pointer;
+}
+
+/*.searchOverPage.searchCompleted footer{
+    position: absolute;
+}*/
+
+.search-input.tt-hint{
+    font-family: "dosisregular", Arial, sans-serif;
+}
+
+.searchOverPage.open{
+    overflow-y: auto;
+}
+
+/* Attention: This fix is only for L'Aquila Jazz box in HomePage */
+.home .initiatives .no-title h3 {
+    display: none;
+}
+
+/* Breaking news into home page */
+.header-area--news h2, .header-area--news h3 {
+    text-transform: uppercase;
+    margin: 0; }
+.header-area--news h2 {
+    font-size: 2.5em;
+    padding: 0; }
+.header-area--news h3 {
+    font-size: 1.5em;
+    margin-bottom: .1em; }
+.header-area--news .title-background {
+    line-height: 1.8em;
+    color: white; }
+.header-area--news h3.title-background {
+    line-height: 1.9em; }
+.header-area--news .title-background span {
+    padding: 0.1em 0.1em;
+    box-shadow: 0.1em 0 0 #09b6eb, -0.1em 0 0 #09b6eb;
+    background-color: #fff;
+    background-color: #09b6eb; }
+/*.header-area--news .header-area-content {*/
+/*    height: 100%;*/
+/*    bottom: auto; }*/
+/*.csscalc .header-area--news .header-area-content {*/
+/*    height: calc(100% - 130px - 2em);*/
+/*    top: 130px; }*/
+@media screen and (max-width: 640px) {
+    .header-area--news .header-area-content {
+        height: auto;
+        top: auto;
+        bottom: 2em; } }
+/*.header-area--news .vertical-fill {*/
+/*    height: 100%; }*/
+.header-area--news .button-container a {
+    margin-bottom: 1em; }
+/*.header-area--news .vertical-wrapper {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%); }*/
+.header-area--news .hero-news__cta {
+    margin-top: 2em; }
+
+.header-area--news .btn.white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.header-area--news .button, .header-area--news a[role="button"], .header-area--news .btn {
+    line-height: 1em;
+    display: inline-block;
+    border: #09b6eb 2px solid;
+    background: transparent;
+    color: #09b6eb;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "dosissemibold";
+    cursor: pointer;
+    padding: 1em;
+    letter-spacing: 0.01em;
+    border-radius: 2em;
+    width: 150px;
+}
+
+.header-area--news a.btn:hover {
+    color: #09b6eb;
+}

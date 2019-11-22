@@ -1,0 +1,390 @@
+.searcherror {
+    padding-bottom: 10em;
+}
+
+.main-search-form .search-input.tt-hint{
+    opacity: 1 !important;
+}
+
+/*.searchOverPage .pagination{
+    display: -moz-box;
+}*/
+
+.pagination > li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pagination > li.active{
+    font-family: "dosissemibold",Arial,sans-serif;
+    cursor: default;
+}
+
+.pagination > li.active:hover{
+    font-family: "dosissemibold",Arial,sans-serif;
+    cursor: default;
+    color: #ffffff;
+}
+
+.pagination > li.active a:hover{
+    font-family: "dosissemibold",Arial,sans-serif;
+    cursor: default;
+    color: #ffffff;
+}
+
+.pagination > li:hover {
+    border-color: #09b6eb;
+    color: #09b6eb;
+    cursor: pointer;
+    transition: all 1ms linear 0s!important;
+}
+
+.pagination a:hover {
+    transition: all 1ms linear 0s!important;
+}
+
+.pagination .next a {
+     display: inline-block;
+     line-height: 0!important;
+     padding: 0 0 14px 0px !important;
+     /*padding: 1px 2px 3px 4px!important;*/
+     vertical-align: middle;
+ }
+
+.pagination .prev a {
+    display: inline-block;
+    line-height: 0!important;
+    padding: 0 0 14px 0px !important;
+    /*padding: 1px 2px 3px 4px!important;*/
+    vertical-align: middle;
+}
+
+/*a, button, a[role="button"], .btn, .owl-prev, .owl-next, .main-navigation .menu_about, footer, .services img, .initiatives img, .services a:hover img, .initiatives a:hover img, .featured-articles .sticker {
+    transition: all 240ms linear 0s!important;
+}*/
+
+.searchresults_item.withImage .link {
+    color: #9d9fa5;
+}
+
+/* HOMEPAGE */
+#google-appliance-block-form .dropdown{
+    left: 21px;
+    position: absolute;
+    top: 49px;
+    width: 92%;
+    max-height: 190px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1;
+}
+#google-appliance-block-form .dropdown-menu{
+    position: relative;
+    /*opacity: 1;*/
+    width: 100%;
+    margin-left: 17px;
+}
+#google-appliance-block-form .dropdown-menu > li{
+    background: #ffffff;
+    color: #ffffff;
+    padding: 0.1em 2px;
+    font-size:1.5em;
+    width: 100%;
+}
+
+#google-appliance-block-form .dropdown-menu > .active > a,
+#google-appliance-block-form .dropdown-menu > .active > a:hover,
+#google-appliance-block-form .dropdown-menu > .active > a:focus {
+    color: #09b6eb;
+    text-decoration: none;
+    background-color: #f6f6f6;
+    outline: 0;
+    transition: all 1ms linear 0s!important;
+}
+
+#google-appliance-block-form .dropdown-menu > li:hover{
+    color: #09b6eb;
+    background: #f6f6f6;
+    transition: all 1ms linear 0s!important;
+}
+
+/* LA PAGINA GSEARCH */
+.page-gsearch .form-autocomplete .dropdown-menu > li{
+    background: #ffffff;
+    color: #585e78;
+    padding: 0.4em 30px;
+    font-size:2em;
+    width: 100%;
+}
+.page-gsearch .form-autocomplete .dropdown-menu > li:before {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 0.6em 0.6em;
+    content: " ";
+    height: 0;
+    left: 55px;
+    position: absolute;
+    top: -0.5em;
+    width: 0;
+}
+.page-gsearch .form-autocomplete .dropdown-menu > li:hover{
+    color: #09b6eb;
+    background: #f6f6f6;
+    transition: all 1ms linear 0s!important;
+}
+
+/* Dialog Utilizzatori */
+/*#dialog{
+    padding: 1.2em 11em;
+}*/
+
+/* DIALOG NOTIFICA UTILIZZATORI */
+ .page-utilizzatori .ui-dialog{
+
+    display: block;
+    height: 95px!important;
+    left: auto!important;
+    position: absolute;
+    top: 3%!important;
+    width: 255px !important;
+    opacity: 0.85;
+    background: #585E78;
+     /*background-image: url("../img/trinacria.png");*/
+     background-repeat: no-repeat;
+     background-position: 0 90%;
+    font-weight: 700;
+    text-align: center;
+    min-height: auto!important;
+    z-index: 1;
+    right: 1% !important;
+    cursor: arrow;
+    /*margin-top:20px;*/
+     overflow: visible!important;
+
+}
+.page-utilizzatori .ui-dialog .ui-dialog-titlebar-close {
+    background-image: url("../img/close-modal-icon-blue-small.png") !important;
+    background-repeat: no-repeat !important;
+    display: inline-block;
+    height: 31px;
+    margin-right: 0;
+    margin-top: -13px;
+    opacity: 1;
+    outline: medium none;
+    text-indent: -10000px;
+    width: 31px;
+}
+
+.page-utilizzatori .ui-dialog .ui-dialog-content {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    overflow: auto;
+    padding: 0.4em 1em 1.5em;
+    position: relative;
+}
+
+/*.page-utilizzatori .ui-dialog .ui-widget-content{
+    font-size: initial;
+}*/
+
+.page-utilizzatori .ui-dialog .ui-dialog-titlebar-close {
+    left: 0.3em;
+    top: 0.9em;
+}
+
+.page-utilizzatori .ui-widget-content {
+    border-radius: 12px;
+}
+
+.page-utilizzatori .arrow_notifica {
+    /* border-bottom: 1em solid #585e78;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    opacity: 0.85;
+    position: absolute;
+    right: 2%;
+    top: 7em;
+    width: 0;
+    z-index:1; */
+    border-bottom: 15px solid #585e78;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 18px;
+    float: right;
+    opacity: 0.85;
+    position: relative;
+    right: 10px;
+    width: 0;
+}
+
+.gsa-result-breadcrumb{
+    font-weight: 700;
+}
+
+.gsa-result-bread-separator{
+    padding: 0 2px;
+}
+
+.searchfilters li a.client-active::after {
+    border-bottom: 5px solid #fff;
+    bottom: -3px;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.searchOverPage.searchCompleted .main-sc {
+    padding-bottom: 50px;
+}
+
+.page-gsearch .items a.active{
+    color: #ffffff!important;
+}
+
+/*.page-gsearch .searchrelated a:hover {
+    color: #00b9ff!important;
+}*/
+
+.page-gsearch .keywords-reset a.active{
+    color: #ffffff!important;
+    font-weight: 700;
+}
+
+/* Stilizzazione keymatch */
+
+
+.google-appliance-keymatch-results li {
+    background: #ffffff none repeat scroll 0 0;
+    /*border: 2px solid #ffffff;*/
+    padding: 1.5em 30px 2em;
+    border-radius: 0;
+    margin-bottom: 1px;
+}
+.google-appliance-keymatch-results li:hover {
+    transform: translateX(0.8em);
+    transition: transform 0.3s ease 0s;
+}
+
+.keymatch-description{
+    color: #09b6eb;
+}
+
+.keymatch .google-appliance-snippet-info{
+    color: #585e78;
+}
+
+.google-appliance-keymatch-results h3 {
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 0.5em;
+    padding: 0;
+}
+
+.searchresults ol{
+    margin-bottom: 0;
+}
+
+/* FAQ responsa - domanda fake */
+.field-name-field-faq-question{
+    margin: 0.9em 0 0 0;
+    padding: 15px 15px 0 15px;
+    /*padding-right: 35px;*/
+}
+
+.field-name-field-faq-question .field-item.even {
+    cursor: pointer;
+    font-size: 17px;
+    /*font-family: "Dosis", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif, "Helvetica Neue";*/
+    font-weight: 400;
+    color: #3c3c3c;
+}
+
+
+.question-container.active .field-name-field-faq-question .field-item.even {
+    font-weight: 700;
+}
+
+.field-name-field-faq-question .field-item.even:hover {
+    cursor: pointer;
+    color: #246AB4;
+
+}
+
+
+.field-name-field-faq-question .field-item.even:after {
+    top: 0;
+    left: 0;
+    line-height: 0;
+    content: "\e601";
+    font-family: "icomoon";
+    display: inline-block;
+    float: right;
+    color: #bcbcbc;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.field-name-field-faq-question .field-item.even:hover:after {
+    top: 0;
+    left: 0;
+    line-height:0;
+    content: "\e601";
+    font-family: "icomoon";
+    display: inline-block;
+    float: right;
+    color: #246AB4;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.question-container.active .field-name-field-faq-question .field-item.even:after {
+    top: 0;
+    left: 0;
+    line-height:0;
+    content: "\e601";
+    font-family: "icomoon";
+    display: inline-block;
+    float: right;
+    color: #246AB4;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.answer-container {
+    display: none;
+    padding-left: 15px;
+    padding-top: 0.5em;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.answer-container .field-name-field-faq-answer{
+    padding-left: 15px;
+    border-left: 3px solid #246AB4;
+}
+
+.answer-container .txtAnswer{
+    /*font-family: "Dosis", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif, "Helvetica Neue";*/
+    color: #3c3c3c;
+    font-size: 14px;
+
+}
+
+.txtQuestionEmpty{
+    font-size: 1.1em;
+    color: red;
+    font-weight: bold;
+}
+
+.txtQuestionInformation{
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    /*font-family: "Dosis", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif, "Helvetica Neue";*/
+    color: #bcbcbc;
+}
