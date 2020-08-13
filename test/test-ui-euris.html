@@ -6,13 +6,53 @@
     <title>Chatbot Test UI</title>
   </head>
   <body>
-    <script name="responsa-js" class="responsa-js">
-(function(q,u,e,s,t,i,o,n) {
-  o=u.getElementsByTagName(e)[0];
-  n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
-  o.appendChild(n)
-})(window,document,"head","script","res_pars",
-"https://chatbots.goresponsa.com/chatbot/59492d0b7f1c5f63eb3ed749.js");
+  <script>
+    var id_chatbot = '59492d0b7f1c5f63eb3ed749';
+
+    var body = document.getElementsByTagName('body')[0]
+    body.addEventListener('touchmove', function(event) {
+      event.preventDefault();
+    }, false);
+
+    function QueryStringToJSON(){
+      var pairs = window.location.search.slice(1).split('&');
+      var result = {};
+      pairs.forEach(function(pair) {
+        pair = pair.split('=');
+        result[pair[0]] = decodeURIComponent(pair[1]||'');
+      });
+      return JSON.parse(JSON.stringify(result));
+    };
+
+    var params = QueryStringToJSON();
+    var responsa_chatbot_id = params.chatbot_id || id_chatbot
+    delete params.chatbot_id;
+
+    if (typeof params.custom_form == 'string') {
+      cf = JSON.parse(params.custom_form)
+
+      if (typeof cf.guest_form != 'undefined' && typeof cf.guest_form.custom_fields != 'undefined'){
+        if (typeof cf.question_form == 'undefined') cf.question_form = {};
+        if (typeof cf.question_form.custom_fields == 'undefined') cf.question_form.custom_fields = {};
+
+        for (var k in cf.guest_form.custom_fields)
+          cf.question_form.custom_fields[k] = cf.guest_form.custom_fields[k];
+
+        delete cf.guest_form.custom_fields;
+      }
+
+      params.custom_form = JSON.stringify(cf);
+    }
+  </script>
+
+  <script name="responsa-js" class="responsa-js">
+    (function(q,u,e,s,t,i,o,n) {
+      q[t]=q[t]||{},q[t][responsa_chatbot_id]=params;
+      o=u.getElementsByTagName(e) [0];
+      n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
+      o.appendChild(n)
+    }) (window,document,'head','script','res_pars',
+'https://chatbots.goresponsa.com/chatbot/'+responsa_chatbot_id+'.js');
 </script>
   </body>
 </html>
