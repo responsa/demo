@@ -9,14 +9,7 @@
   </style>
 </head>
 <body>
-  <script>
-    var id_kb = '5630be57e0e2ee4069000018';
-
-    var body = document.getElementsByTagName('body')[0]
-    body.addEventListener('touchmove', function(event) {
-      event.preventDefault();
-    }, false);
-
+<script>
     function QueryStringToJSON(){
       var pairs = window.location.search.slice(1).split('&');
       var result = {};
@@ -28,34 +21,19 @@
     };
 
     var params = QueryStringToJSON();
-    var responsa_kb_id = params.kb_id || id_kb
-    delete params.kb_id;
 
-    if (typeof params.custom_form == 'string') {
-      cf = JSON.parse(params.custom_form)
-
-      if (typeof cf.guest_form != 'undefined' && typeof cf.guest_form.custom_fields != 'undefined'){
-        if (typeof cf.question_form == 'undefined') cf.question_form = {};
-        if (typeof cf.question_form.custom_fields == 'undefined') cf.question_form.custom_fields = {};
-
-        for (var k in cf.guest_form.custom_fields)
-          cf.question_form.custom_fields[k] = cf.guest_form.custom_fields[k];
-
-        delete cf.guest_form.custom_fields;
-      }
-
-      params.custom_form = JSON.stringify(cf);
-    }
+    params.iframe_height = window.innerHeight;
+    params.iframe_width = window.innerWidth;
   </script>
 
   <script name="responsa-js" class="responsa-js">
     (function(q,u,e,s,t,i,o,n) {
-      q[t]=q[t]||{},q[t][responsa_kb_id]=params;
-      o=u.getElementsByTagName(e) [0];
+      q[t]=q[t]||{},q[t]['5630be57e0e2ee4069000018']=params;
+      o=u.getElementsByTagName(e)[0];
       n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
       o.appendChild(n)
-    }) (window,document,'head','script','res_pars',
-    'https://goresponsa.com/widgets/'+responsa_kb_id+'.js');
+    })(window,document,"head","script","res_pars",
+    'https://goresponsa.com/widgets/5630be57e0e2ee4069000018.js');
   </script>
 </body>
 </html>
