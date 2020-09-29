@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+  <title>KB con parametri URL</title>
+  <style>
+    html, body{ -webkit-overflow-scrolling: auto !important; }
+  </style>
+</head>
+<body>
+  <script>
+    var id_kb = '5630be57e0e2ee4069000018';
+
+    var body = document.getElementsByTagName('body')[0]
+    body.addEventListener('touchmove', function(event) {
+      event.preventDefault();
+    }, false);
+
+    function QueryStringToJSON(){
+      var pairs = window.location.search.slice(1).split('&');
+      var result = {};
+      pairs.forEach(function(pair) {
+        pair = pair.split('=');
+        result[pair[0]] = decodeURIComponent(pair[1]||'');
+      });
+      return JSON.parse(JSON.stringify(result));
+    };
+
+    var params = QueryStringToJSON();
+    var responsa_kb_id = params.kb_id || id_kb
+    delete params.kb_id;
+
+    if (typeof params.custom_form == 'string') {
+      cf = JSON.parse(params.custom_form)
+
+      if (typeof cf.guest_form != 'undefined' && typeof cf.guest_form.custom_fields != 'undefined'){
+        if (typeof cf.question_form == 'undefined') cf.question_form = {};
+        if (typeof cf.question_form.custom_fields == 'undefined') cf.question_form.custom_fields = {};
+
+        for (var k in cf.guest_form.custom_fields)
+          cf.question_form.custom_fields[k] = cf.guest_form.custom_fields[k];
+
+        delete cf.guest_form.custom_fields;
+      }
+
+      params.custom_form = JSON.stringify(cf);
+    }
+  </script>
+
+  <script name="responsa-js" class="responsa-js">
+    (function(q,u,e,s,t,i,o,n) {
+      q[t]=q[t]||{},q[t][responsa_kb_id]=params;
+      o=u.getElementsByTagName(e) [0];
+      n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
+      o.appendChild(n)
+    }) (window,document,'head','script','res_pars',
+    'https://goresponsa.com/widget/'+responsa_kb_id+'.js');
+  </script>
+</body>
+</html>
