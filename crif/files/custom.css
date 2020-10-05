@@ -1,0 +1,185 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+
+/* Menu Hamburger */
+ul.cd-primary-nav
+{
+    list-style: none;
+    padding: 80px 0 0 0;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.cd-primary-nav li {
+    margin: 1.2em 0;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+@media (min-width: 600px)
+{
+    ul.cd-primary-nav { padding-left: 10rem; }
+}
+
+/* Fix img height */
+
+.imgLogo
+{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Title left */
+#left_form h1 {
+    font-weight: 500;
+    color: #fff;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* Contenuto che esce dalla sidebar (tipo animazioni) */
+#left_form { overflow: hidden; }
+
+/* Bg DX */
+#wizard_container
+{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* BTN wizard bottom */
+
+#bottom-wizard button,
+#bottom-wizard a
+{ font-size: 1.1rem; }
+
+button.contact-us-submit,
+a.call-now
+{
+    color: white;
+    background: #fc6b38;
+}
+
+.iconLeftDiv{
+    position: absolute;
+    left: -36px;
+    top: -4px;
+    font-size: 1.3rem;
+}
+
+/* Animation delay */
+.delay-2d {   -webkit-animation-delay: 0.2s; -moz-animation-delay:0.2s; animation-delay: 0.2s; }
+.delay-4d {   -webkit-animation-delay: 0.4s; -moz-animation-delay:0.4s; animation-delay: 0.4s; }
+.delay-6d {   -webkit-animation-delay: 0.6s; -moz-animation-delay:0.6s; animation-delay: 0.6s; }
+.delay-8d {   -webkit-animation-delay: 0.8s; -moz-animation-delay:0.8s; animation-delay: 0.8s; }
+.delay-1s {   -webkit-animation-delay: 1s; -moz-animation-delay:1s; animation-delay: 1s; }
+.delay-2s {   -webkit-animation-delay: 2s; -moz-animation-delay:2s; animation-delay: 2s; }
+
+
+.bg-blue { background-color: #2955a9; }
+.text-yellow { color: yellow; }
+
+.my-btn-small {
+    font-size: 90% !important;
+    padding: 10px 20px !important;
+}
+
+/* Font */
+.font-50-p { font-size: 50% !important; }
+.font-80-p { font-size: 80% !important; }
+.font-85-p { font-size: 85% !important; }
+.font-90-p { font-size: 90% !important; }
+.font-95-p { font-size: 95% !important; }
+.font-100-p { font-size: 100% !important; }
+.font-1-1-em { font-size: 1.1em !important; }
+
+/* Animation */
+#bottom-wizard .btnBgAnimation {
+    background: linear-gradient(270deg, #fc6b38, #84371c, #fc6b38);
+    background-size: 600% 600%;
+
+    -webkit-animation: animationBtnBgAnimation 9s ease infinite;
+    -moz-animation: animationBtnBgAnimation 9s ease infinite;
+    -o-animation: animationBtnBgAnimation 9s ease infinite;
+    animation: animationBtnBgAnimation 9s ease infinite;
+}
+
+@-webkit-keyframes animationBtnBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes animationBtnBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes animationBtnBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes animationBtnBgAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.form_casa .form-group label { color: #858585; font-weight: normal; }
+
+.form_casa .form-group .fl-wrap { width: 86%; }
+
+.mb-15 { margin-bottom: 15px; }
+
+.container_check.is-invalid { border-color: #dc3545; }
+
+.brr-3 { border-top-right-radius: 3px !important; border-bottom-right-radius: 3px !important; }
+
+/* CSS Custom per dispositivi mobile/small tablet */
+@media (max-width: 500px)
+{
+    .iconLeftDiv { position: unset; }
+
+    #bottom-wizard .myBtn { display: block; width: 100%; margin-bottom: 8px; }
+
+    #bottom-wizard .my-btn-small { font-size:100% !important; padding: 12px 30px !important; }
+
+    #bottom-wizard button.backward
+    {
+        background: #fbfbfb;
+    }
+
+    #bottom-wizard button.backward:active
+    {
+        color: #777 !important;
+    }
+}
+
+/* Mail ico */
+.myMailIcon{
+    position: relative;
+    display: inline-block;
+}
+
+.myMailIcon i {
+    color: #2955a9;
+    font-size: 6rem;
+}
+
+.myMailIcon .badge {
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    font-size: 28px;
+    background-color: #dede6e;
+    border-radius: 3.25rem;
+    width: 40px;
+}
+
+.iubenda-item iframe{
+    position: relative;
+    top: 8px;
+}
