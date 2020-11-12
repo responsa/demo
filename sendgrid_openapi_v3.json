@@ -3143,7 +3143,7 @@
       }
     },
     "parameters": {
-      "authorizationHeader:Authorization": {
+      "Authorization": {
         "name": "Authorization",
         "in": "header",
         "required": true,
@@ -3152,7 +3152,7 @@
           "default": "Bearer <<apiKey>>"
         }
       },
-      "onBehalfOfSubuser:on-behalf-of": {
+      "on-behalf-of": {
         "name": "on-behalf-of",
         "in": "header",
         "schema": {
