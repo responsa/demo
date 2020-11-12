@@ -1132,7 +1132,7 @@
           "type": "text"
         }
       },
-      "whitelabel:domain_spf": {
+      "domain_spf": {
         "title": "Whitelabel - Domain",
         "required": [
           "automatic_security",
@@ -1807,7 +1807,7 @@
           }
         }
       },
-      "global:ErrorResponse": {
+      "ErrorResponse": {
         "title": "Global: Error Response",
         "type": "object",
         "properties": {
@@ -2455,7 +2455,7 @@
           "enabled": false
         }
       },
-      "global:id": {
+      "id": {
         "title": "Global: ID",
         "type": "integer"
       },
@@ -2961,7 +2961,7 @@
           }
         }
       },
-      "whitelabel::domain": {
+      "domain": {
         "title": "Whitelabel - Domain",
         "required": [
           "automatic_security",
@@ -3143,7 +3143,7 @@
       }
     },
     "parameters": {
-      "trait:authorizationHeader:Authorization": {
+      "authorizationHeader:Authorization": {
         "name": "Authorization",
         "in": "header",
         "required": true,
@@ -3152,7 +3152,7 @@
           "default": "Bearer <<apiKey>>"
         }
       },
-      "trait:onBehalfOfSubuser:on-behalf-of": {
+      "onBehalfOfSubuser:on-behalf-of": {
         "name": "on-behalf-of",
         "in": "header",
         "schema": {
