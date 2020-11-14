@@ -7,14 +7,17 @@
     <title>vivy</title>
   </head>
   <body>
-<div id="responsa_chatbot_container">
+<div id="responsa_chatbot_container" style="position: absolute; width: 100%; margin-left: -150px; bottom: 0px; left: 50%;">
   <script name="responsa-js" class="responsa-js">
     (function(q,u,e,s,t,i,o,n) {
       params = {
         chatbot_position: 'relative',
         chatbot_preview_enabled: true,
         auto_engage: true,
-        iframe_height: 300,
+        iframe_height: 200,
+        theme: {
+          custom_css: '.widget-footer { display: none; } .main-template .interactions .form { width: 30%; } .main-template .chat-content { padding: 20px 0px 0px 0px; },
+        }
       }
       q[t]=q[t]||{},q[t]['5fae9465d9ba135f58a5c5a0']=params;
       o=u.getElementsByTagName(e)[0];
