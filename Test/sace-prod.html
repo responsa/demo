@@ -7,13 +7,32 @@
     <title>bot</title>
   </head>
   <body>
-<script name="responsa-js" class="responsa-js">
-(function(q,u,e,s,t,i,o,n) {
-  o=u.getElementsByTagName(e)[0];
-  n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
-  o.appendChild(n)
-})(window,document,"head","script","res_pars",
-"https://chatbots.goresponsa.com/chatbot/5fbbdab8f420875a5712d8fc.js");
-</script>
+    <script>
+      var LHC_API = LHC_API || {}
+      LHC_API.args = {
+        mode: 'widget',lang:'ita/',
+        lhc_base_url: '//exportgov-chat.goresponsa.com/chat/index.php/',
+        wheight: 450,
+        wwidth: 350,
+        pheight: 520,
+        pwidth: 500,
+        leaveamessage: true,
+        department: [1],
+        theme: 1,
+        check_messages: true,
+      }
+      ;(function () {
+        var po = document.createElement('script')
+        po.type = 'text/javascript'
+        po.setAttribute('crossorigin', 'anonymous')
+        po.async = true
+        var date = new Date()
+        po.src =
+          '//exportgov-chat.goresponsa.com/chat/design/defaulttheme/js/widgetv2/index.js?' +
+          ('' + date.getFullYear() + date.getMonth() + date.getDate())
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(po, s)
+      })()
+    </script>
   </body>
 </html>
