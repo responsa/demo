@@ -1,1 +1,194 @@
-{"openapi": "3.0.0","info": {"title": "Application Name","version": "v1","x-translations": [],"x-log-index": "app-name-v1"},"components": {},"servers": [{"url": "server1 url","description": "server1 description"},{"url": "server2 url","description": "server2 description"}],"paths": {"/status": {"get": {"responses": {"200": {"description": "default response"}}}},"/actions/stores": {"get": {"responses": {"200": {"content": {"*/*": {"schema": {"type": "object","properties": {"stores": {"type": "array","items": {"required": ["payload","text"],"type": "object","properties": {"text": {"type": "string"},"payload": {"type": "object","additionalProperties": true},"description": {"type": "string","nullable": true},"action_title": {"type": "string","nullable": true},"image_url": {"type": "string","nullable": true},"gallery_urls": {"type": "array","items": {"type": "string"},"nullable": true}}},"description": "Lista di stores trovati nella città","nullable": true}}}}}},"400": {"content": {"*/*": {"schema": {"type": "object","properties": {"statusCode": {"type": "integer","format": "int32","nullable": false},"error": {"type": "string","nullable": false},"message": {"type": "string","nullable": false},"stackTrace": {"type": "string","nullable": true}},"additionalProperties": true}}}},"404": {"content": {"*/*": {"schema": {"type": "object","properties": {"statusCode": {"type": "integer","format": "int32","nullable": false},"error": {"type": "string","nullable": false},"message": {"type": "string","nullable": false},"stackTrace": {"type": "string","nullable": true}},"additionalProperties": true}}}},"500": {"content": {"*/*": {"schema": {"type": "object","properties": {"statusCode": {"type": "integer","format": "int32","nullable": false},"error": {"type": "string","nullable": false},"message": {"type": "string","nullable": false},"stackTrace": {"type": "string","nullable": true}},"additionalProperties": true}}}}},"summary": "Trova Stores","description": "Ritorna una lista di stores vicini alla posizione specificata","tags": ["Stores"],"parameters": [{"name": "lat","in": "query","required": true,"description": "Latitudine per ricerca stores","schema": {"type": "string","description": "Latitudine per ricerca stores"}},{"name": "lon","in": "query","required": true,"description": "Longitudine per ricerca stores","schema": {"type": "string","description": "Longitudine per ricerca stores"}}]}}}}
+{
+	"openapi": "3.0.0",
+	"info": {
+		"title": "Application Name",
+		"version": "v1",
+		"x-translations": [],
+		"x-log-index": "app-name-v1"
+	},
+	"components": {},
+	"servers": [{
+		"url": "server1 url",
+		"description": "server1 description"
+	}, {
+		"url": "server2 url",
+		"description": "server2 description"
+	}],
+	"paths": {
+		"/status": {
+			"get": {
+				"responses": {
+					"200": {
+						"description": "default response"
+					}
+				}
+			}
+		},
+		"/actions/stores": {
+			"get": {
+				"responses": {
+					"200": {
+            "description": "Lista di stores trovati nella città",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "object",
+									"properties": {
+										"stores": {
+											"type": "array",
+											"items": {
+												"required": ["payload", "text"],
+												"type": "object",
+												"properties": {
+													"text": {
+														"type": "string"
+													},
+													"payload": {
+														"type": "object",
+														"additionalProperties": true
+													},
+													"description": {
+														"type": "string",
+														"nullable": true
+													},
+													"action_title": {
+														"type": "string",
+														"nullable": true
+													},
+													"image_url": {
+														"type": "string",
+														"nullable": true
+													},
+													"gallery_urls": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														},
+														"nullable": true
+													}
+												}
+											},
+											"nullable": true
+										}
+									}
+								}
+							}
+						}
+					},
+					"400": {
+            "description": "400",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "object",
+									"properties": {
+										"statusCode": {
+											"type": "integer",
+											"format": "int32",
+											"nullable": false
+										},
+										"error": {
+											"type": "string",
+											"nullable": false
+										},
+										"message": {
+											"type": "string",
+											"nullable": false
+										},
+										"stackTrace": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"additionalProperties": true
+								}
+							}
+						}
+					},
+					"404": {
+            "description": "404",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "object",
+									"properties": {
+										"statusCode": {
+											"type": "integer",
+											"format": "int32",
+											"nullable": false
+										},
+										"error": {
+											"type": "string",
+											"nullable": false
+										},
+										"message": {
+											"type": "string",
+											"nullable": false
+										},
+										"stackTrace": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"additionalProperties": true
+								}
+							}
+						}
+					},
+					"500": {
+            "description": "500",
+						"content": {
+							"*/*": {
+								"schema": {
+									"type": "object",
+									"properties": {
+										"statusCode": {
+											"type": "integer",
+											"format": "int32",
+											"nullable": false
+										},
+										"error": {
+											"type": "string",
+											"nullable": false
+										},
+										"message": {
+											"type": "string",
+											"nullable": false
+										},
+										"stackTrace": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"additionalProperties": true
+								}
+							}
+						}
+					}
+				},
+				"summary": "Trova Stores",
+				"description": "Ritorna una lista di stores vicini alla posizione specificata",
+				"tags": ["Stores"],
+				"parameters": [{
+					"name": "lat",
+					"in": "query",
+					"required": true,
+					"description": "Latitudine per ricerca stores",
+					"schema": {
+						"type": "string",
+						"description": "Latitudine per ricerca stores"
+					}
+				}, {
+					"name": "lon",
+					"in": "query",
+					"required": true,
+					"description": "Longitudine per ricerca stores",
+					"schema": {
+						"type": "string",
+						"description": "Longitudine per ricerca stores"
+					}
+				}]
+			}
+		}
+	}
+}
