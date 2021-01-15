@@ -8,124 +8,9 @@
 	},
 	"components": {
 		"schemas": {
-			"ResponsaSingleChoiceResource": {
-				"required": ["payload", "text"],
-				"type": "object",
-				"properties": {
-					"text": {
-						"type": "string"
-					},
-					"payload": {
-						"type": "object",
-						"additionalProperties": true
-					},
-					"description": {
-						"type": "string",
-						"nullable": true
-					},
-					"action_title": {
-						"type": "string",
-						"nullable": true
-					},
-					"image_url": {
-						"type": "string",
-						"nullable": true
-					},
-					"gallery_urls": {
-						"type": "array",
-						"items": {
-							"type": "string"
-						},
-						"nullable": true
-					}
-				}
-			},
-			"Error": {
-				"type": "object",
-				"properties": {
-					"statusCode": {
-						"type": "integer",
-						"format": "int32",
-						"nullable": false
-					},
-					"error": {
-						"type": "string",
-						"nullable": false
-					},
-					"message": {
-						"type": "string",
-						"nullable": false
-					},
-					"stackTrace": {
-						"type": "string",
-						"nullable": true
-					}
-				},
-				"additionalProperties": true
-			},
-			"StoresList": {
-				"type": "object",
-				"properties": {
-					"stores": {
-						"type": "array",
-						"items": {
-							"$id": "ResponsaSingleChoiceResource",
-							"required": ["payload", "text"],
-							"type": "object",
-							"properties": {
-								"text": {
-									"type": "string"
-								},
-								"payload": {
-									"type": "object",
-									"additionalProperties": true
-								},
-								"description": {
-									"type": "string",
-									"nullable": true
-								},
-								"action_title": {
-									"type": "string",
-									"nullable": true
-								},
-								"image_url": {
-									"type": "string",
-									"nullable": true
-								},
-								"gallery_urls": {
-									"type": "array",
-									"items": {
-										"type": "string"
-									},
-									"nullable": true
-								}
-							}
-						},
-						"description": "Lista di stores trovati nella città",
-						"nullable": true
-					}
-				}
-			},
-			"StoresList200": {
-				"type": "object",
-				"description": "La lista di stores vicini alla posizione specificata",
-				"$ref": "StoresList#"
-			},
-			"StoresList400": {
-				"type": "object",
-				"description": "Almeno una delle coordinate non è valida",
-				"$ref": "Error#"
-			},
-			"StoresList404": {
-				"type": "object",
-				"description": "Nessuno store trovato con le coordinate fornite",
-				"$ref": "Error#"
-			},
-			"StoresList500": {
-				"type": "object",
-				"description": "Errore interno",
-				"$ref": "Error#"
-			}
+			"ResponsaSingleChoiceResource": {},
+			"Error": {},
+			"ResponsaRichMessageResource": {}
 		}
 	},
 	"servers": [{
@@ -143,6 +28,124 @@
 						"description": "default response"
 					}
 				}
+			}
+		},
+		"/actions/storedetails": {
+			"get": {
+				"responses": {
+					"200": {
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "object",
+									"description": "I dettagli dello store selezionato dall'utente",
+									"properties": {
+										"details": {
+											"required": ["text"],
+											"type": "object",
+											"properties": {
+												"text": {
+													"type": "string"
+												},
+												"description": {
+													"type": "string",
+													"nullable": true
+												},
+												"image_url": {
+													"type": "string",
+													"nullable": true
+												},
+												"gallery_urls": {
+													"type": "array",
+													"items": {
+														"type": "string"
+													},
+													"nullable": true
+												}
+											}
+										}
+									}
+								}
+							}
+						},
+						"description": "I dettagli dello store selezionato dall'utente"
+					},
+					"404": {
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "object",
+									"description": "Lo store ricercato non esiste",
+									"properties": {
+										"statusCode": {
+											"type": "integer",
+											"format": "int32",
+											"nullable": false
+										},
+										"error": {
+											"type": "string",
+											"nullable": false
+										},
+										"message": {
+											"type": "string",
+											"nullable": false
+										},
+										"stackTrace": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"additionalProperties": true
+								}
+							}
+						},
+						"description": "Lo store ricercato non esiste"
+					},
+					"500": {
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "object",
+									"description": "Errore interno",
+									"properties": {
+										"statusCode": {
+											"type": "integer",
+											"format": "int32",
+											"nullable": false
+										},
+										"error": {
+											"type": "string",
+											"nullable": false
+										},
+										"message": {
+											"type": "string",
+											"nullable": false
+										},
+										"stackTrace": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"additionalProperties": true
+								}
+							}
+						},
+						"description": "Errore interno"
+					}
+				},
+				"summary": "Dettaglio Singolo Store",
+				"description": "Ritorna informazioni sullo store selezionato dall'utente",
+				"tags": ["Stores"],
+				"parameters": [{
+					"name": "store",
+					"in": "query",
+					"required": true,
+					"description": "Store selezionato dall'utente",
+					"schema": {
+						"type": "string",
+						"description": "Store selezionato dall'utente"
+					}
+				}]
 			}
 		},
 		"/actions/stores": {
