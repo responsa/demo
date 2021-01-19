@@ -8,71 +8,12 @@
     <style>#res_chatbot_5fae9465d9ba135f58a5c5a0{box-shadow:none !important;}</style>
   </head>
   <body>
-<style>
-table {
-  border-collapse: collapse;
-}
-tr, th, td { border: 1px #ddd solid; }
-tr { 
-  border-bottom: 1px #ddd solid;
-}
-td, th { padding: 0.5em 0.75em; text-align: left; }
-tbody th { font-weight: normal;}
-td { background-color: #fcc;}
-td.true { background-color: #cfc;}
-output { font-family: monospace; }
-</style>
-<div id="demo"></div>
-<table>
-  <thead>
-    <tr><th>test</th><th>result</th></tr>
-  </thead>
-  <tbody id="results">
-  </tbody>
-</table>
-<script>
-var txt = "";
-txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-txt += "<p>Browser Name: " + navigator.appName + "</p>";
-txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
-txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
-txt += "<p>Browser Language: " + navigator.language + "</p>";
-txt += "<p>Browser Online: " + navigator.onLine + "</p>";
-txt += "<p>Platform: " + navigator.platform + "</p>";
-txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
-document.getElementById("demo").innerHTML = txt;
-</script>
-<script>
-var tests = [
-  "window.PointerEvent",
-  "navigator.maxTouchPoints",
-  "navigator.maxTouchPoints > 0",
-  "'ontouchstart' in window",
-  "'onmsgesturechange' in window",
-  "window.innerWidth > 1024",
-  "!('ontouchstart' in window) && !(navigator.maxTouchPoints > 0) || (('ontouchstart' in window || 'onmsgesturechange' in window) && window.innerWidth > 1024)"
-];
-
-function populateTable() {
-  var results = '';
-  var t = document.getElementById('results');
-  for (var i=0; i<tests.length; i++) {
-    results += '<tr><th><code>'+tests[i]+'</code></th><td';
-    if (eval(tests[i])) {
-      results += ' class="true"';
-    }
-    results += '><output>'+eval(tests[i])+'</output></td></tr>'
-  }
-  t.innerHTML = results;
-}
-populateTable();
-</script>
 <div id="responsa_chatbot_container" style="position: absolute; width: 800px; margin-left: -400px; bottom: 0px; left: 50%;">
 <script name="responsa-js" class="responsa-js">
   (function(q,u,e,s,t,i,o,n) {
     params = {}
     
-    if (!('ontouchstart' in window) && !(navigator.maxTouchPoints > 0) || (('ontouchstart' in window || 'onmsgesturechange' in window) && window.innerWidth > 1024)){
+    if (!('ontouchstart' in window) && !(navigator.maxTouchPoints > 0) || ((navigator.maxTouchPoints > 0 || 'ontouchstart' in window || 'onmsgesturechange' in window) && window.innerWidth > 1024)){
       params = {
         chatbot_position: 'relative',
         chatbot_preview_enabled: true,
