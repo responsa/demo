@@ -8,16 +8,20 @@
   </head>
   <body>
 <script name="responsa-js" class="responsa-js">
-(function(q,u,e,s,t,i,o,n) {
-  params = {
-    iframe_height: 80%
-  }
-  q[t]=q[t]||{},q[t]['5fae9465d9ba135f58a5c5a0']=params;
-  o=u.getElementsByTagName(e)[0];
-  n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
-  o.appendChild(n)
-})(window,document,"head","script","res_pars",
-"https://chatbots.goresponsa.com/chatbot/5fae9465d9ba135f58a5c5a0.js");
-</script>
+  (function(q,u,e,s,t,i,o,n) {
+    params = {}
+    
+    if (!('ontouchstart' in window) && !(navigator.maxTouchPoints > 0)){
+      params = {
+        iframe_height: 80vh,
+      }
+    }
+    q[t]=q[t]||{},q[t]['5fae9465d9ba135f58a5c5a0']=params;
+    o=u.getElementsByTagName(e)[0];
+    n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
+    o.appendChild(n)
+  })(window,document,"head","script","res_pars",
+  "https://chatbots.goresponsa.com/chatbot/5fae9465d9ba135f58a5c5a0.js");
+  </script>
   </body>
 </html>
