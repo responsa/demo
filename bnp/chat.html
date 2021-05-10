@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <title>LHC</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+</head>
+
+<body>
+    <script>
+      var LHC_API = LHC_API || {}
+      LHC_API.args = {
+        mode: 'widget',lang:'ita/',
+        lhc_base_url: '//helpchat.goresponsa.com/bnp_test/index.php/',
+        wheight: 450,
+        wwidth: 350,
+        pheight: 520,
+        pwidth: 500,
+        leaveamessage: true,
+        department: [1],
+        theme: 1,
+        check_messages: true,
+      }
+      ;(function () {
+        var po = document.createElement('script')
+        po.type = 'text/javascript'
+        po.setAttribute('crossorigin', 'anonymous')
+        po.async = true
+        var date = new Date()
+        po.src =
+          'https:///helpchat.goresponsa.com/bnp_test/design/defaulttheme/js/widgetv2/index.js?' +
+          ('' + date.getFullYear() + date.getMonth() + date.getDate())
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(po, s)
+      })()
+    </script>
+</body>
+
+</html>
