@@ -3,16 +3,47 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>FCA Chatbot Multibrand Test</title>
+    <title>FCA</title>
   </head>
   <body>
-<script name="responsa-js" class="responsa-js">
-(function(q,u,e,s,t,i,o,n) {
-  o=u.getElementsByTagName(e)[0];
-  n=u.createElement(s),n.async=1,n.defer=1,n.src=i;
-  o.appendChild(n)
-})(window,document,"head","script","res_pars",
-"https://chatbots-staging.goresponsa.com/chatbot/5c628fb7e64cfa3807957dbb.js");
-</script>
+<script>
+        var LHCChatOptions = {};
+        LHCChatOptions.opt = {
+            widget_height: 340,
+            widget_width: 300,
+            popup_height: 520,
+            popup_width: 500
+        };
+        LHCChatOptions.attr = new Array();
+        LHCChatOptions.attr.push({
+            name: "preferences",
+            value: '{"topics": "jeep", "origin": "jeep"}',
+            type: "hidden",
+            size: 50,
+        });
+        var LHC_API = LHC_API || {};
+        LHC_API.args = {
+            mode: "widget",
+            lhc_base_url: "//chat-dev-fca-marketing.artyco.eu/index.php/",
+            wheight: 450,
+            wwidth: 350,
+            pheight: 520,
+            pwidth: 500,
+            leaveamessage: true,
+            department: [1],
+            theme: 1,
+            check_messages: false,
+            lang: "esp/",
+        };
+        (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://') + 1)) : '';
+            var location = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+            po.src = '//chat-dev-fca-marketing.artyco.eu/index.php/esp/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/1/(theme)/1?r=' + referrer + '&l=' + location;
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
 </body>
 </html>
