@@ -25,8 +25,8 @@
         LHC_API.args = {
             mode: "widget",
             lhc_base_url: "//chat-dev-fca-marketing.artyco.eu/index.php/",
-            wheight: 450,
-            wwidth: 350,
+            wheight: 340,
+            wwidth: 300,
             pheight: 520,
             pwidth: 500,
             leaveamessage: true,
@@ -41,9 +41,13 @@
             po.async = true;
             var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://') + 1)) : '';
             var location = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
-            po.src = '//chat-dev-fca-marketing.artyco.eu/index.php/esp/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/1/(theme)/1?r=' + referrer + '&l=' + location;
+            po.src = '//chat-dev-fca-marketing.artyco.eu/index.php/esp/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true/(disable_pro_active)/true/(department)/1/(theme)/1?r=' + referrer + '&l=' + location;
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
         })();
+  
+   {
+		})();
+  
     </script>
 </body>
 </html>
