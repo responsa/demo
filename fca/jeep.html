@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>FCA bot</title>
+  </head>
+  <body>
+<script>
+    var LHCChatOptions = {};
+    LHCChatOptions.attr = new Array();
+    LHCChatOptions.attr.push({
+      name: "preferences",
+      value: '{"topics": "jeep", "origin": "jeep"}',
+      type: "hidden",
+      size: 50,
+    });
+    var LHC_API = LHC_API || {};
+    LHC_API.args = {
+      mode: "widget",
+      lhc_base_url: "//chat-dev-fca-marketing.artyco.eu/index.php/",
+      wheight: 450,
+      wwidth: 350,
+      pheight: 520,
+      pwidth: 500,
+      leaveamessage: true,
+      department: [1],
+      theme: 8,
+      check_messages: false,
+      lang: "esp/",
+    };
+    (function () {
+      var po = document.createElement("script");
+      po.type = "text/javascript";
+      po.setAttribute("crossorigin", "anonymous");
+      po.async = true;
+      var date = new Date();
+      po.src =
+        '//chat-dev-fca-marketing.artyco.eu/design/defaulttheme/js/widgetv2/index.js?' +
+        ("" + date.getFullYear() + date.getMonth() + date.getDate());
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(po, s);
+    })();
+</script>
+</body>
+</html>
