@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Rob</title>
+<base href="https://www.w3schools.com/" target="_blank">
+</head>
+
+<body>
+    <script>
+      if (typeof lhc_var === 'undefined') {
+        window.lhc_var = {}; 
+      };
+      lhc_var.start_level = '1';
+      var LHC_API = LHC_API || {}
+      LHC_API.args = {
+        mode: 'widget',lang:'ita/',
+        lhc_base_url: '//helpchat.goresponsa.com/marsh/index.php/',
+        wheight: 450,
+        wwidth: 350,
+        pheight: 520,
+        pwidth: 500,
+        leaveamessage: true,
+        theme: 1,
+        check_messages: true,
+      }
+      ;(function () {
+        var po = document.createElement('script')
+        po.type = 'text/javascript'
+        po.setAttribute('crossorigin', 'anonymous')
+        po.async = true
+        var date = new Date()
+        po.src =
+          '//helpchat.goresponsa.com/marsh/design/defaulttheme/js/widgetv2/index.js?' +
+          ('' + date.getFullYear() + date.getMonth() + date.getDate())
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(po, s)
+      })()
+    </script>
+</body>
+</html>
