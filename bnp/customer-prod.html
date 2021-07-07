@@ -13,38 +13,36 @@
 
 <body>
 <script>
+    if (typeof lhc_var === 'undefined') {
+      window.lhc_var = {};
+    };
+    lhc_var.customerCode = 'MmYzQXZwWG81VjlNZ01kYTdnbHAxa05FSUY2ZUpLajBiYlRBcmlmaktKMHovYU9GZmppRmEwK1Y1UDVKZjFZZkRmejhtangrV1gvc2lVNURVc1hHNkE9PQ=='; // per Fabrizio, metti qui codice utente
+    lhc_var.origin = 'ilmioleasing'; // per Fabrizio, metti qui nome o codice società
 
-    if (typeof lhc_var === 'undefined') {
-      window.lhc_var = {};
-    };
-    lhc_var.customerCode = ''; // per Fabrizio, metti qui codice utente
-    lhc_var.origin = 'ilmioleasing';
-
-    var LHC_API = LHC_API || {};
-    LHC_API.args = {
-      mode: 'widget',
-      lang:'ita/',
-      lhc_base_url: '//helpchat.goresponsa.com/bnp/index.php/',
-      wheight: 450,
-      wwidth: 350,
-      pheight: 520,
-      pwidth: 500,
-      leaveamessage: true,
-      department: [1],
-      theme: 3,
-      check_messages: false
-    };
-    (function () {
-      var po = document.createElement('script');
-      po.type = 'text/javascript';
-      po.setAttribute('crossorigin', 'anonymous');
-      po.async = true;
-      var date = new Date();
-      po.src = '//helpchat.goresponsa.com/bnp/design/defaulttheme/js/widgetv2/index.js?' + ("" + date.getFullYear() + date.getMonth() + date.getDate());
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(po, s);
-    })();
-  </script>
+    var LHC_API = LHC_API || {};
+    LHC_API.args = {
+      mode: 'widget',
+      lang:'ita/',
+      lhc_base_url: '//helpchat.goresponsa.com/bnp/index.php/',
+      wheight: 450,
+      wwidth: 350,
+      pheight: 520,
+      pwidth: 500,
+      leaveamessage: true,
+      theme: 2, // per Fabrizio, metti qui l'ID del tema
+      check_messages: false
+    };
+    (function () {
+      var po = document.createElement('script');
+      po.type = 'text/javascript';
+      po.setAttribute('crossorigin', 'anonymous');
+      po.async = true;
+      var date = new Date();
+      po.src = '//helpchat.goresponsa.com/bnp/design/defaulttheme/js/widgetv2/index.js?' + ("" + date.getFullYear() + date.getMonth() + date.getDate());
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(po, s);
+    })();
+  </script>
 </body>
 
 </html>
